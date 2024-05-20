@@ -1,0 +1,291 @@
+1
+00:00:02,150 --> 00:00:07,010
+Ồ, ngay bây giờ trong video này, chúng ta sẽ cải thiện nó một chút và thêm một số CSS vào ứng dụng của chúng ta để làm cho bảng của chúng ta trông đẹp hơn đáng kể so với mẫu trước đây, giống như mẫu trống trong mô tả to dos pound 
+
+2
+00:00:07,010 --> 00:00:13,400
+của bạn được gán với 
+
+3
+00:00:13,400 --> 00:00:16,910
+hai hàng bàn. 
+
+4
+00:00:19,550 --> 00:00:23,120
+Và chúng ta sẽ thực hiện việc này bằng cách sử dụng thứ gọi là bootstrap. 
+
+5
+00:00:23,390 --> 00:00:27,170
+Bây giờ, trong ví dụ này, chúng ta sẽ sử dụng bootstrap phiên bản 5. 
+
+6
+00:00:27,170 --> 00:00:31,700
+Vì vậy, nếu bạn muốn nó tuân theo chính xác và hoạt động hoàn hảo với bản trình diễn, hãy đảm bảo bạn đang sử dụng 
+
+7
+00:00:31,700 --> 00:00:33,290
+bootstrap phiên bản năm. 
+
+8
+00:00:33,980 --> 00:00:38,420
+Nhưng thứ chúng ta cần thêm vào bootstrap là CSS và JavaScript. 
+
+9
+00:00:39,220 --> 00:00:44,710
+Vì vậy, nếu cuộn xuống, chúng ta có thể thấy rằng nó đang nói về CSS và JavaScript cũng như những gì có 
+
+10
+00:00:44,710 --> 00:00:46,180
+trong gói JavaScript. 
+
+11
+00:00:46,570 --> 00:00:49,630
+Nhưng nếu tiếp tục cuộn xuống, bạn có thể thấy mẫu khởi đầu. 
+
+12
+00:00:51,550 --> 00:00:54,430
+Và ngay tại đây chúng ta có thể thấy CSS bootstrap. 
+
+13
+00:00:54,640 --> 00:00:58,630
+Vì vậy, hãy đảm bảo rằng bạn nắm bắt được điều đó và bạn có thể lấy nhận xét chỉ để làm cho ứng dụng của bạn 
+
+14
+00:00:58,630 --> 00:00:59,890
+dễ đọc hơn một chút. 
+
+15
+00:01:01,240 --> 00:01:02,350
+Bạn có thể sao chép điều đó. 
+
+16
+00:01:03,250 --> 00:01:05,170
+Và sau đó quay trở lại ứng dụng của bạn. 
+
+17
+00:01:06,080 --> 00:01:08,990
+Hãy chuyển sang HTML chỉ mục của chúng tôi. 
+
+18
+00:01:10,600 --> 00:01:13,840
+Nếu bạn ở trên cùng, chỉ cần cuộn xuống và bạn có thể thấy bảng kê khai này. 
+
+19
+00:01:13,870 --> 00:01:16,960
+Tôi sẽ đăng nó ngay dưới đây làm liên kết cuối cùng. 
+
+20
+00:01:18,780 --> 00:01:21,720
+Và dường như có một số vấn đề về khoảng cách, vì vậy tôi sẽ khắc phục điều đó. 
+
+21
+00:01:28,490 --> 00:01:34,520
+Bây giờ, hãy quay lại và truy cập trang web này và cuộn xuống cho đến khi bạn có thể thấy tùy chọn một gói bootstrap 
+
+22
+00:01:34,520 --> 00:01:35,500
+với Popper. 
+
+23
+00:01:35,510 --> 00:01:37,520
+Hãy chắc chắn rằng chúng tôi sao chép tất cả những điều đó. 
+
+24
+00:01:41,340 --> 00:01:49,560
+Quay trở lại ứng dụng của chúng tôi và cuộn xuống phía dưới và cắt phần thân, và tôi sẽ 
+
+25
+00:01:49,560 --> 00:01:51,600
+dán phần này ngay phía trên phần thân. 
+
+26
+00:01:57,620 --> 00:01:57,980
+Được rồi. 
+
+27
+00:01:57,980 --> 00:02:00,980
+Vì vậy, sau khi làm điều đó, chúng ta có thể thấy điều đó trong ứng dụng của mình. 
+
+28
+00:02:00,980 --> 00:02:02,360
+Không có gì thay đổi. 
+
+29
+00:02:02,660 --> 00:02:07,910
+Tuy nhiên, chúng tôi đã triển khai CSS và JavaScript bootstrap trong dự án của mình. 
+
+30
+00:02:08,150 --> 00:02:10,669
+Bây giờ chúng ta chỉ cần thêm CSS. 
+
+31
+00:02:13,770 --> 00:02:15,090
+Vì vậy, hãy quay lại mã của chúng tôi. 
+
+32
+00:02:15,120 --> 00:02:18,960
+Tôi sẽ đóng HTML chỉ mục của chúng tôi và chỉ nhìn vào JS của chúng tôi. 
+
+33
+00:02:22,210 --> 00:02:27,970
+Và trong div đầu tiên này, chúng ta cần nói tên lớp không gian. 
+
+34
+00:02:28,760 --> 00:02:33,740
+Và bây giờ trong dấu ngoặc kép, giả sử dấu gạch nối trống, vùng chứa năm dấu cách. 
+
+35
+00:02:37,180 --> 00:02:39,100
+Và bây giờ hãy quay trở lại ứng dụng của chúng tôi. 
+
+36
+00:02:39,940 --> 00:02:41,410
+Bây giờ chúng ta có thể thấy điều đó. 
+
+37
+00:02:41,410 --> 00:02:44,560
+Chúng tôi đã di chuyển một chút với bàn của chúng tôi. 
+
+38
+00:02:45,690 --> 00:02:51,750
+Thuộc tính container sẽ cắt bỏ các cạnh trong khi dấu gạch ngang năm trống, có nghĩa là lề năm trên cùng, 
+
+39
+00:02:51,750 --> 00:02:53,820
+sẽ đẩy ứng dụng của chúng ta xuống. 
+
+40
+00:02:59,200 --> 00:03:02,950
+Bây giờ, một điều khác mà bạn có thể thấy là chúng ta đang sử dụng một thứ gọi là tên lớp. 
+
+41
+00:03:03,550 --> 00:03:06,940
+Trong HTML tĩnh, chúng tôi sử dụng thứ gọi là lớp. 
+
+42
+00:03:06,970 --> 00:03:14,200
+Trong lớp định nghĩa CSS, nhưng trong React, nó tạo DOM bằng cách sử dụng thứ gọi là JS x và JS
+
+43
+00:03:14,200 --> 00:03:18,490
+x nhìn vào thuộc tính tên lớp, không phải lớp. 
+
+44
+00:03:20,850 --> 00:03:23,640
+Bây giờ trong div tiếp theo, giả sử thẻ tên lớp. 
+
+45
+00:03:26,580 --> 00:03:30,660
+Và ở lớp tiếp theo sau đó, chúng ta sẽ nói tên lớp, tiêu đề thẻ. 
+
+46
+00:03:33,650 --> 00:03:36,860
+Và sau đó ở lớp tiếp theo, hãy nói về nội dung thẻ. 
+
+47
+00:03:43,330 --> 00:03:47,080
+Nếu chúng tôi nhận được ứng dụng ở đây và chúng tôi chỉ nhìn vào những gì trình duyệt đang xem, chúng tôi có thể 
+
+48
+00:03:47,080 --> 00:03:49,150
+thấy có điều gì đó đang kết hợp với nhau. 
+
+49
+00:03:49,600 --> 00:03:52,240
+Chúng tôi có York để làm trong tiêu đề nhỏ này ở trên cùng. 
+
+50
+00:03:53,020 --> 00:03:58,780
+Và sau đó chúng ta có dữ liệu bên trong ô tiếp theo này, điều này thực sự làm cho ứng dụng của chúng ta trông đẹp hơn. 
+
+51
+00:03:59,350 --> 00:04:01,210
+Những gì chúng ta có thể thấy là không có thay đổi dữ liệu. 
+
+52
+00:04:01,210 --> 00:04:04,060
+Vì vậy CSS không thay đổi dữ liệu. 
+
+53
+00:04:04,300 --> 00:04:06,010
+Nó chỉ làm cho nó trông đẹp hơn một chút thôi. 
+
+54
+00:04:06,010 --> 00:04:11,590
+Vì vậy, bootstrap rất tốt vì nó thêm CSS mà chúng ta không cần phải thực hiện bất kỳ công việc nào ngoài 
+
+55
+00:04:11,590 --> 00:04:12,940
+việc thêm tên lớp. 
+
+56
+00:04:21,190 --> 00:04:22,060
+Bây giờ từ bàn. 
+
+57
+00:04:22,060 --> 00:04:22,990
+Hãy nói lớp học. 
+
+58
+00:04:22,990 --> 00:04:23,350
+Tên. 
+
+59
+00:04:23,350 --> 00:04:23,860
+Bàn. 
+
+60
+00:04:23,890 --> 00:04:24,250
+Bàn. 
+
+61
+00:04:24,250 --> 00:04:24,760
+Bay lượn. 
+
+62
+00:04:31,430 --> 00:04:38,030
+Và ngay tại đây, sau khi chúng ta nhập bảng và di chuột vào bảng, tôi có thể thấy rằng ở hàng thứ hai trong bảng, chúng ta đang 
+
+63
+00:04:38,030 --> 00:04:39,950
+nói lệnh gọi thay vì hàng. 
+
+64
+00:04:39,980 --> 00:04:42,020
+Hãy thay đổi điều này thành row. 
+
+65
+00:04:44,020 --> 00:04:49,480
+Sau khi thêm điều đó, hãy quay lại ứng dụng của chúng tôi và bây giờ chúng tôi có thể thấy rằng chúng tôi có việc cần làm 
+
+66
+00:04:49,480 --> 00:04:50,740
+và tiêu đề của thẻ. 
+
+67
+00:04:51,400 --> 00:04:57,070
+Một bảng trông đẹp mắt bên trong thân thẻ cũng lơ lửng khi bạn di chuột qua từng hàng. 
+
+68
+00:04:57,490 --> 00:04:58,690
+Những thứ khá tuyệt vời. 
+
+69
+00:04:58,990 --> 00:05:00,370
+Vậy đó chính là sức mạnh của bootstrap. 
+
+70
+00:05:00,370 --> 00:05:07,310
+Chúng tôi đã thêm phiên bản bootstrap thứ năm vào ứng dụng to do React của mình để đảm bảo ứng dụng React 
+
+71
+00:05:07,310 --> 00:05:10,090
+và các thành phần React trông thực sự đẹp mắt đối với người dùng. 
+
+72
+00:05:10,690 --> 00:05:15,310
+Và đó là tất cả những gì chúng tôi sẽ trình bày trong video này là triển khai bootstrap vào bảng của chúng tôi. 
+
+73
+00:05:15,340 --> 00:05:17,920
+Và tôi sẽ gặp bạn trong video tiếp theo.

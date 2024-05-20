@@ -1,0 +1,435 @@
+1
+00:00:02,250 --> 00:00:02,730
+Được rồi. 
+
+2
+00:00:02,730 --> 00:00:08,520
+Vì vậy, bây giờ điều tiếp theo chúng ta cần làm cho ứng dụng của mình là thêm trình xử lý sự kiện vào ứng dụng của mình. 
+
+3
+00:00:08,550 --> 00:00:12,380
+Nói cách khác, React sẽ cung cấp cho chúng ta một loạt các loại trình xử lý sự kiện khác nhau. 
+
+4
+00:00:12,390 --> 00:00:15,960
+Nhưng cụ thể là trong video này, chúng ta sẽ xem xét phần nhấp chuột. 
+
+5
+00:00:17,110 --> 00:00:23,920
+Bây giờ chúng tôi hiện có bốn hình xăm và chúng tôi thực sự không có bất kỳ loại chức năng động nào ngoài 
+
+6
+00:00:23,920 --> 00:00:30,520
+việc tự động tạo một mục hàng mới để làm cho mỗi mục có trong danh sách hình xăm của chúng tôi. 
+
+7
+00:00:32,259 --> 00:00:36,370
+Vì vậy, ngay dưới đây của chúng tôi để làm bảng thông qua hình xăm. 
+
+8
+00:00:36,370 --> 00:00:37,110
+Hình xăm. 
+
+9
+00:00:37,120 --> 00:00:41,470
+Tôi sẽ tạo một nút và tôi sẽ tạo một nút bằng cách nói nút. 
+
+10
+00:00:43,030 --> 00:00:49,150
+Và tôi sẽ thêm tên lớp vào nút chính của nút gạch ngang, đây là cách khởi động để tạo ra 
+
+11
+00:00:49,150 --> 00:00:50,710
+một nút màu xanh lam đẹp mắt. 
+
+12
+00:00:51,720 --> 00:00:55,140
+Và sau đó tôi sẽ gọi nút này là thêm mới để làm. 
+
+13
+00:00:56,980 --> 00:00:57,340
+Được rồi. 
+
+14
+00:00:57,340 --> 00:01:01,660
+Và bây giờ tôi sẽ quay lại trình duyệt của mình để có thể thấy nút thêm việc cần làm mới. 
+
+15
+00:01:01,990 --> 00:01:06,010
+Tuy nhiên, khi bạn nhấp vào nút thêm công việc mới thì không có gì xảy ra. 
+
+16
+00:01:06,010 --> 00:01:11,110
+Tôi chỉ muốn cho bạn thấy nút thêm việc cần làm mới trông như thế nào trên ứng dụng việc cần làm của chúng tôi. 
+
+17
+00:01:11,950 --> 00:01:17,590
+Vì vậy, hãy quay lại mã và thêm trình nghe khi nhấp chuột. 
+
+18
+00:01:17,890 --> 00:01:20,350
+Vì vậy tôi sẽ sắp xếp chỗ này ra để chúng ta có nhiều chỗ hơn. 
+
+19
+00:01:26,450 --> 00:01:29,450
+Và ngay sau tên lớp tôi sẽ nói tiếp. 
+
+20
+00:01:30,320 --> 00:01:37,820
+Và trên là một cách nói thoải mái rằng chúng ta sẽ chuyển một loại trình xử lý sự kiện nào đó làm chỗ dựa 
+
+21
+00:01:37,820 --> 00:01:41,540
+cho nút của chúng ta đang được hiển thị trong JS X. 
+
+22
+00:01:41,540 --> 00:01:47,360
+Bây giờ, điều đó có thể hơi khó nhớ một chút, nhưng tất cả các nút và thành phần trên các thành phần React của chúng tôi 
+
+23
+00:01:47,810 --> 00:01:52,340
+có thể được người nghe sự kiện sử dụng để chúng tôi có thể nói khi nhấp chuột. 
+
+24
+00:01:54,330 --> 00:01:55,260
+Bằng. 
+
+25
+00:01:55,530 --> 00:02:00,840
+Và ở đây nó muốn một số loại sự kiện người nghe nhấp chuột diễn ra. 
+
+26
+00:02:00,870 --> 00:02:08,190
+Chúng ta có thể sử dụng một hàm thông thường mà chúng ta tạo ở phía trên kết quả trả về hoặc chúng ta có thể sử dụng hàm mũi tên 
+
+27
+00:02:08,190 --> 00:02:08,919
+bằng cách sử dụng khuyết điểm. 
+
+28
+00:02:08,940 --> 00:02:10,090
+Vì vậy đó là những gì tôi sẽ làm. 
+
+29
+00:02:10,110 --> 00:02:17,760
+Vì vậy, tôi sẽ nói const add để thực hiện dấu ngoặc đơn bằng, hàm mũi tên, dấu ngoặc kép. 
+
+30
+00:02:17,760 --> 00:02:22,710
+Và ở đây tôi sẽ nói rằng console.log có nút thêm việc cần làm mới đã được nhấp vào. 
+
+31
+00:02:32,410 --> 00:02:39,040
+Và sau khi tạo nhật ký xung đột này, chúng ta cần quay lại n lần nhấp chuột và chỉ cần nhập add to do. 
+
+32
+00:02:41,100 --> 00:02:45,830
+Và khi bạn nhập một quảng cáo cần làm, hãy đảm bảo rằng bạn không thêm dấu ngoặc đơn vào cuối. 
+
+33
+00:02:45,840 --> 00:02:46,920
+Đó không phải là điều chúng tôi muốn. 
+
+34
+00:02:46,950 --> 00:02:53,580
+Chúng tôi muốn đảm bảo rằng không có dấu ngoặc đơn và nó đang gọi hàm của chúng tôi hoặc hàm mũi tên của 
+
+35
+00:02:53,580 --> 00:02:54,420
+add to do. 
+
+36
+00:02:55,020 --> 00:02:56,490
+Bây giờ hãy quay lại trình duyệt của chúng tôi. 
+
+37
+00:02:58,700 --> 00:03:04,460
+Làm mới trang và tôi sẽ nói nhấp chuột phải vào kiểm tra, thao tác này sẽ hiển thị cho chúng tôi các phần tử của chúng tôi. 
+
+38
+00:03:04,460 --> 00:03:06,230
+Và sau đó hãy chuyển sang console.log. 
+
+39
+00:03:07,610 --> 00:03:10,410
+Và ngay tại đây chúng ta có thể thấy chính xác những gì đang được in.
+
+40
+00:03:10,430 --> 00:03:13,100
+Bây giờ chúng ta sẽ có một chút cảnh báo khi nói về chìa khóa. 
+
+41
+00:03:13,100 --> 00:03:17,390
+Nhưng ứng dụng này đang trong quá trình hoàn thiện và cuối cùng nó sẽ sớm biến mất ở đây. 
+
+42
+00:03:17,390 --> 00:03:19,310
+Nhưng hiện tại, hãy bỏ qua điều này. 
+
+43
+00:03:19,880 --> 00:03:25,340
+Và nếu bạn nhấp vào nút thêm việc cần làm mới, bạn có thể thấy ngay tại đây chúng tôi được in. 
+
+44
+00:03:25,340 --> 00:03:28,040
+Nút thêm việc cần làm của chúng tôi đã được nhấp vào. 
+
+45
+00:03:28,340 --> 00:03:33,200
+Và miễn là chúng ta tiếp tục nhấp vào nó, nó sẽ tiếp tục tăng lên vì nó đang tính toán chức năng đó 
+
+46
+00:03:33,200 --> 00:03:36,170
+mỗi lần nhấp vào nút đó và chạy chức năng đó. 
+
+47
+00:03:38,830 --> 00:03:42,340
+Bây giờ, đó không hẳn là chức năng mà chúng tôi muốn, nhưng nó có. 
+
+48
+00:03:42,340 --> 00:03:46,450
+Chúng tôi đang in chức năng ADD để thực hiện, đó là nhật ký bảng điều khiển. 
+
+49
+00:03:46,720 --> 00:03:49,240
+Nút thêm việc cần làm của chúng tôi đã được nhấp vào. 
+
+50
+00:03:50,310 --> 00:03:55,680
+Bây giờ, lý do chúng ta không sử dụng dấu ngoặc đơn ở đây là vì đây là con trỏ khi chúng ta nhấp chuột. 
+
+51
+00:03:55,950 --> 00:04:00,310
+Nó đang trỏ đến hàm add to do của chúng ta trong React. 
+
+52
+00:04:00,330 --> 00:04:06,960
+Bây giờ biết rằng vì đây là trình nghe khi nhấp chuột nên khi nút được nhấp vào, chúng tôi muốn 
+
+53
+00:04:06,960 --> 00:04:09,750
+gọi hàm mà nút này đang trỏ tới. 
+
+54
+00:04:11,490 --> 00:04:13,530
+Nếu bạn thêm dấu ngoặc đơn vào cuối. 
+
+55
+00:04:14,620 --> 00:04:21,370
+Bây giờ, khi nút này được hiển thị, JSF sẽ tự động khởi động nút thêm việc cần làm này. 
+
+56
+00:04:21,700 --> 00:04:23,260
+Và đó không phải là điều chúng tôi muốn xảy ra. 
+
+57
+00:04:23,290 --> 00:04:27,550
+Chúng tôi không muốn chức năng quảng cáo này tắt khi nút này được hiển thị. 
+
+58
+00:04:27,970 --> 00:04:32,830
+Chúng tôi chỉ muốn nút quảng cáo thực hiện tắt khi được nhấp vào, điều đó có nghĩa là chúng tôi cần đảm bảo rằng đó là 
+
+59
+00:04:32,830 --> 00:04:33,700
+một con trỏ. 
+
+60
+00:04:36,770 --> 00:04:41,120
+Bây giờ chúng tôi muốn thêm một chút chức năng vào chức năng thêm việc cần làm của mình. 
+
+61
+00:04:42,560 --> 00:04:45,050
+Và để làm điều này, tôi sẽ xóa console.log này. 
+
+62
+00:04:45,380 --> 00:04:50,300
+Và tôi sẽ nói nếu chiều dài hình xăm lớn hơn 0, bởi vì chúng tôi muốn đảm bảo rằng đã có một 
+
+63
+00:04:50,300 --> 00:04:53,300
+phần tử trong mảng cho những gì chúng tôi đang cố gắng thực hiện. 
+
+64
+00:04:54,370 --> 00:04:57,550
+Và nếu đúng như vậy, chúng ta sẽ nói const new to do. 
+
+65
+00:05:00,160 --> 00:05:06,250
+Bằng một đối tượng việc cần làm mới có số hàng loại hai, chiều dài của hai cộng với một. 
+
+66
+00:05:12,600 --> 00:05:17,790
+Mô tả hàng là điều mới cần làm và hàng được chỉ định là người dùng thứ ba. 
+
+67
+00:05:37,760 --> 00:05:43,190
+Và chúng tôi muốn thúc đẩy việc mới của mình thực hiện hai việc cần làm và sau đó hãy để bảng điều khiển ghi lại những việc cần làm. 
+
+68
+00:05:59,170 --> 00:06:02,380
+Vì vậy những gì chúng tôi làm ở đây là chúng tôi tạo ra quảng cáo chức năng này để làm. 
+
+69
+00:06:02,590 --> 00:06:07,810
+Chúng tôi đang đảm bảo rằng Tudor's lớn hơn 0 vì chúng tôi đang kiểm tra độ dài việc cần làm và sau đó 
+
+70
+00:06:07,810 --> 00:06:11,440
+thêm một giá trị để đảm bảo rằng số hàng này luôn tăng lên. 
+
+71
+00:06:12,620 --> 00:06:16,130
+Có phải chúng ta có đường mô tả mà sẽ chỉ nói mới phải làm. 
+
+72
+00:06:16,580 --> 00:06:20,000
+Và sau đó chúng ta đã chỉ định hàng, hàng này sẽ là người dùng thứ ba. 
+
+73
+00:06:22,720 --> 00:06:28,240
+Sau đó, chúng tôi có hai tin tức mới cần làm, điều đó có nghĩa là chúng tôi sẽ thêm Việc cần làm mới này vào 
+
+74
+00:06:28,240 --> 00:06:29,650
+danh sách Việc cần làm. 
+
+75
+00:06:29,950 --> 00:06:32,320
+Và sau đó chúng ta sẽ truy cập console.log tất cả những việc cần làm. 
+
+76
+00:06:32,440 --> 00:06:37,600
+Vì vậy, hãy mở trình duyệt của chúng ta và tôi sẽ làm mới trang để đảm bảo tất cả nhật ký bảng điều khiển 
+
+77
+00:06:37,630 --> 00:06:38,320
+sẽ biến mất.
+
+78
+00:06:38,710 --> 00:06:41,020
+Và sau đó khi bấm vào thêm mới để làm. 
+
+79
+00:06:42,540 --> 00:06:49,200
+Bây giờ ở đây, chúng tôi vẫn còn bốn người để cho một con chó con ăn, hai cây nước, ba người nấu bữa tối 
+
+80
+00:06:49,200 --> 00:06:50,910
+và bốn người sạc pin điện thoại. 
+
+81
+00:06:51,420 --> 00:06:55,620
+Nhưng ở đây bây giờ chúng ta có năm yếu tố trong danh sách việc cần làm đó. 
+
+82
+00:06:56,220 --> 00:06:58,680
+Chúng tôi có cái đầu tiên, đó là người dùng cho chó con ăn. 
+
+83
+00:06:59,600 --> 00:07:01,430
+Người sử dụng tưới cây. 
+
+84
+00:07:01,790 --> 00:07:03,440
+Người dùng một Nấu bữa tối. 
+
+85
+00:07:04,290 --> 00:07:11,580
+Người dùng một lần sạc pin điện thoại và chúng tôi có thành phần mới là người dùng ba mới để thực hiện việc mới đó sẽ 
+
+86
+00:07:11,580 --> 00:07:17,160
+tương đương với bất kỳ điều gì chúng tôi thêm vào quảng cáo này để thực hiện khi chúng tôi nhấp vào trình nghe khi nhấp chuột 
+
+87
+00:07:17,160 --> 00:07:18,930
+vì đó là chức năng đang gọi. 
+
+88
+00:07:19,620 --> 00:07:24,840
+Bây giờ, nếu chúng ta quay lại ứng dụng của mình và làm mới nó, chúng ta biết nếu chúng ta nhấp vào cùng một lúc thì sẽ có 
+
+89
+00:07:24,840 --> 00:07:25,860
+năm phần tử. 
+
+90
+00:07:25,860 --> 00:07:29,760
+Nếu chúng ta bấm lại vào đó thì có sáu phần tử, bảy, tám, chín, mười. 
+
+91
+00:07:29,760 --> 00:07:30,960
+Nó sẽ cứ tiếp tục như vậy. 
+
+92
+00:07:30,960 --> 00:07:36,660
+Miễn là chúng ta nhấp vào nút thêm việc cần làm mới, nút này sẽ gọi hàm để thêm Việc cần làm mới 
+
+93
+00:07:36,660 --> 00:07:37,800
+vào danh sách này. 
+
+94
+00:07:39,360 --> 00:07:44,010
+Bây giờ, đó là cách để chúng tôi có thể sử dụng trình nghe khi nhấp chuột. 
+
+95
+00:07:44,310 --> 00:07:50,820
+Chúng ta cũng có thể thực hiện lệnh gọi hàm ẩn danh bằng cách thực hiện dấu ngoặc đơn, dấu ngoặc nhọn hàm mũi tên, console.log. 
+
+96
+00:07:55,990 --> 00:08:01,390
+Nếu chúng tôi đã lưu cái này rồi quay lại ứng dụng của mình, làm mới và bắt đầu nhấp vào thêm mới 
+
+97
+00:08:01,390 --> 00:08:06,160
+để thực hiện, thì chúng tôi có thể thấy rằng thử nghiệm đó vẫn tiếp tục diễn ra vì chúng tôi đang sử dụng chức năng ẩn danh của 
+
+98
+00:08:06,160 --> 00:08:07,760
+chức năng mũi tên bên trong khi nhấp chuột. 
+
+99
+00:08:07,780 --> 00:08:12,850
+Chúng tôi cũng có thể tạo một hàm bên trong trình nghe khi nhấp chuột, nhưng đó là rất nhiều mã mà chúng tôi hiện đang 
+
+100
+00:08:12,850 --> 00:08:18,520
+đưa vào bên trong DJ của mình và đó là thứ chúng tôi muốn giữ ở mức nhỏ gọn, vì vậy, hãy giữ nó làm con 
+
+101
+00:08:18,520 --> 00:08:21,190
+trỏ quay lại quảng cáo của chúng tôi để thực hiện . 
+
+102
+00:08:23,590 --> 00:08:29,860
+Bây giờ, một điều mà chúng tôi biết là khi chúng tôi thêm phần bổ sung để làm, làm mới và tiếp tục thêm, 
+
+103
+00:08:29,860 --> 00:08:32,559
+chúng tôi đang thêm các phần tử vào mảng đó. 
+
+104
+00:08:32,830 --> 00:08:35,169
+Tuy nhiên, nó không được hiển thị ở đây. 
+
+105
+00:08:35,740 --> 00:08:40,240
+Chà, chúng ta cần xử lý trạng thái của ứng dụng React này. 
+
+106
+00:08:40,330 --> 00:08:46,630
+Khi chúng tôi xử lý trạng thái, chúng tôi có thể yêu cầu hiển thị lại ứng dụng ngay tại chỗ, thao tác này sẽ tạo việc cần làm 
+
+107
+00:08:46,630 --> 00:08:50,200
+để người dùng xem ngay khi chúng tôi nhấp và thêm nút việc cần làm mới. 
+
+108
+00:08:52,450 --> 00:08:55,330
+Chúng tôi sẽ đề cập đến chức năng này trong các video sắp tới. 
+
+109
+00:08:55,330 --> 00:09:00,310
+Nhưng hiện tại, chúng ta sẽ kết thúc bài giảng này và tôi sẽ gặp bạn ở video tiếp theo.

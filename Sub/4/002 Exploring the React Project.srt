@@ -1,0 +1,263 @@
+1
+00:00:01,900 --> 00:00:02,260
+Được rồi. 
+
+2
+00:00:02,260 --> 00:00:07,390
+Bây giờ, tiếp tục phần chúng ta đã dừng lại, chúng ta sẽ tạo một dự án React. 
+
+3
+00:00:08,420 --> 00:00:14,480
+Trong React cung cấp một công cụ dòng lệnh để tạo dự án cực kỳ nhanh chóng. 
+
+4
+00:00:15,270 --> 00:00:21,600
+Công cụ dòng lệnh này tạo các tệp khởi động để giúp bạn khởi động dự án của mình và tạo 
+
+5
+00:00:21,600 --> 00:00:23,460
+dự án React mà không cần tốn chút công sức nào. 
+
+6
+00:00:25,120 --> 00:00:28,540
+Về cơ bản, điều này làm cho việc tạo ứng dụng React trở nên rất dễ dàng. 
+
+7
+00:00:31,890 --> 00:00:36,750
+Bây giờ để tạo một ứng dụng React mới, chúng ta cần cài đặt Node.js trên PC. 
+
+8
+00:00:37,410 --> 00:00:42,840
+Và sau đó chúng ta cần sử dụng Command X Create React App, ứng dụng của tôi. 
+
+9
+00:00:45,430 --> 00:00:50,560
+Bây giờ ứng dụng Create React sẽ là lệnh để thực sự tạo dự án. 
+
+10
+00:00:50,890 --> 00:00:56,140
+Mặc dù ứng dụng gạch nối của tôi là tên dự án của bạn, vì vậy bạn có thể đặt tên này bất cứ tên nào bạn muốn. 
+
+11
+00:00:59,160 --> 00:01:05,760
+Bây giờ để chạy ứng dụng React mới, bạn cần có đĩa CD hoặc vào thư mục của ứng dụng mới. 
+
+12
+00:01:06,920 --> 00:01:09,530
+Và sau đó thực hiện lệnh và bắt đầu PM. 
+
+13
+00:01:11,820 --> 00:01:18,030
+Vì vậy, để tóm tắt nhanh, chúng ta cần tạo một ứng dụng React mới bằng cách sử dụng ứng dụng Create React dưới 
+
+14
+00:01:18,030 --> 00:01:19,050
+tên ứng dụng của bạn. 
+
+15
+00:01:20,800 --> 00:01:23,260
+Và sau đó chúng ta cần chuyển sang ứng dụng React của mình. 
+
+16
+00:01:23,930 --> 00:01:25,880
+Và sau đó sử dụng MPM bắt đầu. 
+
+17
+00:01:27,170 --> 00:01:29,660
+Và ứng dụng MPAA Create React. 
+
+18
+00:01:29,660 --> 00:01:35,510
+Ứng dụng của tôi tạo ra một ứng dụng React hoàn toàn mới mà bạn không cần phải thực hiện bất kỳ loại cấu hình xây dựng nào, 
+
+19
+00:01:35,510 --> 00:01:36,680
+điều này thật tuyệt vời. 
+
+20
+00:01:38,600 --> 00:01:40,910
+Sau đó, bạn cần phải nhảy vào ứng dụng React của mình. 
+
+21
+00:01:41,820 --> 00:01:45,540
+Và cuối cùng hãy khởi động ứng dụng của bạn bằng phần khởi động PM. 
+
+22
+00:01:45,900 --> 00:01:50,610
+Trong lần đầu tiên này, hãy xây dựng ứng dụng, biên dịch và truyền tải ứng dụng. 
+
+23
+00:01:51,060 --> 00:01:52,410
+Nó khởi động máy chủ của bạn. 
+
+24
+00:01:52,740 --> 00:01:57,840
+Nó theo dõi mã nguồn và cuối cùng xây dựng lại ứng dụng khi nguồn của bạn cuối cùng được 
+
+25
+00:01:57,840 --> 00:02:01,230
+cập nhật bằng cách sử dụng tải lại nóng để bạn không phải tự mình làm bất cứ điều gì. 
+
+26
+00:02:03,770 --> 00:02:06,680
+Bây giờ theo mặc định, React sử dụng cổng 3000 của bạn. 
+
+27
+00:02:07,130 --> 00:02:11,930
+Nếu bạn muốn thay đổi cổng này thay vì chỉ thực hiện MP pm start, bạn cần nói set port bằng 
+
+28
+00:02:11,930 --> 00:02:15,230
+5100 chẳng hạn và trong PM start. 
+
+29
+00:02:15,740 --> 00:02:22,970
+Điều này đảm bảo máy chủ lắng nghe trên Cổng 5100, cổng này sẽ là dấu gạch chéo dấu hai chấm http của bạn gạch chéo 
+
+30
+00:02:22,970 --> 00:02:24,650
+máy chủ cục bộ 5100. 
+
+31
+00:02:28,560 --> 00:02:30,570
+Được rồi, Bây giờ chúng ta hãy xem các tệp dự án của bạn. 
+
+32
+00:02:31,560 --> 00:02:33,300
+Chúng ta sẽ bắt đầu với các mô-đun Node. 
+
+33
+00:02:33,900 --> 00:02:38,400
+Về cơ bản, nó chứa tất cả các thư viện đã cài đặt từ Trình quản lý gói Node. 
+
+34
+00:02:38,400 --> 00:02:39,630
+Bạn đang ở PM. 
+
+35
+00:02:41,630 --> 00:02:48,080
+Bây giờ khi chúng ta tạo một ứng dụng mới, React sẽ tự động cài đặt MPLM để cài đặt tất cả 
+
+36
+00:02:48,080 --> 00:02:50,150
+các phần phụ thuộc để React hoạt động. 
+
+37
+00:02:51,930 --> 00:02:56,010
+Trong khóa học này, chúng ta sẽ cài đặt thêm các thư viện bên ngoài nơi chúng ta sẽ sử dụng 
+
+38
+00:02:56,010 --> 00:03:00,900
+cài đặt NPM, về cơ bản sẽ tạo các mô-đun nút và chúng ta sẽ thả nó vào đây để sau đó chúng ta có thể 
+
+39
+00:03:00,900 --> 00:03:03,270
+sử dụng các thư viện đó trong ứng dụng của mình . 
+
+40
+00:03:04,390 --> 00:03:09,900
+Bây giờ trong thư mục công khai của chúng tôi, chúng tôi có Fabricant ICO, về cơ bản chỉ là logo React
+
+41
+00:03:09,900 --> 00:03:14,310
+trong biểu tượng yêu thích của chúng tôi, biểu tượng trình duyệt của chúng tôi giống như một tab trình duyệt. 
+
+42
+00:03:15,260 --> 00:03:20,690
+Trong HTML được lập chỉ mục của chúng tôi, HTML và DOM cho ứng dụng React. 
+
+43
+00:03:22,430 --> 00:03:26,090
+Sau đó, chúng tôi có logo React và kích thước cụ thể mà chúng tôi có thể xóa. 
+
+44
+00:03:26,270 --> 00:03:31,790
+Chúng tôi có một logo React khác ở kích thước cụ thể mà chúng tôi có thể xóa và sau đó chúng tôi có JSON kê khai, cung 
+
+45
+00:03:31,790 --> 00:03:38,540
+cấp thông tin về tên dự án, tác giả, biểu tượng và một loạt thông tin khác bên trong 
+
+46
+00:03:38,540 --> 00:03:39,590
+tệp JSON. 
+
+47
+00:03:41,760 --> 00:03:47,640
+Chúng tôi là tệp robots.txt, được sử dụng để ngăn các công cụ tìm kiếm và bot thu thập dữ liệu trên ứng dụng React. 
+
+48
+00:03:49,930 --> 00:03:56,560
+Và sau đó trong thư mục nguồn của chúng tôi, chúng tôi có CSS ​​ứng dụng, đây là CSS toàn cầu cho ứng dụng React. 
+
+49
+00:03:59,070 --> 00:04:04,260
+Chúng tôi là những DJ ứng dụng, là thành phần JavaScript toàn cầu của chúng tôi dành cho ứng dụng React. 
+
+50
+00:04:06,790 --> 00:04:12,040
+Ứng dụng của chúng tôi thử nghiệm Jazz, đây là thư mục thử nghiệm toàn cầu của chúng tôi dành cho Ứng dụng React. 
+
+51
+00:04:13,910 --> 00:04:18,440
+CSIS chỉ mục của chúng tôi, là CSIS dành cho tệp HTML chỉ mục. 
+
+52
+00:04:19,820 --> 00:04:25,340
+Sau đó, chúng tôi có tệp DGS chỉ mục, đây là thành phần gốc chính nối vào 
+
+53
+00:04:25,340 --> 00:04:28,340
+tệp HTML được lập chỉ mục để có thể bắt đầu hiển thị các thành phần phản ứng. 
+
+54
+00:04:31,360 --> 00:04:36,010
+Và giờ đây, trong logo của chúng tôi, SVG là các báo cáo, thông tin quan trọng về trang web, công cụ thiết lập nội bộ. 
+
+55
+00:04:36,010 --> 00:04:37,450
+Bây giờ chúng ta chỉ có thể bỏ qua những điều đó. 
+
+56
+00:04:39,610 --> 00:04:46,120
+Chúng tôi có dấu chấm bị bỏ qua, đó là các tệp cần bỏ qua nếu bạn định sử dụng kho lưu trữ git hoặc từ xa. 
+
+57
+00:04:47,390 --> 00:04:52,670
+Chúng tôi đã đóng gói JSON, được sử dụng cho các phần phụ thuộc, xác định thuộc tính dự án, mô tả, 
+
+58
+00:04:52,670 --> 00:04:54,380
+cấp phép tác giả, v.v. 
+
+59
+00:04:55,880 --> 00:04:56,450
+Ngay trên đó. 
+
+60
+00:04:56,450 --> 00:05:02,570
+Chúng tôi đã khóa gói JSON của mình, khóa này khóa tất cả các phần phụ thuộc vào một phiên bản cụ thể và ghi lại 
+
+61
+00:05:02,570 --> 00:05:04,790
+phiên bản cho mục đích cài đặt. 
+
+62
+00:05:07,050 --> 00:05:11,250
+Và bạn có tài khoản đọc cho riêng mình được tạo tự động bằng React. 
+
+63
+00:05:11,640 --> 00:05:15,060
+Bây giờ, hầu hết dự án của chúng tôi sẽ được xử lý trong thư mục nguồn của chúng tôi. 
+
+64
+00:05:15,420 --> 00:05:21,150
+Nhưng thật tốt khi biết tất cả các tệp khác tạo nên dự án React khi bạn sử dụng 
+
+65
+00:05:21,150 --> 00:05:22,290
+lệnh mô-đun cài đặt. 
+
+66
+00:05:22,860 --> 00:05:28,260
+Bây giờ, phần này kết thúc phần tổng quan về React và bây giờ hãy chuyển sang một số mã.

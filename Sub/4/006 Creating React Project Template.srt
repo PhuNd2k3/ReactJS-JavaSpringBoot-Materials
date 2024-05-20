@@ -1,0 +1,211 @@
+1
+00:00:02,280 --> 00:00:03,030
+Được rồi. 
+
+2
+00:00:03,030 --> 00:00:04,860
+Vậy chúng ta hãy tiếp tục chuyện này nhé. 
+
+3
+00:00:04,860 --> 00:00:10,050
+Và điều chúng ta sắp làm trong video này là tạo một bảng chứa tất 
+
+4
+00:00:10,050 --> 00:00:11,190
+cả những việc cần làm của chúng ta. 
+
+5
+00:00:11,700 --> 00:00:16,740
+Vì vậy, để bắt đầu thẻ p mà chúng tôi đã tạo này cho biết chúng tôi đã tạo ứng dụng React đầu tiên của mình. 
+
+6
+00:00:17,160 --> 00:00:18,900
+Hãy tiếp tục và xóa nó đi. 
+
+7
+00:00:20,810 --> 00:00:26,240
+Và tôi cũng sẽ xóa ứng dụng tên lớp này ngay trong div này. 
+
+8
+00:00:29,830 --> 00:00:34,090
+Bây giờ điều tiếp theo tôi sẽ làm là tạo một div khác bên trong div này. 
+
+9
+00:00:38,250 --> 00:00:41,460
+Sau khi tạo div đó, tôi sẽ tạo thêm một div nữa. 
+
+10
+00:00:43,030 --> 00:00:46,420
+Và bên trong div này tôi sẽ nói những việc bạn cần làm. 
+
+11
+00:00:55,130 --> 00:00:57,170
+Và bây giờ một lần nhảy ra khỏi chỗ ngâm đó. 
+
+12
+00:00:58,980 --> 00:01:00,810
+Trong một div khác. 
+
+13
+00:01:00,990 --> 00:01:06,780
+Và bên trong div này chúng ta sẽ tạo một bảng, một bảng HTML. 
+
+14
+00:01:10,510 --> 00:01:17,200
+Và bây giờ, ngay dưới cái bàn này, tôi sẽ tạo một phần đầu, đó là phần đầu cho bảng của chúng ta. 
+
+15
+00:01:18,500 --> 00:01:23,840
+Và chúng ta cần tạo một hàng, một DT hoặc một hàng bảng bên trong đầu DT này. 
+
+16
+00:01:25,460 --> 00:01:32,990
+Và bên trong bảng, chúng ta sẽ tạo ba tiêu đề bảng, túi trà với phạm vi cột có 
+
+17
+00:01:32,990 --> 00:01:34,700
+thẻ pound hoặc thẻ băm. 
+
+18
+00:01:36,720 --> 00:01:37,530
+Tiếp theo là một cái khác. 
+
+19
+00:01:38,850 --> 00:01:40,080
+Đó là mô tả. 
+
+20
+00:01:46,610 --> 00:01:53,810
+Và cuối cùng là một FW khác được chỉ định cho từng độ tuổi có phạm vi gọi cột. 
+
+21
+00:01:55,280 --> 00:02:00,530
+Và sau đó chúng ta hãy nhảy ra khỏi đầu trà và tạo ra một thứ gọi là thân trà, nó sẽ chứa 
+
+22
+00:02:00,530 --> 00:02:02,900
+dữ liệu trong thân bảng. 
+
+23
+00:02:03,990 --> 00:02:06,470
+Và ở đây chúng ta sẽ nói TR. 
+
+24
+00:02:07,430 --> 00:02:11,420
+Với một hàng phạm vi khác có số một. 
+
+25
+00:02:16,020 --> 00:02:18,720
+Một TD có nghĩa là cho chó ăn. 
+
+26
+00:02:22,110 --> 00:02:24,360
+Một TD khác của Eric. 
+
+27
+00:02:25,790 --> 00:02:29,180
+Và bây giờ chỉ cần nhảy ra khỏi TR này và tạo thêm một TR nữa. 
+
+28
+00:02:30,200 --> 00:02:33,500
+Với một hàng phạm vi gồm hai. 
+
+29
+00:02:42,450 --> 00:02:44,730
+Một TD khác của việc cắt tóc. 
+
+30
+00:02:48,510 --> 00:02:51,060
+Và cuối cùng là một CD khác của Eric. 
+
+31
+00:02:53,930 --> 00:02:54,440
+Được rồi. 
+
+32
+00:02:54,440 --> 00:02:58,010
+Và khi tôi nhấp vào Lưu, chúng tôi có thể thấy nó được tự động biên dịch lại. 
+
+33
+00:02:58,770 --> 00:03:00,270
+Bây giờ chúng ta quay lại trình duyệt web của mình. 
+
+34
+00:03:00,270 --> 00:03:02,400
+Chúng tôi có thể thấy rằng chúng tôi có việc cần làm của bạn. 
+
+35
+00:03:03,310 --> 00:03:10,060
+Mô tả ký hiệu Pound được chỉ định với một người để cho chó Eric ăn và cắt tóc. 
+
+36
+00:03:10,060 --> 00:03:10,720
+Eric. 
+
+37
+00:03:11,450 --> 00:03:19,250
+Bây giờ, những gì chúng tôi đã làm bên trong ứng dụng của mình chỉ là tóm tắt lại, chúng tôi đã tạo ba div với div cuối cùng 
+
+38
+00:03:19,250 --> 00:03:20,570
+cho biết việc cần làm của bạn. 
+
+39
+00:03:21,730 --> 00:03:24,490
+Và sau đó bên ngoài div thứ ba đó, chúng tôi đã tạo một div khác. 
+
+40
+00:03:24,700 --> 00:03:30,070
+Bây giờ div này sẽ giữ bảng của chúng ta, bảng này sẽ chứa tất cả dữ liệu của chúng ta cho ứng dụng. 
+
+41
+00:03:32,500 --> 00:03:34,120
+Chúng ta sẽ đưa tiêu đề vào. 
+
+42
+00:03:34,120 --> 00:03:36,730
+Tiêu đề này thể hiện những gì chúng ta thấy ở trên cùng. 
+
+43
+00:03:36,730 --> 00:03:39,340
+Thế là bảng mô tả này được giao. 
+
+44
+00:03:44,630 --> 00:03:49,730
+Sau đó, chúng ta có các phần tử dữ liệu, đó là mô tả lb và được gán. 
+
+45
+00:03:50,180 --> 00:03:54,950
+Và sau đó chúng ta có nội dung RT nằm dưới tiêu đề và chúng ta có hàng đầu tiên, đó là một con 
+
+46
+00:03:54,950 --> 00:03:56,930
+chó chăn nuôi được giao cho Eric. 
+
+47
+00:03:56,930 --> 00:04:00,110
+Và mỗi cái trong số này đại diện cho mỗi cái trong số này.
+
+48
+00:04:00,260 --> 00:04:04,970
+Vì vậy, một người sẽ là con chó nuôi LB sẽ được mô tả và sau đó Eric được chỉ định. 
+
+49
+00:04:05,800 --> 00:04:06,760
+Và điều tương tự với điều này. 
+
+50
+00:04:06,760 --> 00:04:09,430
+Đi cắt tóc và giao việc cho Eric. 
+
+51
+00:04:12,780 --> 00:04:14,610
+Bây giờ, đây là tất cả những gì chúng tôi sẽ trình bày trong video này. 
+
+52
+00:04:14,610 --> 00:04:17,519
+Và đây chỉ là để tạo mẫu của bảng. 
+
+53
+00:04:17,579 --> 00:04:20,160
+Và tôi sẽ gặp bạn trong video tiếp theo.

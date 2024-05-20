@@ -1,0 +1,323 @@
+1
+00:00:01,210 --> 00:00:01,600
+Được rồi. 
+
+2
+00:00:01,600 --> 00:00:05,620
+Vì vậy, giống như một điểm kiểm tra, tôi muốn đảm bảo rằng bạn đã cài đặt sẵn các công cụ này. 
+
+3
+00:00:05,620 --> 00:00:11,800
+Vì vậy, tại thời điểm này, bạn đã cài đặt mã Visual Studio trong PM và TSC. 
+
+4
+00:00:11,950 --> 00:00:17,260
+Nếu không, hãy truy cập liên kết ở đây trên trang trình bày, làm theo hướng dẫn cài đặt và sau đó họ sẽ chỉ cho bạn cách 
+
+5
+00:00:17,260 --> 00:00:19,420
+thiết lập mọi thứ trên máy tính của bạn. 
+
+6
+00:00:24,590 --> 00:00:27,010
+Vì vậy, hãy để tôi tiếp tục và chuyển sang hệ thống tập tin của tôi. 
+
+7
+00:00:27,020 --> 00:00:31,490
+Và điều tôi muốn làm ở đây chỉ là tạo một thư mục mới để tôi có thể đặt tất cả 
+
+8
+00:00:31,490 --> 00:00:34,370
+mã đào tạo của mình cho bộ video này vào đây. 
+
+9
+00:00:39,590 --> 00:00:41,030
+Vì vậy tôi sẽ tạo thư mục này ở đây. 
+
+10
+00:00:41,060 --> 00:00:42,260
+Đào tạo TypeScript. 
+
+11
+00:00:42,350 --> 00:00:45,500
+Nhưng bạn có thể sử dụng bất kỳ tên thư mục nào, Bạn có thể đặt bất kỳ tên nào bạn muốn. 
+
+12
+00:00:52,650 --> 00:00:55,200
+Và sau đó tôi sẽ khởi động Visual Studio Code. 
+
+13
+00:00:59,200 --> 00:01:03,430
+Đây là ID cơ bản và hiện tại tôi đã có tất cả các giá trị mặc định. 
+
+14
+00:01:05,580 --> 00:01:08,730
+Và tôi sẽ tiếp tục mở thư mục mà tôi vừa tạo. 
+
+15
+00:01:11,380 --> 00:01:14,140
+Vì vậy, tôi sẽ chọn thư mục đào tạo TypeScript của mình. 
+
+16
+00:01:20,680 --> 00:01:21,660
+Được rồi, vậy chúng ta đi thôi. 
+
+17
+00:01:21,670 --> 00:01:24,490
+Vậy là chúng ta đã mở thư mục đào tạo TypeScript. 
+
+18
+00:01:24,670 --> 00:01:26,140
+Điều đó có vẻ khá tốt. 
+
+19
+00:01:28,490 --> 00:01:32,990
+Tôi sẽ tạo một thư mục mới bên dưới thư mục đào tạo bản thảo. 
+
+20
+00:01:35,150 --> 00:01:35,600
+Tôi sẽ gọi nó. 
+
+21
+00:01:35,600 --> 00:01:36,110
+Ồ, một. 
+
+22
+00:01:36,110 --> 00:01:37,130
+Chào thế giới. 
+
+23
+00:01:43,970 --> 00:01:45,680
+Tôi sẽ tạo một tập tin mới. 
+
+24
+00:01:50,360 --> 00:01:51,830
+Tôi sẽ gọi nó là My Hello World. 
+
+25
+00:01:52,370 --> 00:01:53,090
+Đúng. 
+
+26
+00:01:53,420 --> 00:01:56,150
+Và hãy nhớ rằng, đó là dành cho TypeScript. 
+
+27
+00:02:04,110 --> 00:02:05,480
+Vì vậy tôi sẽ giữ nó thật đơn giản. 
+
+28
+00:02:05,490 --> 00:02:11,280
+Tôi sẽ chỉ thực hiện console.log và để ý xem việc hoàn thành toàn bộ mã IntelliSense sẽ giúp ích cho chúng ta như thế nào. 
+
+29
+00:02:12,710 --> 00:02:15,440
+Vì vậy tôi viết nhật ký và sau đó tôi sẽ đưa ra thông điệp của mình. 
+
+30
+00:02:15,470 --> 00:02:17,000
+Chào thế giới. 
+
+31
+00:02:23,130 --> 00:02:23,400
+Được rồi. 
+
+32
+00:02:23,400 --> 00:02:26,940
+Vì vậy, chương trình Hello World rất cơ bản của chúng tôi sử dụng TypeScript. 
+
+33
+00:02:29,580 --> 00:02:31,920
+Vì vậy hãy tiếp tục và mở một terminal mới. 
+
+34
+00:02:32,800 --> 00:02:38,050
+Vì vậy, thiết bị đầu cuối này về cơ bản cung cấp cho bạn một shell và bạn có thể sử dụng nó để xem qua và truy cập mã của mình, 
+
+35
+00:02:38,050 --> 00:02:39,850
+biên dịch mã và chạy nó. 
+
+36
+00:02:42,060 --> 00:02:43,740
+Vậy là có thiết bị đầu cuối mới của tôi. 
+
+37
+00:02:46,390 --> 00:02:47,920
+Chỉ cần thay đổi kích thước ở đây một chút. 
+
+38
+00:02:49,810 --> 00:02:52,070
+Vì vậy tôi sẽ tiếp tục và chuyển vào thư mục này ở đây. 
+
+39
+00:02:52,150 --> 00:02:53,830
+Ôi xin chào thế giới. 
+
+40
+00:02:56,740 --> 00:03:00,630
+Và tôi sẽ chỉ kiểm tra nội dung thư mục ở đây và tôi sẽ thấy tập tin của mình, My Hello world. 
+
+41
+00:03:00,730 --> 00:03:01,900
+Nó tốt. 
+
+42
+00:03:03,960 --> 00:03:05,550
+Và bây giờ hãy biên dịch mã. 
+
+43
+00:03:05,550 --> 00:03:07,050
+Vì vậy, chúng tôi sử dụng lệnh tsk đó. 
+
+44
+00:03:07,050 --> 00:03:09,390
+Vì vậy, tôi sẽ thực hiện một nhiệm vụ trên dấu chấm Hello world của mình. 
+
+45
+00:03:13,300 --> 00:03:17,380
+Và sau đó chúng tôi chỉ cần kiểm tra thư mục ở đây, đầu ra và chúng tôi thấy điều đó. 
+
+46
+00:03:17,380 --> 00:03:18,050
+Được rồi. 
+
+47
+00:03:18,070 --> 00:03:19,030
+Có thế giới My Hello. 
+
+48
+00:03:19,240 --> 00:03:27,850
+JS Vì vậy, hãy nhớ rằng, nó tạo ra một tệp JS dấu chấm như một phần của quá trình dịch thuật biên dịch dấu gạch chéo đang diễn ra đó. 
+
+49
+00:03:29,100 --> 00:03:34,890
+Và bây giờ để chạy mã, tôi sử dụng lệnh nút và đưa ra tham chiếu đến tệp JS được tạo. 
+
+50
+00:03:35,630 --> 00:03:38,090
+Vì vậy, hãy nút Hello world JS của tôi. 
+
+51
+00:03:40,190 --> 00:03:41,270
+Và sau đó là đầu ra của chúng tôi. 
+
+52
+00:03:41,300 --> 00:03:42,330
+Chào thế giới. 
+
+53
+00:03:42,350 --> 00:03:43,190
+Mát mẻ. 
+
+54
+00:03:43,220 --> 00:03:44,210
+Làm tốt lắm.
+
+55
+00:03:47,800 --> 00:03:48,080
+Được rồi.
+
+56
+00:03:48,100 --> 00:03:49,150
+Hãy chuyển sang trình soạn thảo của chúng tôi ở đây. 
+
+57
+00:03:49,180 --> 00:03:51,760
+Hãy thêm một số mã vào tệp bản ghi của chúng tôi. 
+
+58
+00:03:52,540 --> 00:03:56,080
+Vì vậy, họ sẽ hủy bỏ khoảng thời gian dài đó và tôi sẽ chỉ thử nối chuỗi ở đây. 
+
+59
+00:03:56,080 --> 00:03:57,970
+Vì vậy, các bậc thầy về mã hóa. 
+
+60
+00:04:02,720 --> 00:04:04,700
+Thời gian cho một số niềm vui. 
+
+61
+00:04:09,180 --> 00:04:11,460
+Sau đó hãy tiếp tục và biên dịch nó một lần nữa. 
+
+62
+00:04:11,460 --> 00:04:14,310
+Vì vậy, tôi sẽ chỉ xóa cửa sổ terminal của mình ở phía dưới đây. 
+
+63
+00:04:15,830 --> 00:04:19,490
+Và sau đó tôi sẽ biên dịch nó một lần nữa. 
+
+64
+00:04:19,490 --> 00:04:19,750
+Vì thế. 
+
+65
+00:04:19,760 --> 00:04:20,510
+Chậc. 
+
+66
+00:04:21,880 --> 00:04:22,510
+Xin chào thế giới của tôi. 
+
+67
+00:04:22,690 --> 00:04:23,410
+Đúng. 
+
+68
+00:04:24,830 --> 00:04:29,060
+Sau đó, tôi sẽ chạy nó bằng lệnh nút và chạy tệp JavaScript được tạo. 
+
+69
+00:04:30,700 --> 00:04:31,370
+Và chúng ta bắt đầu. 
+
+70
+00:04:31,390 --> 00:04:32,380
+Đó là đầu ra mới của chúng tôi. 
+
+71
+00:04:32,380 --> 00:04:33,070
+Thật tuyệt vời. 
+
+72
+00:04:33,070 --> 00:04:35,200
+Vì vậy, điều này có hiệu quả tốt đối với chúng tôi. 
+
+73
+00:04:35,230 --> 00:04:41,080
+Bây giờ, có một điều tôi muốn bạn lưu ý, đó là chỉ chỉnh sửa các tệp bản thảo. 
+
+74
+00:04:41,080 --> 00:04:50,230
+Các tệp này không chỉnh sửa tệp JavaScript JS vì hãy nhớ rằng tệp JS được tạo ra mỗi lần bởi 
+
+75
+00:04:50,230 --> 00:04:51,620
+trình biên dịch TypeScript. 
+
+76
+00:04:51,640 --> 00:04:57,040
+Được rồi, ở đây chúng ta đang phát triển mã bằng TypeScript, vì vậy bạn chỉ cần viết tất cả mã của mình vào 
+
+77
+00:04:57,040 --> 00:04:57,580
+tệp bản thảo. 
+
+78
+00:05:00,020 --> 00:05:00,850
+Được rồi, thế thôi. 
+
+79
+00:05:00,860 --> 00:05:05,360
+Vì vậy, chúng tôi đã tạo tệp bản đánh máy đầu tiên và sau đó chúng tôi sẽ chuyển sang một số tính năng thú vị hơn trong 
+
+80
+00:05:05,360 --> 00:05:06,260
+bộ video tiếp theo. 
+
+81
+00:05:06,260 --> 00:05:07,370
+Vậy tôi sẽ gặp bạn ở đó.

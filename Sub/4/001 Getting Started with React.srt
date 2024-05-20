@@ -1,0 +1,323 @@
+1
+00:00:01,839 --> 00:00:06,070
+Xin chào mọi người và chào mừng bạn đến với Bắt đầu với React. 
+
+2
+00:00:06,100 --> 00:00:12,820
+Trước khi chuyển sang ứng dụng full stack bằng React và Spring Boot Java, có một số điều cần thiết 
+
+3
+00:00:12,820 --> 00:00:18,850
+mà chúng ta cần đề cập trước tiên, đặc biệt nếu bạn là người mới sử dụng các ứng dụng React hoặc Spa. 
+
+4
+00:00:21,810 --> 00:00:27,510
+Vì vậy, để bắt đầu, React là framework để xây dựng các ứng dụng trang đơn hiện đại. 
+
+5
+00:00:28,990 --> 00:00:33,880
+Trang web chính ở đây là www dot Reac.org. 
+
+6
+00:00:33,970 --> 00:00:41,800
+Trang web này là tài liệu chính thức cho khung React cùng với một số hướng dẫn tuyệt vời. 
+
+7
+00:00:41,950 --> 00:00:47,020
+Vì vậy, nếu bạn là người mới bắt đầu phản ứng, tôi thực sự khuyên bạn nên truy cập trang web này và đánh dấu nó trong 
+
+8
+00:00:47,020 --> 00:00:50,440
+trình duyệt web của bạn vì có rất nhiều thông tin có giá trị ở đây. 
+
+9
+00:00:54,170 --> 00:00:57,290
+Vì vậy, hãy điểm qua một số tính năng phản ứng chính. 
+
+10
+00:00:58,970 --> 00:01:01,610
+React là framework dựa trên thành phần. 
+
+11
+00:01:02,670 --> 00:01:05,129
+React có quan điểm khai báo. 
+
+12
+00:01:06,980 --> 00:01:11,120
+React có logic thành phần được viết bằng JavaScript. 
+
+13
+00:01:12,390 --> 00:01:19,740
+Và React hỗ trợ thiết kế web đáp ứng và các khung công tác hiện đại, bao gồm bootstrap, Google Material 
+
+14
+00:01:19,740 --> 00:01:22,230
+Design và nhiều thứ khác. 
+
+15
+00:01:29,330 --> 00:01:29,600
+Được rồi. 
+
+16
+00:01:29,600 --> 00:01:31,880
+Chà, bây giờ chúng ta hãy nhìn vào kiến ​​trúc React. 
+
+17
+00:01:32,060 --> 00:01:33,290
+Nhớ gì? 
+
+18
+00:01:33,320 --> 00:01:36,440
+React là một ứng dụng dựa trên thành phần. 
+
+19
+00:01:36,800 --> 00:01:38,390
+Do đó, sẽ có các thành phần. 
+
+20
+00:01:38,390 --> 00:01:40,550
+Và bên trong các thành phần sẽ có các thành phần con. 
+
+21
+00:01:40,550 --> 00:01:43,820
+Và có khả năng trong các thành phần con đó thậm chí còn có nhiều thành phần con hơn. 
+
+22
+00:01:43,820 --> 00:01:51,530
+Vì vậy mọi thứ trong React đều được xây dựng trên các thành phần và các thành phần này hiển thị HTML. 
+
+23
+00:01:51,560 --> 00:01:58,670
+Vì vậy, những gì người dùng nhìn thấy và tương tác trên màn hình sẽ là một thành phần cùng với việc tạo 
+
+24
+00:01:58,910 --> 00:02:01,580
+trạng thái xử lý các thành phần HTML. 
+
+25
+00:02:01,580 --> 00:02:07,760
+Vì vậy, mỗi thành phần có trạng thái riêng, nó xử lý và tạo vòng đời riêng để hiển 
+
+26
+00:02:07,760 --> 00:02:11,030
+thị lại HTML dựa trên sự thay đổi trạng thái. 
+
+27
+00:02:11,030 --> 00:02:15,500
+Bây giờ điều đó có thể hơi khó hiểu, đặc biệt nếu bạn chưa từng sử dụng React trước đây, 
+
+28
+00:02:15,530 --> 00:02:18,380
+nhưng chúng ta sẽ cùng nhau đề cập và tìm hiểu tất cả những điều này. 
+
+29
+00:02:20,230 --> 00:02:26,920
+Cùng với việc tạo HTML và xử lý các thành phần trạng thái, nó cũng được hiển thị và tạo bằng logic của 
+
+30
+00:02:26,920 --> 00:02:27,910
+JavaScript. 
+
+31
+00:02:29,330 --> 00:02:36,200
+Và trong thư mục và ứng dụng React, một thành phần sẽ chỉ là một tệp là 
+
+32
+00:02:36,200 --> 00:02:36,560
+tệp JavaScript. 
+
+33
+00:02:36,560 --> 00:02:41,960
+Vì vậy, JavaScript thành phần của tôi là hình dạng của một thành phần trong thư mục 
+
+34
+00:02:41,960 --> 00:02:42,800
+ứng dụng React của bạn. 
+
+35
+00:02:49,930 --> 00:02:50,530
+Được rồi. 
+
+36
+00:02:50,560 --> 00:02:55,180
+Bây giờ, có một số thuật ngữ chính mà chúng ta cần biết để có thể phát triển 
+
+37
+00:02:55,180 --> 00:02:56,950
+các kỹ năng phát triển React của mình. 
+
+38
+00:02:57,580 --> 00:03:03,370
+Đầu tiên là một thành phần và như chúng ta đã nói, thành phần là thành phần chính trong 
+
+39
+00:03:03,370 --> 00:03:04,270
+ứng dụng React. 
+
+40
+00:03:04,300 --> 00:03:10,060
+Một thành phần React hiện có hai phần, một phần hiển thị cho giao diện, đó là phần hiển thị HTML
+
+41
+00:03:10,090 --> 00:03:16,120
+mà người dùng có thể tương tác và JavaScript chứa logic ứng dụng và xử lý sự kiện 
+
+42
+00:03:16,120 --> 00:03:17,080
+cho Chế độ xem. 
+
+43
+00:03:20,360 --> 00:03:22,910
+Thuật ngữ thứ hai là đạo cụ. 
+
+44
+00:03:22,940 --> 00:03:27,590
+Và props là cách chúng ta truyền dữ liệu từ thành phần cha mẹ sang thành phần con. 
+
+45
+00:03:28,070 --> 00:03:31,790
+Vì vậy, tất cả chỉ là truyền dữ liệu trong hệ thống phân cấp. 
+
+46
+00:03:35,300 --> 00:03:38,870
+Thứ ba, chúng ta có trạng thái chứa dữ liệu về thành phần. 
+
+47
+00:03:38,870 --> 00:03:44,030
+Và một lần nữa, khi trạng thái thay đổi, thành phần sẽ hiển thị lại và đó là điều khiến React trở nên mạnh mẽ 
+
+48
+00:03:44,030 --> 00:03:49,760
+như một ứng dụng một trang là Dom luôn tự hiển thị lại dựa trên trạng thái của một 
+
+49
+00:03:49,760 --> 00:03:50,540
+thành phần cụ thể. 
+
+50
+00:03:53,190 --> 00:03:58,290
+Thuật ngữ thứ tư sẽ là hook, là một cách sử dụng trạng thái cục bộ với các tính năng phản ứng khác 
+
+51
+00:03:58,290 --> 00:04:01,350
+mà không cần phải viết nhiều lớp hoặc mã mới. 
+
+52
+00:04:04,310 --> 00:04:10,250
+Và cuối cùng, một mô-đun là tập hợp các thành phần có liên quan tạo ra một chế độ xem cụ thể. 
+
+53
+00:04:10,250 --> 00:04:16,490
+Vì vậy, hãy coi nó giống như một trang bán hàng nơi chúng ta có thể có một bảng với mỗi hàng là thành phần riêng. 
+
+54
+00:04:16,519 --> 00:04:21,709
+Chúng tôi sẽ gộp tất cả các thành phần đó lại để tạo chế độ xem, trang và mô-đun. 
+
+55
+00:04:27,730 --> 00:04:33,190
+Được rồi, bây giờ chúng ta hãy thực sự xem trực quan giao diện người dùng ứng dụng React bao gồm những gì. 
+
+56
+00:04:35,150 --> 00:04:41,060
+Hãy giả sử hình vuông hoặc hình chữ nhật màu tím này là trang hoặc màn hình PC của khách hàng. 
+
+57
+00:04:42,180 --> 00:04:43,140
+Bên trong đây. 
+
+58
+00:04:43,170 --> 00:04:47,850
+Chúng ta sẽ có thành phần đầu và thành phần chân trang, có thể là thanh điều hướng và chân trang, 
+
+59
+00:04:47,850 --> 00:04:50,490
+thứ gì đó sẽ có trên mỗi trang. 
+
+60
+00:04:52,150 --> 00:04:54,430
+Tiếp theo chúng ta sẽ có thành phần nội dung chính. 
+
+61
+00:04:54,460 --> 00:04:58,120
+Bây giờ thành phần nội dung chính là nội dung mà người dùng sẽ tương tác. 
+
+62
+00:04:58,150 --> 00:05:04,870
+Điều đó có thể thay đổi trên mỗi trang và trong thành phần nội dung chính có thể có một số thành phần khác. 
+
+63
+00:05:04,900 --> 00:05:09,700
+Và trong ví dụ này, tôi đang nói về thành phần danh sách việc cần làm trong đó chúng ta có thành phần nội dung chính, 
+
+64
+00:05:09,700 --> 00:05:12,580
+có thể giống như div của vùng chứa hoặc thẻ. 
+
+65
+00:05:12,580 --> 00:05:16,160
+Và bên trong thành phần nội dung đó chính là danh sách việc cần làm. 
+
+66
+00:05:16,180 --> 00:05:20,950
+Và có thể trong danh sách việc cần làm, chúng tôi có một số thành phần điều hướng trang, một thành phần 
+
+67
+00:05:20,950 --> 00:05:23,350
+riêng biệt nhưng sẽ là thành phần riêng của nó. 
+
+68
+00:05:28,400 --> 00:05:30,800
+Vì vậy, hãy nhìn vào sự tương tác ứng dụng của chúng tôi. 
+
+69
+00:05:30,800 --> 00:05:35,870
+Vì vậy, chúng tôi có đầu trang và chân trang cũng như nội dung chính và tất cả các thành phần này và đây là những gì sẽ 
+
+70
+00:05:35,870 --> 00:05:38,210
+tạo nên dự án React của chúng tôi. 
+
+71
+00:05:38,210 --> 00:05:41,870
+Và một lần nữa, một tập tin sẽ giống như thành phần Dot JS. 
+
+72
+00:05:43,600 --> 00:05:49,660
+Chúng ta sẽ có thể giao tiếp qua Rest API, tức là HTTP được chuyển sang phần cuối khởi động mùa xuân vào 
+
+73
+00:05:49,660 --> 00:05:54,820
+cơ sở dữ liệu trong cơ sở dữ liệu của chúng ta, sau đó sẽ có dữ liệu mà chúng ta có thể quay trở lại phần khởi động mùa xuân của mình, 
+
+74
+00:05:54,820 --> 00:06:00,310
+cuối cùng sẽ quay trở lại qua Http cho khách hàng của chúng tôi vào ứng dụng của chúng tôi. 
+
+75
+00:06:04,520 --> 00:06:04,810
+Được rồi. 
+
+76
+00:06:04,810 --> 00:06:06,430
+Bây giờ, một dự án React.
+
+77
+00:06:06,880 --> 00:06:10,210
+Một dự án React bao gồm nhiều tệp. 
+
+78
+00:06:10,900 --> 00:06:13,570
+Các thành phần của chúng tôi sẽ có HTML. 
+
+79
+00:06:14,230 --> 00:06:22,360
+Các tệp cấu hình JavaScript, CSS trong dự án của chúng tôi và chúng tôi sẽ có một số hình ảnh cũng như 
+
+80
+00:06:22,360 --> 00:06:25,690
+các tệp cấu hình khác và chúng tôi sẽ có một loạt tệp. 
+
+81
+00:06:25,690 --> 00:06:30,970
+Nhưng cuối cùng, chúng tôi sẽ tạo ra một ứng dụng thực sự sẵn sàng cho sản xuất, siêu, siêu tuyệt vời.

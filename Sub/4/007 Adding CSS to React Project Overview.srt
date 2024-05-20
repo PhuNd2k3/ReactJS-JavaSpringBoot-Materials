@@ -1,0 +1,179 @@
+1
+00:00:02,420 --> 00:00:02,900
+Được rồi. 
+
+2
+00:00:02,900 --> 00:00:06,590
+Vì vậy bước tiếp theo là tích hợp React với bootstrap. 
+
+3
+00:00:09,000 --> 00:00:11,700
+Hãy làm cho trang của chúng tôi đẹp hơn với bootstrap. 
+
+4
+00:00:11,700 --> 00:00:17,640
+Như bạn đã biết, ứng dụng hiện tại của chúng tôi trông như thế này trước khi bạn thực hiện các mô tả và chỉ định 
+
+5
+00:00:17,640 --> 00:00:23,670
+một con chó cho Eric ăn và để cắt tóc cho Eric, v.v., tất cả đều bị dồn vào nhau và trông không thực sự 
+
+6
+00:00:23,670 --> 00:00:25,110
+hấp dẫn đối với người dùng. 
+
+7
+00:00:26,520 --> 00:00:29,730
+Nhưng một khi chúng tôi triển khai bootstrap, nó sẽ trông đẹp hơn rất nhiều. 
+
+8
+00:00:29,730 --> 00:00:34,530
+Chúng ta sẽ có một bảng thực tế cho biết bạn phải thực hiện với cùng một thông tin nhưng chỉ làm cho 
+
+9
+00:00:34,530 --> 00:00:37,770
+nó trông giống một bảng hấp dẫn hơn một chút đối với người dùng. 
+
+10
+00:00:40,850 --> 00:00:41,960
+Được rồi, vậy chúng ta sẽ làm việc này như thế nào? 
+
+11
+00:00:41,960 --> 00:00:44,330
+Chúng ta hãy đi qua quá trình phát triển từng bước một. 
+
+12
+00:00:45,800 --> 00:00:49,250
+Đầu tiên, chúng ta cần lấy các liên kết cho các tệp bootstrap từ xa. 
+
+13
+00:00:51,070 --> 00:00:54,280
+Sau đó chúng ta cần thêm liên kết vào HTML được lập chỉ mục. 
+
+14
+00:00:55,970 --> 00:01:00,650
+Áp dụng các kiểu CSS bootstrap trong mẫu HTML thành phần của chúng tôi. 
+
+15
+00:01:02,130 --> 00:01:06,840
+Và sau đó áp dụng các kiểu CSS bootstrap trong bảng HTML thành phần của chúng tôi. 
+
+16
+00:01:09,440 --> 00:01:12,020
+Vì vậy, chúng ta hãy đi và xem xét từng bước này. 
+
+17
+00:01:12,830 --> 00:01:15,950
+Vì vậy, bước một lấy các liên kết cho các tập tin khởi động từ xa. 
+
+18
+00:01:16,250 --> 00:01:21,230
+Chúng ta cần truy cập trang web bootstrap đó là ww git bootstrap. 
+
+19
+00:01:24,460 --> 00:01:28,640
+Và trang web bootstraps có hướng dẫn về cách bắt đầu. 
+
+20
+00:01:28,660 --> 00:01:32,730
+Vì vậy, khi bạn truy cập ứng dụng web này, chúng ta sẽ hướng dẫn từng bước trong video tiếp theo. 
+
+21
+00:01:32,740 --> 00:01:36,820
+Nhưng chúng ta sẽ đến đây và lấy một số liên kết mà chúng ta cần để nhập vào ứng dụng của mình. 
+
+22
+00:01:40,610 --> 00:01:46,760
+Nếu chuyển sang bước hai, chúng ta cần thêm các liên kết mà tôi vừa đề cập trong tệp HTML được lập chỉ mục. 
+
+23
+00:01:48,180 --> 00:01:53,340
+Vì vậy, điều đầu tiên chúng tôi làm là thêm liên kết CSS bootstrap của mình và chúng tôi có thể thấy rất nhiều thứ giống như 
+
+24
+00:01:53,340 --> 00:01:56,430
+biểu định kiểu ở chính xác nơi liên kết giới thiệu đến. 
+
+25
+00:01:56,730 --> 00:01:59,340
+Nhưng những gì chúng ta có thể thấy là X, Y, Z. 
+
+26
+00:01:59,820 --> 00:02:03,900
+Đó chỉ đơn giản là số phiên bản của bootstrap mà chúng ta sẽ triển khai trong 
+
+27
+00:02:03,900 --> 00:02:04,650
+dự án của mình. 
+
+28
+00:02:06,130 --> 00:02:10,539
+Chúng ta cũng cần nhập các phần phụ thuộc JavaScript của bootstrap, điều này cũng tương tự như vậy. 
+
+29
+00:02:10,539 --> 00:02:13,570
+Và một lần nữa chúng ta cần chỉ định số phiên bản. 
+
+30
+00:02:17,900 --> 00:02:21,920
+Khi chúng tôi thêm phần này vào dự án của mình, nó sẽ đưa chúng tôi đến bước thứ ba, đó là áp dụng CSS và 
+
+31
+00:02:21,920 --> 00:02:28,250
+mẫu HTML thành phần nơi chúng tôi có JS và chúng tôi có thể thấy rằng chúng tôi có một div với một div khác 
+
+32
+00:02:28,250 --> 00:02:28,940
+bên trong. 
+
+33
+00:02:29,390 --> 00:02:32,900
+Bây giờ một trong những điều chính mà chúng ta thấy là tên lớp bằng với vùng chứa. 
+
+34
+00:02:32,900 --> 00:02:34,820
+Trong tên lớp bằng thẻ. 
+
+35
+00:02:35,180 --> 00:02:40,250
+Cả hai đều là tham chiếu đến các kiểu CSS khởi động của chúng tôi. 
+
+36
+00:02:41,160 --> 00:02:47,400
+Và một khi chúng ta bắt đầu thêm các kiểu tên lớp này, đó là cách chúng ta biến ứng dụng React của mình thành 
+
+37
+00:02:47,400 --> 00:02:49,290
+một thứ gì đó trang nhã để người dùng nhìn thấy. 
+
+38
+00:02:52,160 --> 00:02:57,590
+Và bây giờ khi chúng ta bắt đầu thêm các lớp CSS này vào mẫu HTML của mình, điều đó sẽ đưa chúng ta đến bước bốn, 
+
+39
+00:02:57,590 --> 00:03:00,980
+nơi chúng ta cần áp dụng CSS và các bảng HTML thành phần của mình.
+
+40
+00:03:01,550 --> 00:03:04,000
+Và trong ứng dụng JS của chúng tôi, đây là bảng của chúng tôi. 
+
+41
+00:03:04,010 --> 00:03:08,990
+Chúng ta có thể thấy rằng trong tên lớp của mình, chúng ta phải khởi động các kiểu CSS trong bảng này. 
+
+42
+00:03:09,470 --> 00:03:11,540
+Chúng tôi có bảng và bảng di chuột. 
+
+43
+00:03:12,490 --> 00:03:17,530
+Và một lần nữa, khi chúng ta bắt đầu thêm CSS trong toàn bộ ứng dụng của mình, đó là lúc ứng dụng việc cần làm của chúng ta 
+
+44
+00:03:17,530 --> 00:03:22,240
+sẽ biến thành một thứ có trải nghiệm người dùng và giao diện người dùng tuyệt vời. 
+
+45
+00:03:23,850 --> 00:03:28,290
+Điều này kết thúc phần tổng quan và hãy bắt tay vào thêm bootstrap vào dự án của chúng ta.

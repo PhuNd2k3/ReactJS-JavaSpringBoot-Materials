@@ -1,0 +1,507 @@
+1
+00:00:02,050 --> 00:00:02,469
+Được rồi. 
+
+2
+00:00:02,469 --> 00:00:08,470
+Vì vậy, cho đến nay, chúng tôi đã tạo thành phần biểu mẫu việc cần làm mới và chúng tôi đã thêm thành phần này vào APKS của mình. 
+
+3
+00:00:08,620 --> 00:00:13,210
+Tuy nhiên, khi chúng tôi thêm mọi thứ vào biểu mẫu của mình và nhấp vào nút thêm thì không có gì xảy ra. 
+
+4
+00:00:13,240 --> 00:00:18,760
+Chúng tôi cần điều này hoàn toàn linh hoạt dựa trên những gì người dùng nhập vào và chúng tôi thu thập dữ liệu đó để gửi 
+
+5
+00:00:18,760 --> 00:00:19,870
+cho chúng tôi thực hiện. 
+
+6
+00:00:21,390 --> 00:00:26,250
+Bây giờ, điều đầu tiên chúng ta cần làm để thực hiện điều này là bên trong có hình thức mới. 
+
+7
+00:00:26,730 --> 00:00:30,630
+Chúng ta cần nắm bắt sự kiện mà người dùng đang nhập. 
+
+8
+00:00:31,260 --> 00:00:34,290
+Ví dụ: ngay bên dưới chức năng mới để làm biểu mẫu. 
+
+9
+00:00:34,530 --> 00:00:38,970
+Hãy tạo một chức năng mới gọi là thay đổi mô tả buổi hòa nhạc. 
+
+10
+00:00:43,270 --> 00:00:48,920
+Bằng dấu ngoặc đơn của hàm mũi tên sự kiện với dấu ngoặc đơn. 
+
+11
+00:00:48,940 --> 00:00:51,250
+Và bây giờ chúng ta hãy console.log sự kiện. 
+
+12
+00:00:56,680 --> 00:01:02,890
+Và bây giờ, hãy đi xuống nhãn mô tả và bên trong vùng văn bản của chúng ta, tôi sẽ tạo 
+
+13
+00:01:02,890 --> 00:01:05,980
+một số khoảng trống để làm cho nó gọn gàng hơn và dễ đọc hơn một chút. 
+
+14
+00:01:13,640 --> 00:01:14,900
+Nhưng đúng theo yêu cầu. 
+
+15
+00:01:14,900 --> 00:01:18,380
+Chúng tôi muốn thêm một người nghe khi thay đổi. 
+
+16
+00:01:18,380 --> 00:01:24,860
+Vì vậy, quay lại ứng dụng JS của chúng tôi, chúng tôi đã thêm một trình nghe khi nhấp chuột, có nghĩa là khi nút được nhấp vào điểm 
+
+17
+00:01:24,860 --> 00:01:30,170
+và thực hiện chức năng này bên trong đây, chúng tôi muốn thực hiện điều tương tự, nhưng thay vì nhấp chuột, chúng tôi muốn 
+
+18
+00:01:30,170 --> 00:01:31,850
+sử dụng thay đổi khi nhấp chuột. 
+
+19
+00:01:40,170 --> 00:01:45,300
+Và hãy nhớ rằng, khi thêm chức năng không thay đổi, chúng tôi muốn chỉ ra sự thay đổi mô tả chứ 
+
+20
+00:01:45,300 --> 00:01:47,190
+không phải thêm dấu ngoặc đơn. 
+
+21
+00:01:51,640 --> 00:01:57,880
+Vì vậy, bây giờ khi chúng tôi chạy ứng dụng của mình, khi chúng tôi thêm vào vùng văn bản trong mô tả của mình, chúng tôi sẽ 
+
+22
+00:01:57,880 --> 00:01:59,020
+ghi lại sự kiện. 
+
+23
+00:01:59,050 --> 00:02:00,080
+Bây giờ, sự kiện là gì? 
+
+24
+00:02:00,100 --> 00:02:01,210
+Vâng, chúng ta hãy tìm hiểu. 
+
+25
+00:02:01,240 --> 00:02:05,800
+Bây giờ chúng tôi làm mới ứng dụng và đi xuống phần mô tả của mình và bắt đầu nhập. 
+
+26
+00:02:06,250 --> 00:02:10,030
+Chúng ta có thể thấy rằng chúng ta đang nhận được một số loại sự kiện được in vào nhật ký bảng điều khiển của mình. 
+
+27
+00:02:10,690 --> 00:02:13,540
+Nếu chúng tôi mở nó ra, đây là sự kiện của chúng tôi. 
+
+28
+00:02:14,320 --> 00:02:18,130
+Với rất nhiều thông tin, nhưng chúng tôi muốn nhìn vào bên trong mục tiêu. 
+
+29
+00:02:18,870 --> 00:02:22,960
+Sau đó bên trong giá trị mà bây giờ bạn có thể thấy là SDF. 
+
+30
+00:02:22,980 --> 00:02:25,170
+Nó phù hợp với những gì người dùng đang gõ. 
+
+31
+00:02:27,990 --> 00:02:35,520
+Vì vậy, nếu chúng ta quay lại ứng dụng của mình, chúng ta biết rằng sự kiện, mục tiêu dấu chấm, giá trị dấu chấm là những gì người dùng 
+
+32
+00:02:35,520 --> 00:02:36,570
+đang nhập. 
+
+33
+00:02:39,540 --> 00:02:46,200
+Vì vậy, nếu chúng ta thay đổi console.log thành giá trị mục tiêu sự kiện và chúng ta quay lại ứng dụng của mình và xem những gì sẽ làm 
+
+34
+00:02:46,200 --> 00:02:48,660
+mới ứng dụng và bắt đầu nhập vào mô tả của chúng tôi. 
+
+35
+00:02:50,940 --> 00:02:52,470
+Bạn có thể thấy điều đó trong nhật ký giao diện điều khiển của chúng tôi. 
+
+36
+00:02:52,470 --> 00:02:55,680
+Chúng tôi đang in chính xác những gì người dùng đang nhập. 
+
+37
+00:02:55,830 --> 00:03:00,540
+Đây thực sự là một điều tuyệt vời khi chúng tôi có thể ghi lại một cách linh hoạt những gì người dùng đang nhập 
+
+38
+00:03:00,540 --> 00:03:04,260
+bằng cách kiểm tra giá trị mục tiêu của sự kiện. 
+
+39
+00:03:08,660 --> 00:03:12,570
+Vì vậy, bây giờ chúng tôi muốn thực hiện điều tương tự đối với thay đổi được chỉ định. 
+
+40
+00:03:12,590 --> 00:03:18,380
+Vì vậy, ngay dưới đây tôi sẽ nói const đã gán một sự kiện thay đổi bằng dấu ngoặc đơn.
+
+41
+00:03:18,770 --> 00:03:24,710
+Và tôi sẽ chuyển sang hàm mũi tên gồm hai dấu ngoặc và sau đó là giá trị mục tiêu của sự kiện console.log. 
+
+42
+00:03:32,970 --> 00:03:37,170
+Và để làm cho điều này dễ dàng hơn một chút đối với chúng tôi trong bảng điều khiển của mình, hãy đăng nhập trước 
+
+43
+00:03:37,170 --> 00:03:37,560
+phần thay đổi mô tả của chúng tôi. 
+
+44
+00:03:37,560 --> 00:03:41,580
+Tôi sẽ nói mô tả, và thay vì thay đổi ký hiệu, tôi sẽ nói được chỉ định. 
+
+45
+00:03:47,610 --> 00:03:52,560
+Và sau đó ở dưới đây, nơi chúng ta nói về mô tả, tôi sẽ làm điều tương tự với dữ liệu đầu vào và tôi sẽ 
+
+46
+00:03:52,560 --> 00:03:55,380
+tạo khoảng cách để làm cho nó trông gọn gàng hơn một chút. 
+
+47
+00:04:04,010 --> 00:04:08,840
+Nhưng tôi muốn nói về người nghe Thay đổi và tôi sẽ chỉ ra sự thay đổi được chỉ định. 
+
+48
+00:04:19,750 --> 00:04:22,570
+Và khi tôi lưu mã và mở ứng dụng của mình, tôi sẽ từ chức. 
+
+49
+00:04:22,570 --> 00:04:28,140
+Và khi tôi gõ một cái gì đó vào một chữ ký, chúng ta có thể thấy một chữ ký ta đã ký ta đã ký t. 
+
+50
+00:04:28,200 --> 00:04:30,220
+S, và cuối cùng là kiểm tra dấu hiệu. 
+
+51
+00:04:30,760 --> 00:04:35,630
+Và sau đó tôi chỉ muốn nói một vài chữ cái ở đây nơi chúng ta có thể nói sự mô tả và mô tả. 
+
+52
+00:04:35,650 --> 00:04:36,580
+ồ. 
+
+53
+00:04:37,000 --> 00:04:43,900
+Vì vậy, những gì chúng tôi có thể xác thực là chúng tôi đang ghi lại các lần nhấn phím động hoặc các thay đổi bằng cách sử dụng 
+
+54
+00:04:43,900 --> 00:04:47,560
+trình xử lý sự kiện thay đổi đối với người dùng nhập vào biểu mẫu của chúng tôi. 
+
+55
+00:04:50,380 --> 00:04:51,910
+Vậy bước tiếp theo là gì? 
+
+56
+00:04:51,940 --> 00:04:57,730
+Chà, nếu bạn còn nhớ bài giảng trước, chúng ta đã nói về trạng thái và cách trạng thái có thể nắm bắt sự kiện 
+
+57
+00:04:57,730 --> 00:05:02,470
+và hiển thị lại trang cũng như cách chúng ta có thể xử lý trạng thái và thực hiện những việc khác nhau với trạng thái. 
+
+58
+00:05:03,740 --> 00:05:08,160
+Vì vậy, hãy đi lên đây để phản ứng và nhập dấu ngoặc đơn. 
+
+59
+00:05:08,180 --> 00:05:09,140
+Bạn nêu rõ. 
+
+60
+00:05:12,720 --> 00:05:20,430
+Và bây giờ, dưới biểu mẫu chức năng mới cần làm, hãy tạo trạng thái mô tả mới và đặt mô tả. 
+
+61
+00:05:29,370 --> 00:05:32,610
+Lần này, tôi sẽ đặt trạng thái của bạn thành một chuỗi trống. 
+
+62
+00:05:33,430 --> 00:05:38,890
+Vì vậy, hãy nhớ rằng, bạn sử dụng trạng thái trả về một mảng gồm hai phần tử và chúng ta đang cấu trúc mảng đó thành 
+
+63
+00:05:38,890 --> 00:05:41,620
+các biến được gọi là mô tả và mô tả tập hợp. 
+
+64
+00:05:42,700 --> 00:05:45,100
+Và bây giờ tôi muốn làm điều tương tự với việc được giao. 
+
+65
+00:05:45,100 --> 00:05:51,610
+Vì vậy, mảng const được gán tập hợp được gán bằng trạng thái sử dụng của một chuỗi trống. 
+
+66
+00:05:59,370 --> 00:05:59,760
+Được rồi. 
+
+67
+00:05:59,760 --> 00:06:05,460
+Vì vậy, bây giờ trong thành phần mới này, chúng ta có hai giá trị là mô tả trạng thái và được gán. 
+
+68
+00:06:06,170 --> 00:06:14,180
+Sau đó, chúng tôi muốn thay đổi mô tả để đặt mô tả vừa thay đổi để chúng tôi có thể nói đặt 
+
+69
+00:06:14,180 --> 00:06:19,310
+mô tả và sau đó chuyển vào giá trị mục tiêu dấu chấm sự kiện của chúng tôi. 
+
+70
+00:06:22,780 --> 00:06:25,810
+Và chúng tôi muốn thực hiện điều tương tự để thay đổi phép gán. 
+
+71
+00:06:25,810 --> 00:06:30,520
+Vì vậy, hãy đặt giá trị được chỉ định và sau đó là giá trị mục tiêu sự kiện của chúng tôi làm tham số. 
+
+72
+00:06:36,830 --> 00:06:37,280
+Được rồi. 
+
+73
+00:06:37,280 --> 00:06:43,400
+Vì vậy, nếu bây giờ chúng ta quay lại ứng dụng của mình và làm mới và bắt đầu nhập phần được chỉ định và 
+
+74
+00:06:43,400 --> 00:06:45,200
+sau đó chúng ta bắt đầu nhập mô tả của mình. 
+
+75
+00:06:45,830 --> 00:06:47,300
+Chúng tôi không thấy bất kỳ thay đổi nào. 
+
+76
+00:06:47,300 --> 00:06:52,280
+Nhưng điều đang xảy ra là khi chúng tôi nhập, chúng tôi không chỉ ghi nhật ký bảng điều khiển, sự kiện mô tả, 
+
+77
+00:06:52,280 --> 00:06:58,820
+giá trị đích trong sự kiện được chỉ định, giá trị đích mà còn đặt mô tả ở trạng thái và 
+
+78
+00:06:58,820 --> 00:07:00,620
+đặt trạng thái được chỉ định.
+
+79
+00:07:06,350 --> 00:07:08,720
+Được rồi, vậy điều tiếp theo chúng ta cần làm ở đây là gì? 
+
+80
+00:07:08,960 --> 00:07:16,430
+Chà, điều tiếp theo chúng ta cần làm là thêm một giá trị vào các giá trị, những gì sẽ được hiển thị trên biểu mẫu của chúng ta. 
+
+81
+00:07:16,670 --> 00:07:20,900
+Và chúng tôi muốn điều này chỉ để chúng tôi luôn hiển thị trạng thái. 
+
+82
+00:07:21,470 --> 00:07:24,860
+Chúng ta có thể làm điều này bằng cách nói giá trị bằng dấu ngoặc được gán. 
+
+83
+00:07:26,920 --> 00:07:30,490
+Và chúng tôi muốn nói giá trị tương đương với mô tả. 
+
+84
+00:07:38,490 --> 00:07:40,560
+Được rồi, bây giờ nếu chúng ta quay lại trình duyệt của mình. 
+
+85
+00:07:41,880 --> 00:07:43,560
+Và chúng tôi làm mới trang. 
+
+86
+00:07:44,010 --> 00:07:48,210
+Bây giờ chúng tôi không chỉ nhận được các giá trị được chỉ định và giá trị mô tả. 
+
+87
+00:07:48,510 --> 00:07:51,630
+Chúng tôi cũng đang lưu chúng vào trạng thái ứng dụng của chúng tôi. 
+
+88
+00:07:52,390 --> 00:07:56,980
+Và chúng ta sẽ sử dụng trạng thái trong video tiếp theo về cách chúng ta sẽ gửi 
+
+89
+00:07:56,980 --> 00:07:58,870
+danh sách việc cần làm hai hoặc việc cần làm. 
+
+90
+00:07:59,110 --> 00:08:00,070
+Nhưng điều này thật tuyệt vời. 
+
+91
+00:08:00,070 --> 00:08:03,340
+Chúng tôi hiện đang sử dụng Trạng thái để mô tả và chỉ định. 
+
+92
+00:08:03,460 --> 00:08:07,600
+Chúng tôi đã sử dụng chức năng để thêm khả năng này. 
+
+93
+00:08:08,880 --> 00:08:11,190
+Và chúng ta sẽ in giá trị. 
+
+94
+00:08:12,030 --> 00:08:14,190
+Để hình thức đầu vào chính nó. 
+
+95
+00:08:16,090 --> 00:08:21,790
+Bây giờ, một điều khác mà chúng ta có thể làm ở đây, nếu chúng ta không muốn viết hai hàm gần như làm tắc nghẽn 
+
+96
+00:08:21,790 --> 00:08:25,870
+mọi thứ, hãy bình luận về sự thay đổi mô tả này. 
+
+97
+00:08:28,950 --> 00:08:36,900
+Và ở dưới đây trong sự thay đổi mô tả của chúng ta, chúng ta có thể chuyển vào một hàm ngay tại đây của E, viết tắt của 
+
+98
+00:08:36,900 --> 00:08:37,650
+sự kiện. 
+
+99
+00:08:39,169 --> 00:08:40,340
+Chức năng hàng không. 
+
+100
+00:08:41,289 --> 00:08:45,430
+Ở đây, chúng ta có thể chuyển sang chức năng thiết lập trạng thái. 
+
+101
+00:08:46,400 --> 00:08:48,050
+Vì vậy chúng ta có thể nói thiết lập mô tả. 
+
+102
+00:08:50,770 --> 00:08:52,000
+Dấu ngoặc đơn. 
+
+103
+00:08:53,120 --> 00:08:56,060
+Của e chấm mục tiêu giá trị dấu chấm. 
+
+104
+00:08:59,190 --> 00:09:03,930
+Vì vậy, ngay tại đây, thay vì sử dụng hàm trong một con trỏ để thay đổi mô tả. 
+
+105
+00:09:04,860 --> 00:09:06,240
+Chúng tôi đang nói về sự thay đổi. 
+
+106
+00:09:06,240 --> 00:09:07,680
+Chúng tôi muốn nắm bắt sự kiện này. 
+
+107
+00:09:09,870 --> 00:09:12,990
+Và chúng tôi muốn đặt mô tả dựa trên chức năng mũi tên. 
+
+108
+00:09:14,060 --> 00:09:16,550
+Có giá trị mục tiêu. 
+
+109
+00:09:19,040 --> 00:09:23,270
+Và chúng ta có thể làm điều tương tự khi thay đổi ở đây cho người được giao. 
+
+110
+00:09:23,450 --> 00:09:24,680
+Chúng ta có thể nói E! 
+
+111
+00:09:25,140 --> 00:09:26,190
+Chức năng hàng không. 
+
+112
+00:09:27,410 --> 00:09:31,070
+Đặt được gán cho từng giá trị mục tiêu. 
+
+113
+00:09:39,470 --> 00:09:40,850
+Và bây giờ một trong hai cái sẽ hoạt động. 
+
+114
+00:09:40,850 --> 00:09:43,790
+Nếu chúng tôi quay lại trình duyệt của mình và làm mới. 
+
+115
+00:09:45,750 --> 00:09:50,040
+Khi gõ, chúng ta sẽ không nhận được console.log nữa vì chúng ta xóa chức năng này vì chúng ta 
+
+116
+00:09:50,040 --> 00:09:51,690
+không còn gọi hàm này nữa. 
+
+117
+00:09:53,260 --> 00:09:56,080
+Nhưng những gì chúng tôi đang làm vẫn là thiết lập trạng thái. 
+
+118
+00:09:57,320 --> 00:10:00,920
+Và về bản chất, chúng tôi đang in trạng thái trở lại giá trị. 
+
+119
+00:10:03,570 --> 00:10:06,450
+Bây giờ hãy thoải mái sử dụng một trong hai phiên bản bạn muốn. 
+
+120
+00:10:07,170 --> 00:10:12,690
+Tôi sẽ sử dụng chức năng này bên trong hoặc khi thay đổi chỉ để chúng ta không có nhiều mã ở 
+
+121
+00:10:12,690 --> 00:10:13,380
+trên cùng. 
+
+122
+00:10:13,380 --> 00:10:15,690
+Vì vậy tôi sẽ lên đây và xóa cái này. 
+
+123
+00:10:16,400 --> 00:10:22,820
+Nhưng tôi muốn cho bạn thấy cách chúng tôi sử dụng sự kiện này để tự động thêm vào dữ liệu nhập vào biểu mẫu và đặt nó 
+
+124
+00:10:22,820 --> 00:10:23,810
+thành trạng thái của chúng tôi. 
+
+125
+00:10:24,690 --> 00:10:29,760
+Bây giờ, phần này kết thúc bài giảng về cách chúng ta sẽ thêm đầu vào thay đổi biểu mẫu và thiết lập 
+
+126
+00:10:29,760 --> 00:10:31,200
+giá trị đó cũng như thiết lập trạng thái.
+
+127
+00:10:31,380 --> 00:10:34,200
+Và tôi sẽ gặp bạn trong video tiếp theo.

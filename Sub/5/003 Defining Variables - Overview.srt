@@ -1,0 +1,419 @@
+1
+00:00:01,020 --> 00:00:03,870
+Trong video này, chúng tôi sẽ đề cập đến các biến kiểu chữ. 
+
+2
+00:00:06,740 --> 00:00:09,290
+Vì vậy TypeScript có một số kiểu cơ bản. 
+
+3
+00:00:09,980 --> 00:00:12,710
+Vì vậy, có giá trị sai đúng boolean. 
+
+4
+00:00:12,860 --> 00:00:18,960
+Có hỗ trợ số, chuỗi số nguyên và số dấu phẩy động cho dữ liệu văn bản. 
+
+5
+00:00:18,980 --> 00:00:21,320
+Bạn có thể đặt nó trong một trích dẫn đơn hoặc kép. 
+
+6
+00:00:21,950 --> 00:00:24,950
+Mọi hỗ trợ, mọi phép gán kiểu dữ liệu. 
+
+7
+00:00:25,580 --> 00:00:30,020
+Và sau đó là một số mục nâng cao khác các bạn có thể xem chi tiết tại link TypeScript. 
+
+8
+00:00:30,320 --> 00:00:30,950
+Tổ chức 
+
+9
+00:00:34,160 --> 00:00:34,460
+Được rồi. 
+
+10
+00:00:34,490 --> 00:00:36,720
+Vậy làm cách nào để xác định một biến trong TypeScript? 
+
+11
+00:00:36,740 --> 00:00:40,190
+Vì vậy, cú pháp cơ bản bạn sử dụng, từ khóa let, bạn đặt tên biến. 
+
+12
+00:00:40,190 --> 00:00:42,980
+Colin, Loại bằng giá trị ban đầu. 
+
+13
+00:00:44,230 --> 00:00:49,480
+Vì vậy, để làm ví dụ ở đây, tôi sẽ nói let Found dấu hai chấm boolean bằng true. 
+
+14
+00:00:50,180 --> 00:00:52,550
+Vì vậy, ở đây tìm thấy tên biến. 
+
+15
+00:00:52,820 --> 00:00:56,690
+Boolean là một loại và sau đó true là giá trị ban đầu. 
+
+16
+00:00:59,400 --> 00:01:02,380
+Và hãy xem một số ví dụ khác về việc xác định biến ở đây. 
+
+17
+00:01:02,400 --> 00:01:05,040
+Vì vậy, chúng tôi đã tìm thấy boolean bằng true. 
+
+18
+00:01:05,069 --> 00:01:07,470
+Vì vậy, các giá trị ở đây có thể đúng hoặc sai. 
+
+19
+00:01:08,160 --> 00:01:11,610
+Gọi lớp đó là số bằng 88,6. 
+
+20
+00:01:11,880 --> 00:01:15,780
+Và các giá trị ở đây có thể là 73, 64,5, 100. 
+
+21
+00:01:15,900 --> 00:01:18,390
+Vì vậy, số nguyên hoặc số thập phân. 
+
+22
+00:01:18,690 --> 00:01:24,500
+Đặt chuỗi tên bằng dấu hai chấm bằng Anoop hoặc họ Colin String bằng Kumar. 
+
+23
+00:01:24,510 --> 00:01:28,980
+Vì vậy, bạn có thể sử dụng dấu ngoặc kép cho chuỗi hoặc dấu ngoặc đơn hoàn toàn tùy thuộc vào bạn. 
+
+24
+00:01:31,810 --> 00:01:33,760
+Bây giờ từ khóa let trong bản đánh máy. 
+
+25
+00:01:33,760 --> 00:01:39,550
+Vì vậy, chúng tôi đang sử dụng từ khóa kiểu chữ mới, let để khai báo biến thay vì 
+
+26
+00:01:39,550 --> 00:01:40,740
+JavaScript truyền thống. 
+
+27
+00:01:40,750 --> 00:01:42,070
+Từ khóa Var. 
+
+28
+00:01:42,100 --> 00:01:48,550
+Từ khóa var trong JavaScript có một số vấn đề và cạm bẫy như các vấn đề về phạm vi, thu thập, 
+
+29
+00:01:48,550 --> 00:01:49,900
+theo dõi, v.v. 
+
+30
+00:01:49,900 --> 00:01:55,420
+Vì vậy từ khóa let trong bản đánh máy mới giúp loại bỏ những vấn đề đó. 
+
+31
+00:01:55,420 --> 00:01:59,200
+Vì vậy trong loạt video này tôi sẽ sử dụng từ khóa LET xuyên suốt. 
+
+32
+00:02:02,230 --> 00:02:04,720
+Bây giờ TypeScript đã được gõ mạnh. 
+
+33
+00:02:04,900 --> 00:02:08,590
+Vì vậy, ở đây tôi thiết lập các biến với kiểu đã cho của chúng. 
+
+34
+00:02:11,230 --> 00:02:15,760
+Và vì vậy tôi có thể gán nó cho các giá trị khác nhau miễn là nó thuộc loại đã cho. 
+
+35
+00:02:15,760 --> 00:02:17,130
+Vì vậy, điều này sẽ ổn thôi. 
+
+36
+00:02:17,140 --> 00:02:18,790
+Vì vậy tôi có thể nói tốt đồng nghĩa với sai. 
+
+37
+00:02:18,790 --> 00:02:19,690
+Không sao đâu. 
+
+38
+00:02:19,750 --> 00:02:19,960
+Tuyệt vời. 
+
+39
+00:02:19,960 --> 00:02:20,800
+Bằng 99. 
+
+40
+00:02:20,800 --> 00:02:23,590
+Họ và tên Eric đều biết, đúng không. 
+
+41
+00:02:23,590 --> 00:02:26,560
+Vì vậy, tất cả các loại này đều khớp với các loại mà chúng tôi đã xác định trước đó. 
+
+42
+00:02:26,560 --> 00:02:27,810
+Vậy đây là A-OK. 
+
+43
+00:02:27,820 --> 00:02:29,140
+Không vấn đề gì. 
+
+44
+00:02:32,900 --> 00:02:39,200
+Nhưng bây giờ chúng ta có thể gặp phải một số vấn đề nếu chúng ta thử gán một cái gì đó với một kiểu khác. 
+
+45
+00:02:39,230 --> 00:02:39,740
+Được rồi. 
+
+46
+00:02:39,740 --> 00:02:46,250
+Vì vậy, ở đây, nếu tôi nói tìm thấy bằng 0 thì bằng a, thì đó là một kiểu không khớp vì nó không khớp với 
+
+47
+00:02:46,250 --> 00:02:49,640
+kiểu đã cho mà ban đầu chúng ta xác định biến này. 
+
+48
+00:02:50,150 --> 00:02:53,260
+Và tên bằng sai, họ bằng 2099. 
+
+49
+00:02:53,270 --> 00:02:57,410
+Điều này cũng sẽ tạo ra lỗi biên dịch do loại không khớp. 
+
+50
+00:02:57,410 --> 00:02:58,790
+Và điều này thực sự rất tốt.
+
+51
+00:02:58,790 --> 00:03:04,670
+Thật tuyệt vời khi trình biên dịch tìm ra những lỗi này tại thời điểm biên dịch thay vì đợi cho đến khi 
+
+52
+00:03:04,670 --> 00:03:05,480
+chạy. 
+
+53
+00:03:05,780 --> 00:03:09,020
+Vì vậy, đây là một tính năng về TypeScript mà tôi thực sự rất thích. 
+
+54
+00:03:12,930 --> 00:03:20,490
+Bây giờ, TypeScript cũng có từ khóa bất kỳ, vì vậy tôi có thể nói dấu hai chấm dữ liệu của mình Any bằng 50,0. 
+
+55
+00:03:20,490 --> 00:03:23,880
+Vì vậy, điều đó có nghĩa là chúng ta có thể gán các giá trị khác nhau thuộc bất kỳ loại nào. 
+
+56
+00:03:24,540 --> 00:03:27,750
+Vì vậy, tôi có thể có dữ liệu của mình bằng sai, dữ liệu của tôi bằng. 
+
+57
+00:03:27,750 --> 00:03:32,340
+Eric Dữ liệu của tôi là 19 và tất cả sẽ vượt qua trình biên dịch. 
+
+58
+00:03:32,340 --> 00:03:33,960
+Được rồi, thế này là được rồi. 
+
+59
+00:03:33,960 --> 00:03:40,080
+Nhưng tôi muốn nói rằng hãy cẩn thận vì bạn mất đi sự an toàn về kiểu chữ và bạn bắt đầu mất đi rất nhiều tính năng 
+
+60
+00:03:40,080 --> 00:03:41,190
+của TypeScript. 
+
+61
+00:03:41,190 --> 00:03:43,660
+Vì vậy, bạn có thể tự hỏi, khi nào tôi sẽ sử dụng bất kỳ? 
+
+62
+00:03:43,680 --> 00:03:45,810
+Vâng, bạn có thể sử dụng bất kỳ loại thuốc generic nào. 
+
+63
+00:03:45,810 --> 00:03:50,070
+Vì vậy, nếu bạn đang thiết lập một danh sách hoặc một mảng, chúng có thể có các loại dữ liệu khác nhau. 
+
+64
+00:03:50,070 --> 00:03:52,290
+Sau đó, bạn có thể thiết lập nó bằng cách sử dụng bất kỳ. 
+
+65
+00:03:56,790 --> 00:03:57,170
+Được rồi. 
+
+66
+00:03:57,180 --> 00:04:00,630
+Để hiển thị đầu ra, bạn chỉ cần sử dụng console.log. 
+
+67
+00:04:00,630 --> 00:04:01,860
+Vì vậy, đây là một số ví dụ. 
+
+68
+00:04:01,860 --> 00:04:06,390
+Vì vậy, ở đây tôi có một console.log không tìm thấy, vì vậy nó sẽ in ra bất kỳ giá trị boolean nào. 
+
+69
+00:04:06,720 --> 00:04:09,870
+Đó là một console.log, tuyệt vời là tuyệt vời. 
+
+70
+00:04:09,870 --> 00:04:14,490
+Vì vậy, câu thần chú ở đây và bạn cũng có thể thực sự thích thú với việc nối chuỗi. 
+
+71
+00:04:14,490 --> 00:04:14,940
+CHÀO. 
+
+72
+00:04:14,970 --> 00:04:17,250
+Tên cộng với họ. 
+
+73
+00:04:17,250 --> 00:04:18,810
+Vì vậy, điều này sẽ cung cấp cho chúng tôi đầu ra ở đây. 
+
+74
+00:04:18,810 --> 00:04:19,350
+ĐÚNG VẬY. 
+
+75
+00:04:19,350 --> 00:04:20,970
+Lớn nhất là 88,6 rồi. 
+
+76
+00:04:20,970 --> 00:04:22,380
+Xin chào Anoop Kumar. 
+
+77
+00:04:25,720 --> 00:04:26,110
+Được rồi. 
+
+78
+00:04:26,110 --> 00:04:31,360
+Vì vậy, khi chạy ứng dụng, chúng tôi có tệp này ở đây của những người đánh máy mẫu, tôi biên dịch mã 
+
+79
+00:04:31,360 --> 00:04:34,420
+bằng TSC, đặt tên của tệp bản ghi. 
+
+80
+00:04:35,020 --> 00:04:37,870
+Vì vậy, hãy nhớ điều này tạo ra một tệp JS dấu chấm. 
+
+81
+00:04:38,410 --> 00:04:46,090
+Vì vậy, tôi có thể chạy tệp này bằng cách nói các loại mẫu nút JS và hãy nhớ rằng chúng tôi chạy tệp JS dấu chấm, 
+
+82
+00:04:46,090 --> 00:04:47,230
+tệp JavaScript được tạo. 
+
+83
+00:04:48,680 --> 00:04:49,780
+Và điều này sẽ cho chúng ta kết quả. 
+
+84
+00:04:49,790 --> 00:04:50,130
+ĐÚNG VẬY. 
+
+85
+00:04:50,150 --> 00:04:52,140
+The Great là 88,6 và cao. 
+
+86
+00:04:52,160 --> 00:04:53,330
+Anoop Kumar. 
+
+87
+00:04:56,310 --> 00:04:56,730
+Đã. 
+
+88
+00:04:56,730 --> 00:04:59,240
+Bạn cũng có thể sử dụng các chuỗi mẫu. 
+
+89
+00:04:59,250 --> 00:05:02,370
+Vì vậy, hãy xem lại ví dụ trước đó mà chúng ta đã có sớm hơn một chút. 
+
+90
+00:05:02,850 --> 00:05:07,140
+Và do đó, việc nối có thể trở nên rắc rối đối với những chuỗi rất dài. 
+
+91
+00:05:07,140 --> 00:05:09,900
+Và bạn có thể đã thấy điều này ở các ngôn ngữ lập trình khác. 
+
+92
+00:05:10,170 --> 00:05:12,480
+Vì vậy chúng ta có thể sử dụng các chuỗi mẫu ở đây. 
+
+93
+00:05:12,480 --> 00:05:14,520
+Vì vậy tôi có thể nói console.log. 
+
+94
+00:05:14,520 --> 00:05:16,650
+Xin chào, tên, họ. 
+
+95
+00:05:16,650 --> 00:05:20,490
+Vì vậy, hãy chú ý ở đây sự khác biệt mà tôi sử dụng dấu tích ngược, được chứ? 
+
+96
+00:05:20,490 --> 00:05:21,630
+Và sau đó tôi nói xin chào. 
+
+97
+00:05:21,630 --> 00:05:27,120
+Và sau đó để tham chiếu một biến, tôi sử dụng dấu ngoặc nhọn ký hiệu đô la và tôi đưa ra bất kỳ giá trị nào 
+
+98
+00:05:27,150 --> 00:05:27,660
+ở đây. 
+
+99
+00:05:27,660 --> 00:05:31,320
+Vì vậy, điều này rất hữu ích cho một chuỗi dài có nhiều chuỗi nối. 
+
+100
+00:05:31,320 --> 00:05:36,240
+Vì vậy, thay vì thực hiện tất cả các công cụ cộng, cộng, bạn chỉ cần tạo chuỗi mẫu của mình và sau đó
+
+101
+00:05:36,240 --> 00:05:38,310
+bạn tham chiếu các biến của mình cho phù hợp. 
+
+102
+00:05:38,310 --> 00:05:44,220
+Vì vậy, hãy làm sạch mã của bạn một chút nếu bạn có một chuỗi rất dài với nhiều phép nối. 
+
+103
+00:05:45,090 --> 00:05:46,800
+Được rồi, đây đều là những thứ thực sự tốt. 
+
+104
+00:05:46,890 --> 00:05:50,150
+Và video tiếp theo, chúng ta sẽ chuyển sang IDE và viết một số mã. 
+
+105
+00:05:50,160 --> 00:05:51,150
+Vậy tôi sẽ gặp bạn ở đó.

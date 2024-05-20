@@ -1,0 +1,231 @@
+1
+00:00:01,370 --> 00:00:01,880
+Được rồi. 
+
+2
+00:00:01,880 --> 00:00:06,530
+Vì vậy, hãy tiếp tục và thêm một chương trình nữa ở đây bằng cách sử dụng vòng lặp for. 
+
+3
+00:00:09,330 --> 00:00:11,130
+Vì vậy tôi sẽ tạo tập tin mới này. 
+
+4
+00:00:12,540 --> 00:00:14,550
+Và tôi sẽ gọi nó là thể thao. 
+
+5
+00:00:22,990 --> 00:00:23,950
+Và những gì tôi sẽ làm ở trên cùng. 
+
+6
+00:00:23,980 --> 00:00:27,940
+Tôi sẽ chỉ định nghĩa một mảng cho các môn thể thao, một mảng các chuỗi. 
+
+7
+00:00:39,280 --> 00:00:39,570
+Được rồi. 
+
+8
+00:00:39,610 --> 00:00:44,500
+Vì vậy, chúng tôi có dãy dây này cho các môn thể thao, chơi gôn, cricket, quần vợt và bơi lội. 
+
+9
+00:00:44,530 --> 00:00:48,970
+Vì vậy, để bắt đầu, tôi sẽ thực hiện theo cách truyền thống là chỉ sử dụng chỉ mục I ở đây. 
+
+10
+00:00:56,530 --> 00:01:01,180
+Và vì vậy tôi làm for loop console.log sports one sub i. 
+
+11
+00:01:15,550 --> 00:01:22,180
+Và sau đó trong cửa sổ terminal, tôi chỉ cần biên dịch mã thể thao và sau đó chạy nó. 
+
+12
+00:01:22,180 --> 00:01:24,070
+Thể thao chấm JS. 
+
+13
+00:01:25,210 --> 00:01:27,190
+Và sau đó chúng ta thấy kết quả đầu ra của mảng. 
+
+14
+00:01:31,810 --> 00:01:32,260
+Được rồi. 
+
+15
+00:01:32,260 --> 00:01:36,700
+Vì vậy, trong ví dụ này, tôi sẽ sử dụng vòng lặp for được đơn giản hóa. 
+
+16
+00:01:37,120 --> 00:01:44,530
+Vì vậy, ở đây tôi sẽ nói rằng hãy lưu ý đến môn thể thao tạm thời của các môn thể thao này. 
+
+17
+00:01:45,040 --> 00:01:49,360
+Và bây giờ tôi có thể dễ dàng thực hiện trực tiếp console.log trên trò chơi tạm thời. 
+
+18
+00:01:56,750 --> 00:01:57,820
+Được rồi, có vẻ khá tốt. 
+
+19
+00:01:57,830 --> 00:02:02,030
+Vì vậy, một lần nữa, chỉ cần di chuyển xuống đây, biên dịch mã một lần nữa. 
+
+20
+00:02:04,010 --> 00:02:05,000
+Và sau đó chạy nó. 
+
+21
+00:02:06,700 --> 00:02:10,240
+Và sau đó chúng ta sẽ thấy màn hình thể thao và chúng ta thực sự sẽ thấy hai đợt. 
+
+22
+00:02:10,419 --> 00:02:15,160
+Vì vậy, đợt đầu tiên chủ yếu sử dụng phương pháp truyền thống và sau đó đợt thứ hai sử dụng 
+
+23
+00:02:15,160 --> 00:02:17,230
+phương pháp vòng lặp for đơn giản hóa. 
+
+24
+00:02:25,100 --> 00:02:29,840
+Vì vậy, tôi sẽ chỉ nhận xét đợt đầu tiên lên trên để tôi không gặp lại điều đó, chỉ sử dụng một 
+
+25
+00:02:29,840 --> 00:02:31,070
+phiên bản đơn giản hóa. 
+
+26
+00:02:37,540 --> 00:02:41,200
+Và bây giờ điều tôi sẽ làm là bổ sung và hỗ trợ các điều kiện ở đây. 
+
+27
+00:02:41,200 --> 00:02:43,870
+Vì vậy, nếu hỗ trợ tạm thời bằng cricket. 
+
+28
+00:02:44,650 --> 00:02:48,460
+Sau đó tôi muốn nói với họ rằng, Này, đây là môn thể thao yêu thích của tôi. 
+
+29
+00:02:56,480 --> 00:02:56,840
+Khác. 
+
+30
+00:02:56,840 --> 00:02:58,610
+Chúng tôi chỉ in trò chơi. 
+
+31
+00:03:07,400 --> 00:03:07,820
+Được rồi. 
+
+32
+00:03:07,820 --> 00:03:09,080
+Vậy đó là Ray của chúng ta. 
+
+33
+00:03:09,080 --> 00:03:13,400
+Và thực sự hãy để tôi xóa mã mà tôi đã có ở đây. 
+
+34
+00:03:13,400 --> 00:03:16,130
+Vì vậy, mã cũ, hãy loại bỏ nó. 
+
+35
+00:03:21,810 --> 00:03:26,070
+Và vì vậy, chúng tôi chỉ cần thực hiện, biên dịch và chạy lại mã của mình rồi kiểm tra kết quả. 
+
+36
+00:03:30,730 --> 00:03:34,510
+Và chúng ta thấy môn cricket, nó nói, Này, môn thể thao yêu thích của tôi. 
+
+37
+00:03:35,240 --> 00:03:37,190
+Vấn đề thẩm mỹ nhỏ đó. 
+
+38
+00:03:37,190 --> 00:03:40,310
+Tôi không thêm khoảng trắng ở khoảng trắng phía trên. 
+
+39
+00:03:41,570 --> 00:03:43,340
+Và sau đó chỉ cần làm điều đó một lần nữa. 
+
+40
+00:03:45,950 --> 00:03:46,430
+Thế đấy. 
+
+41
+00:03:46,430 --> 00:03:47,680
+Vì vậy, bây giờ nó trông khá đẹp. 
+
+42
+00:03:48,230 --> 00:03:53,870
+Dù sao, đây là một ví dụ hay về việc sử dụng vòng lặp for, mảng và cả các điều kiện. 
+
+43
+00:03:53,870 --> 00:03:55,250
+Làm tốt lắm. 
+
+44
+00:03:58,230 --> 00:04:04,080
+Được rồi, chúng ta hãy tiếp tục và chuyển sang đây và xem một ví dụ mã hóa bằng cách sử dụng mảng toàn cục. 
+
+45
+00:04:07,160 --> 00:04:08,930
+Vì vậy tôi sẽ tạo một tập tin mới ở đây. 
+
+46
+00:04:11,970 --> 00:04:13,290
+Tôi sẽ gọi nó là Xóa toàn cầu. 
+
+47
+00:04:13,710 --> 00:04:14,340
+Đúng. 
+
+48
+00:04:22,230 --> 00:04:24,570
+Vì vậy, trước tiên tôi sẽ thiết lập mảng ban đầu. 
+
+49
+00:04:24,570 --> 00:04:28,080
+Vậy môn thể thao thứ hai, và tôi sẽ chỉ thêm ba môn thể thao vào mảng. 
+
+50
+00:04:35,660 --> 00:04:39,320
+Và bây giờ thêm một số mục bổ sung vào mảng.
+
+51
+00:04:39,320 --> 00:04:48,560
+Vì vậy, mảng toàn cầu này, tôi nói thể thao cần thúc đẩy và tôi sẽ thúc đẩy bóng chày cũng như bóng đá. 
+
+52
+00:04:55,420 --> 00:05:00,790
+Và sau đó tôi sẽ chỉ cần thiết lập một vòng lặp for và in ra từng môn thể thao trong mảng. 
+
+53
+00:05:14,950 --> 00:05:19,210
+Và sau đó tôi chỉ cần di chuyển xuống cửa sổ terminal của mình và biên dịch và chạy. 
+
+54
+00:05:24,680 --> 00:05:26,930
+Và nhìn vào kết quả đầu ra của chúng tôi, chúng tôi có các môn thể thao của mình. 
+
+55
+00:05:26,930 --> 00:05:32,540
+Vì vậy, ba môn đầu tiên là những môn thể thao ban đầu có trong mảng và sau đó hai môn còn lại là những 
+
+56
+00:05:32,540 --> 00:05:35,510
+môn mà chúng tôi đã thêm vào mảng toàn cầu này. 
+
+57
+00:05:35,780 --> 00:05:36,820
+Điều này có vẻ khá tốt. 
+
+58
+00:05:36,830 --> 00:05:37,670
+Tôi đang hạnh phúc.

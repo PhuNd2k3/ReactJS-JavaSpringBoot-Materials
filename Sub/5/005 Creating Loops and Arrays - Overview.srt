@@ -1,0 +1,303 @@
+1
+00:00:01,250 --> 00:00:04,280
+Trong video này, chúng ta sẽ đề cập đến các vòng lặp và mảng bản thảo. 
+
+2
+00:00:06,480 --> 00:00:08,810
+Vì vậy, trong TypeScript chúng ta có thể sử dụng vòng lặp for. 
+
+3
+00:00:08,820 --> 00:00:11,850
+Vì vậy, tôi có tập tin này ở đây, các vòng lặp mà tôi đã thiết lập một vòng lặp for. 
+
+4
+00:00:11,850 --> 00:00:13,200
+Tôi để tôi bằng không. 
+
+5
+00:00:13,230 --> 00:00:20,670
+Tôi có ít hơn năm I cộng cộng và tôi có thể chỉ cần in ra giá trị đó bằng console.log I để chúng tôi 
+
+6
+00:00:20,670 --> 00:00:22,530
+biên dịch mã bằng TSC. 
+
+7
+00:00:23,580 --> 00:00:25,560
+Và sau đó chúng tôi chỉ chạy nó bằng lệnh nút. 
+
+8
+00:00:25,560 --> 00:00:29,640
+Vậy Node Loops đang chạy mã JavaScript đó. 
+
+9
+00:00:30,670 --> 00:00:35,440
+Và sau đó nó sẽ cung cấp cho chúng ta kết quả mong muốn, giống như bạn mong đợi ở bất kỳ ngôn ngữ lập trình nào khác. 
+
+10
+00:00:38,120 --> 00:00:41,990
+Chúng ta cũng có thể sử dụng vòng lặp for để lặp qua một mảng số. 
+
+11
+00:00:43,780 --> 00:00:44,050
+Được rồi. 
+
+12
+00:00:44,050 --> 00:00:46,110
+Vì vậy điều tôi sẽ làm ở đây là khai báo một mảng. 
+
+13
+00:00:46,120 --> 00:00:50,050
+Vậy đây là một mảng đánh giá, số dấu ngoặc vuông. 
+
+14
+00:00:50,050 --> 00:00:51,450
+Vì vậy, đó là cho mảng của chúng tôi. 
+
+15
+00:00:51,460 --> 00:00:53,710
+Và chúng ta có thể cung cấp cho nó một số giá trị ban đầu ở đây. 
+
+16
+00:00:54,610 --> 00:00:56,050
+Và sau đó tôi sẽ chỉ thiết lập một vòng lặp for. 
+
+17
+00:00:56,050 --> 00:01:01,240
+Hãy để tôi bằng không mắt ít hơn đánh giá, chiều dài dấu chấm cộng với cộng. 
+
+18
+00:01:01,660 --> 00:01:07,150
+Và sau đó tôi chỉ cần in ra đánh giá đã cho để console.log đánh giá phụ i. 
+
+19
+00:01:07,180 --> 00:01:10,480
+Đó là cách chúng tôi lập chỉ mục cho mảng đã cho. 
+
+20
+00:01:12,660 --> 00:01:13,050
+Thứ gì đó. 
+
+21
+00:01:13,050 --> 00:01:15,510
+Chúng tôi chỉ cần biên dịch và chạy mã và được rồi. 
+
+22
+00:01:15,510 --> 00:01:17,060
+Và vì vậy chúng tôi nhận được đầu ra mong muốn. 
+
+23
+00:01:17,070 --> 00:01:17,970
+Trông khá tốt. 
+
+24
+00:01:21,130 --> 00:01:24,340
+Và chúng ta cũng có thể sử dụng vòng lặp for và thực hiện các phép toán. 
+
+25
+00:01:24,340 --> 00:01:27,910
+Vì vậy, trong ví dụ này, tôi sẽ tính giá trị trung bình của các bài đánh giá. 
+
+26
+00:01:28,760 --> 00:01:32,450
+Vì vậy, ở đây tôi để tổng số bằng 0 và sau đó tôi có bốn. 
+
+27
+00:01:32,450 --> 00:01:40,400
+Tôi bằng 0 nhỏ hơn độ dài đã giảm của phần đánh giá nhật ký bảng điều khiển phụ I và ở đây tôi nói tổng cộng với các đánh giá bằng nhau phụ 
+
+28
+00:01:40,400 --> 00:01:40,830
+I. 
+
+29
+00:01:40,850 --> 00:01:44,630
+Vì vậy, điều này cũng giống như nói tổng bằng tổng cộng với các đánh giá phụ I. 
+
+30
+00:01:45,500 --> 00:01:50,840
+Vì vậy, tôi có tổng số các bài đánh giá ở đây và thì tôi có thể tính mức trung bình bằng cách nói trung bình bằng 
+
+31
+00:01:50,840 --> 00:01:53,890
+tổng chia cho độ dài đánh giá. 
+
+32
+00:01:53,900 --> 00:01:56,570
+Và sau đó tôi chỉ cần hiển thị kết quả đó. 
+
+33
+00:01:58,840 --> 00:01:59,340
+Và trong này. 
+
+34
+00:01:59,410 --> 00:02:01,210
+Hãy cho chúng tôi kết quả ở đây. 
+
+35
+00:02:01,210 --> 00:02:04,090
+Vì vậy, điểm đánh giá trung bình bằng 3,7. 
+
+36
+00:02:07,410 --> 00:02:09,030
+Vì vậy bây giờ chúng tôi được tăng lương. 
+
+37
+00:02:09,539 --> 00:02:11,490
+Chúng ta có thể thiết lập một loạt các môn thể thao. 
+
+38
+00:02:11,490 --> 00:02:16,200
+Vì vậy, hãy để thể thao một chuỗi trong ngoặc vuông và tôi đưa ra danh sách các môn thể thao. 
+
+39
+00:02:16,230 --> 00:02:16,740
+Golf. 
+
+40
+00:02:16,740 --> 00:02:17,100
+Bóng chày. 
+
+41
+00:02:17,100 --> 00:02:17,520
+Quần vợt. 
+
+42
+00:02:17,520 --> 00:02:18,270
+Bơi lội. 
+
+43
+00:02:18,510 --> 00:02:22,320
+Và sau đó tôi nói, Hãy để tôi coi số 0 nhỏ hơn thể thao. 
+
+44
+00:02:22,320 --> 00:02:26,250
+Một độ dài I cộng với console.log thể hiện một I phụ. 
+
+45
+00:02:26,280 --> 00:02:30,960
+Vì vậy, một lần nữa, chúng ta chỉ cần lập chỉ mục vào mảng và sẽ in ra bất kỳ phần tử chuỗi nào có ở đó. 
+
+46
+00:02:30,960 --> 00:02:35,160
+Vì vậy, chúng tôi sẽ in ra những môn thể thao nhất định được xác định trong mảng này. 
+
+47
+00:02:38,310 --> 00:02:41,640
+Và họ cũng có cú pháp vòng lặp for được đơn giản hóa. 
+
+48
+00:02:43,700 --> 00:02:45,710
+Vì vậy, ở đây chúng ta có mảng chuỗi. 
+
+49
+00:02:45,710 --> 00:02:53,160
+Và bây giờ tôi có thể nói về một môn thể thao tạm thời. Vì vậy, hãy chú ý đến và sau đó tôi thực hiện một bảng điều khiển để đăng nhập
+
+50
+00:02:53,180 --> 00:02:57,860
+temp sport để nó sẽ cung cấp cho tôi phần tử mảng hiện tại. 
+
+51
+00:02:57,860 --> 00:03:02,810
+Vì vậy, không phải chỉ mục như I hay bất kỳ phần tử thực tế nào. 
+
+52
+00:03:03,110 --> 00:03:07,010
+Vì vậy, ở đây chúng ta có được kết quả mong muốn như chơi gôn, cricket, tennis, bơi lội. 
+
+53
+00:03:07,010 --> 00:03:11,330
+Vòng lặp for được đơn giản hóa mà bạn đã thấy trong các ngôn ngữ lập trình khác. 
+
+54
+00:03:14,520 --> 00:03:17,250
+Và sau đó chúng ta cũng có thể sử dụng các điều kiện trong vòng lặp for của mình. 
+
+55
+00:03:17,250 --> 00:03:21,990
+Đây là mã từ slide trước, nhưng tôi chỉ thêm vào một phần mới ở đây. 
+
+56
+00:03:22,380 --> 00:03:27,750
+Vì vậy tôi sẽ nói nếu môn thể thao tạm thời tương đương với môn cricket, thì đó là điều kiện của chúng tôi ở đây. 
+
+57
+00:03:27,750 --> 00:03:31,890
+Tôi sẽ nói console.log hỗ trợ tạm thời cộng với yêu thích của tôi. 
+
+58
+00:03:31,890 --> 00:03:33,210
+Tôi yêu môn cricket. 
+
+59
+00:03:33,690 --> 00:03:35,610
+Nếu không, chúng tôi chỉ cần in ra trò chơi. 
+
+60
+00:03:37,920 --> 00:03:39,030
+Và vì vậy chúng tôi chạy cái này. 
+
+61
+00:03:39,030 --> 00:03:41,670
+Chúng ta sẽ đi xem golf, cricket, môn yêu thích của tôi. 
+
+62
+00:03:41,670 --> 00:03:43,500
+Và sau đó là quần vợt và bơi lội. 
+
+63
+00:03:46,810 --> 00:03:47,110
+Được rồi. 
+
+64
+00:03:47,110 --> 00:03:48,510
+Vì vậy, hãy nhìn vào mảng toàn cầu. 
+
+65
+00:03:48,520 --> 00:03:52,180
+Vì vậy, mảng và TypeScript luôn mang tính toàn cầu, luôn năng động. 
+
+66
+00:03:53,970 --> 00:03:59,690
+Vì vậy, ở đây chúng tôi thiết lập tập tin thể thao này, hai dấu ngoặc vuông, gôn, cricket, quần vợt. 
+
+67
+00:03:59,700 --> 00:04:03,330
+Và sau đó tôi thực hiện một môn thể thao đẩy bóng chày hai điểm. 
+
+68
+00:04:03,330 --> 00:04:09,450
+Vì vậy, ở đây chúng tôi đang thêm các phần tử vào mảng và sau đó thêm các môn thể thao vào môn bóng đá thúc đẩy đó. 
+
+69
+00:04:10,150 --> 00:04:12,990
+Và tôi có thể tiếp tục thêm bao nhiêu phần tử vào đây tùy thích. 
+
+70
+00:04:13,000 --> 00:04:15,150
+Họ có thể phát triển tương ứng. 
+
+71
+00:04:15,160 --> 00:04:17,089
+Và sau đó tôi có một vòng lặp for đơn giản ở đây. 
+
+72
+00:04:17,110 --> 00:04:22,690
+Tôi sẽ chỉ xem qua và in ra nội dung của mảng bằng cách sử dụng môn thể thao tạm thời của môn thể thao thứ hai, 
+
+73
+00:04:22,690 --> 00:04:27,340
+sau đó cũng cho tôi chơi gôn, cricket, quần vợt, bóng chày và bóng đá. 
+
+74
+00:04:29,600 --> 00:04:29,870
+Được rồi. 
+
+75
+00:04:29,930 --> 00:04:31,030
+Vì vậy, một số ví dụ thực sự tốt. 
+
+76
+00:04:31,040 --> 00:04:34,460
+Hãy tiếp tục và chuyển sang ID của chúng ta và viết một số mã.

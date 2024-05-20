@@ -1,0 +1,259 @@
+1
+00:00:02,390 --> 00:00:02,780
+Được rồi. 
+
+2
+00:00:02,780 --> 00:00:08,450
+Vì vậy, để tiếp tục phần chúng tôi đã dừng lại, chúng tôi đã thêm một chức năng việc cần làm mới cho phép chúng tôi thêm nó vào 
+
+3
+00:00:08,450 --> 00:00:09,770
+biểu mẫu của mình. 
+
+4
+00:00:10,040 --> 00:00:15,380
+Vì vậy, khi chúng tôi gửi biểu mẫu, nó sẽ thêm nó vào danh sách của chúng tôi và thêm nó vào cuối bằng cách tạo cái 
+
+5
+00:00:15,380 --> 00:00:20,510
+mới này để làm với các giá trị mà chúng tôi được chuyển qua các đạo cụ làm tham số và sau đó thiết lập cái mới của chúng tôi 
+
+6
+00:00:20,510 --> 00:00:24,620
+để làm bằng cách cấu trúc việc cần làm và sau đó thêm việc cần làm mới. 
+
+7
+00:00:26,090 --> 00:00:30,290
+Chà, một điều mà chúng tôi thấy khi mở ứng dụng của mình và ngay cả khi chúng tôi làm mới ứng dụng, 
+
+8
+00:00:30,290 --> 00:00:35,120
+đó là chúng tôi nhận được cảnh báo này, mỗi đứa trẻ trong danh sách phải có một khóa chống đỡ duy nhất. 
+
+9
+00:00:36,220 --> 00:00:43,960
+Bây giờ, đây là một cách để React có thể đảm bảo rằng danh sách của bạn an toàn khi tạo danh sách và 
+
+10
+00:00:43,960 --> 00:00:47,470
+đảm bảo rằng mỗi thành phần đều độc lập với nhau. 
+
+11
+00:00:49,780 --> 00:00:54,400
+Vì vậy, điều tôi đang nói là, nếu bạn quay lại ứng dụng của mình và chúng tôi mở Explorer và đi 
+
+12
+00:00:54,400 --> 00:00:56,200
+tới bảng việc cần làm của chúng tôi. 
+
+13
+00:00:57,980 --> 00:01:05,930
+Chúng tôi có đạo cụ này để thực hiện bản đồ và chúng tôi đang chuyển việc cần làm của mình trong việc tạo một mục hai hàng mới dựa trên 
+
+14
+00:01:05,930 --> 00:01:08,510
+mỗi mục cần thực hiện để được chuyển vào ứng dụng của chúng tôi. 
+
+15
+00:01:08,990 --> 00:01:11,360
+Vâng khi chúng tôi đi đến làm mục hàng. 
+
+16
+00:01:13,990 --> 00:01:19,810
+Chúng tôi nhận thấy rằng chúng tôi đang chuyển giao rất nhiều việc cần làm, nhưng chúng tôi không sử dụng bất kỳ thứ gì ngăn cách giữa 
+
+17
+00:01:19,810 --> 00:01:21,880
+việc cần làm với nhau. 
+
+18
+00:01:22,840 --> 00:01:27,100
+Vì vậy, hãy phân biệt từng việc cần làm trong danh sách mà chúng tôi đang tạo này. 
+
+19
+00:01:27,980 --> 00:01:33,920
+Là các giá trị bằng nhau và không có gì được sử dụng để xác định hoặc xác định duy nhất từng hàng cần thực hiện. 
+
+20
+00:01:34,400 --> 00:01:40,680
+Vì vậy, những gì React yêu cầu bạn phải làm là phải có ID hoặc số nhận dạng duy nhất của riêng bạn. 
+
+21
+00:01:40,700 --> 00:01:43,340
+Và chúng tôi đã làm điều đó theo số hàng. 
+
+22
+00:01:44,680 --> 00:01:48,520
+Và mỗi số hàng sẽ hoàn toàn khác nhau. 
+
+23
+00:01:49,460 --> 00:01:55,280
+Vì vậy, những gì chúng ta có thể làm là nếu chúng ta đi vào hàng hai, chúng ta cần nhập một biến mới mà chúng ta chuyển 
+
+24
+00:01:55,280 --> 00:01:56,240
+vào dưới dạng chỗ dựa. 
+
+25
+00:01:56,240 --> 00:01:58,760
+Như vậy chúng ta đã có hàng, số, hàng, mô tả trong hàng được gán. 
+
+26
+00:01:59,390 --> 00:02:02,870
+Và điều React muốn chúng ta làm là truyền một key vào. 
+
+27
+00:02:04,150 --> 00:02:07,090
+Và một lần nữa, phím này hoàn toàn ở trạng thái phản ứng. 
+
+28
+00:02:07,090 --> 00:02:13,060
+Để xác định từng mục hoặc từng thành phần của mục cần làm là khác nhau. 
+
+29
+00:02:13,780 --> 00:02:17,290
+Vì vậy, chúng ta có thể nói khóa bằng dấu ngoặc để làm số hàng. 
+
+30
+00:02:19,410 --> 00:02:26,640
+Vì vậy, bây giờ chúng ta đã nói khóa bằng dấu ngoặc 22. số đường do đó bây giờ phản ứng biết rằng khóa này 
+
+31
+00:02:26,640 --> 00:02:32,700
+sẽ có mã định danh duy nhất và nó sẽ đảm bảo rằng mỗi mục thực hiện hàng được biên dịch 
+
+32
+00:02:32,700 --> 00:02:34,440
+có các khóa riêng biệt. 
+
+33
+00:02:34,860 --> 00:02:41,310
+Vì vậy, bây giờ nếu chúng ta truy cập vào trình duyệt của mình và làm mới ứng dụng, buổi sáng quan trọng của chúng ta sẽ không còn nữa vì 
+
+34
+00:02:41,310 --> 00:02:43,310
+hiện tại chúng ta đang chuyển chìa khóa cho thuộc tính. 
+
+35
+00:02:43,620 --> 00:02:47,190
+Và mỗi hàng có mã định danh duy nhất của riêng nó. 
+
+36
+00:02:48,710 --> 00:02:54,350
+Bây giờ, hãy thực hiện thêm một thay đổi nữa, chỉ để thực sự đảm bảo rằng khi chúng tôi thêm vào ứng dụng này và chúng tôi bắt đầu
+
+37
+00:02:54,350 --> 00:02:59,240
+có thể xóa hình xăm duy nhất, số nhận dạng luôn duy nhất. 
+
+38
+00:03:01,000 --> 00:03:05,740
+Vì vậy, trong quảng cáo của chúng tôi cần làm ngay bây giờ, chúng tôi chỉ kiểm tra độ dài và sau đó tạo số hàng, là 
+
+39
+00:03:05,740 --> 00:03:10,060
+số nhận dạng duy nhất của chúng tôi, chỉ nhiều hơn số cuối cùng trong danh sách một số. 
+
+40
+00:03:11,620 --> 00:03:16,690
+Chà, khi chúng tôi bắt đầu xóa các mục, số đường này có thể không còn là duy nhất nữa. 
+
+41
+00:03:16,690 --> 00:03:19,480
+Và hai hoặc hai số cần làm có thể có cùng số. 
+
+42
+00:03:19,480 --> 00:03:22,900
+Vì vậy, những gì chúng ta cần làm chỉ là thêm một chút logic nữa. 
+
+43
+00:03:23,550 --> 00:03:26,430
+Vì vậy, hãy bắt đầu bằng cách nói số hàng bằng 0. 
+
+44
+00:03:29,950 --> 00:03:34,450
+Và sau đó chúng tôi muốn nói liệu chiều dài chấm hình xăm có lớn hơn 0 hay không. 
+
+45
+00:03:35,490 --> 00:03:39,210
+Sau đó, chúng tôi muốn nói số hàng bằng dos. 
+
+46
+00:03:42,250 --> 00:03:45,340
+Và sau đó chúng ta sẽ tìm chỉ số độ dài ngày hôm nay trừ đi một. 
+
+47
+00:03:45,340 --> 00:03:50,350
+Vì vậy, yếu tố cuối cùng, chúng ta sẽ tìm số đường đó và sau đó chỉ cần cộng một con đường. 
+
+48
+00:03:59,710 --> 00:04:06,610
+Sau đó, chúng ta muốn lấy phần cuối của câu lệnh if và chuyển dấu ngoặc này lên cho đến sau câu lệnh này. 
+
+49
+00:04:09,310 --> 00:04:11,380
+Và bây giờ hãy nói dấu ngoặc khác. 
+
+50
+00:04:12,260 --> 00:04:14,000
+Số hàng bằng một. 
+
+51
+00:04:16,279 --> 00:04:22,040
+Vì vậy, những gì chúng tôi đang làm ở đây là chuyển mô tả và số hàng let được chỉ định bằng 0, 
+
+52
+00:04:22,040 --> 00:04:24,950
+đây sẽ là mã định danh duy nhất cho mỗi việc cần làm. 
+
+53
+00:04:25,520 --> 00:04:29,570
+Nếu để làm được điều đó thì độ dài lớn hơn 0, nghĩa là chúng ta phải làm những việc cần làm trong danh sách này. 
+
+54
+00:04:30,050 --> 00:04:34,100
+Chúng ta muốn nói số hàng bằng dos với độ dài dos trừ đi một. 
+
+55
+00:04:34,100 --> 00:04:37,400
+Vì vậy, trong trường hợp này, nó sẽ tìm việc cuối cùng để làm, đó là việc này. 
+
+56
+00:04:38,870 --> 00:04:43,880
+Chúng ta sẽ lấy số hàng là bốn, sau đó chỉ cần cộng một để thành năm. 
+
+57
+00:04:44,120 --> 00:04:48,380
+Nếu không có hình xăm nào trong danh sách thì chúng ta sẽ nói số hàng bằng một. 
+
+58
+00:04:49,040 --> 00:04:51,920
+Và đối với hai cái mới, chúng ta có cần số hàng không? 
+
+59
+00:04:53,510 --> 00:04:57,260
+Và bây giờ chúng ta sẽ chuyển qua số đường mà chúng ta đã xác định ở đây. 
+
+60
+00:04:58,220 --> 00:05:01,760
+Mô tả hàng bằng mô tả và hàng được gán bằng được chỉ định. 
+
+61
+00:05:04,530 --> 00:05:10,260
+Vì vậy, nếu tôi lưu ứng dụng ngay bây giờ và quay lại trình duyệt và làm mới, chúng ta sẽ thấy rằng khóa 
+
+62
+00:05:10,260 --> 00:05:12,870
+đã biến mất và nếu chúng ta thêm một khóa mới được gán. 
+
+63
+00:05:13,900 --> 00:05:15,160
+Bất kỳ mô tả mới. 
+
+64
+00:05:17,560 --> 00:05:19,060
+Và chúng ta bấm thêm để làm. 
+
+65
+00:05:19,090 --> 00:05:22,120
+Chúng ta sẽ thấy không có thay đổi chức năng nào trong ứng dụng của mình.

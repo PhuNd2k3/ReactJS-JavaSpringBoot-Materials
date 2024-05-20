@@ -1,0 +1,379 @@
+1
+00:00:01,070 --> 00:00:03,980
+Trong video này, chúng tôi sẽ đề cập đến những điều cơ bản về TypeScript. 
+
+2
+00:00:07,240 --> 00:00:09,160
+Vậy chính xác thì TypeScript là gì? 
+
+3
+00:00:09,190 --> 00:00:11,450
+Chà, đó là ngôn ngữ được phát triển bởi Microsoft. 
+
+4
+00:00:11,470 --> 00:00:13,750
+Bản phát hành đầu tiên của nó là vào năm 2012. 
+
+5
+00:00:13,780 --> 00:00:20,710
+TypeScript mã nguồn mở và miễn phí cung cấp hỗ trợ gõ tĩnh cho JavaScript, vì vậy điều này giúp bạn 
+
+6
+00:00:20,710 --> 00:00:24,970
+hỗ trợ IDE về mặt hoàn thiện mã, gỡ lỗi, v.v. 
+
+7
+00:00:25,000 --> 00:00:31,780
+TypeScript cũng bổ sung hỗ trợ cho lập trình hướng đối tượng như lớp, đối tượng, 
+
+8
+00:00:31,780 --> 00:00:33,150
+giao diện kế thừa, v.v. 
+
+9
+00:00:33,160 --> 00:00:40,480
+Vì vậy, nó thực sự chỉ giúp việc sử dụng hệ sinh thái hoặc môi trường JavaScript theo kiểu được biên dịch dễ dàng hơn. 
+
+10
+00:00:40,480 --> 00:00:42,700
+Đó chính là vẻ đẹp thực sự của TypeScript. 
+
+11
+00:00:43,240 --> 00:00:46,660
+Và bạn có thể biết thêm chi tiết về TypeScript tại trang web chính thức. 
+
+12
+00:00:46,660 --> 00:00:48,610
+TypeScript lain dot org. 
+
+13
+00:00:52,140 --> 00:00:53,490
+Để phát triển phản ứng. 
+
+14
+00:00:53,490 --> 00:00:58,110
+Chúng tôi có thể phát triển nó bằng nhiều ngôn ngữ khác nhau để bạn có thể sử dụng JavaScript. 
+
+15
+00:00:58,110 --> 00:01:00,300
+Đó là một ngôn ngữ lập trình cực kỳ phổ biến. 
+
+16
+00:01:00,300 --> 00:01:03,720
+Bạn cũng có thể sử dụng để viết kịch bản phiên bản JavaScript được tiêu chuẩn hóa. 
+
+17
+00:01:03,750 --> 00:01:08,730
+Bạn sẽ thấy các tài liệu tham khảo như ES6 và S9, v.v. 
+
+18
+00:01:09,520 --> 00:01:10,810
+Ngoài ra còn có TypeScript. 
+
+19
+00:01:10,810 --> 00:01:16,900
+Vì vậy, nó bổ sung thêm các loại JavaScript tùy chọn và thậm chí bạn có thể phát triển ứng dụng React bằng các ngôn ngữ khác như 
+
+20
+00:01:16,900 --> 00:01:18,460
+DART, v.v. 
+
+21
+00:01:19,730 --> 00:01:24,500
+Hiện tại, TypeScript là ngôn ngữ phổ biến nhất để phát triển React và tôi sẽ nói nhiều hơn về điều đó 
+
+22
+00:01:24,500 --> 00:01:25,130
+sau. 
+
+23
+00:01:25,160 --> 00:01:27,140
+Vì vậy, hãy nhìn vào các mối quan hệ. 
+
+24
+00:01:27,260 --> 00:01:31,200
+Vì vậy, TypeScript là một siêu tập lệnh JavaScript và tập lệnh lược đồ. 
+
+25
+00:01:31,220 --> 00:01:35,540
+Vậy là bạn có JavaScript cốt lõi hoặc JavaScript thuần túy. 
+
+26
+00:01:35,570 --> 00:01:41,750
+Sau đó, bạn có tập lệnh, đây là phiên bản tiêu chuẩn của JavaScript và sau đó bạn có TypeScript. 
+
+27
+00:01:41,780 --> 00:01:45,710
+Vì vậy, đây là nơi chúng tôi thêm các loại tùy chọn vào môi trường lập trình JavaScript. 
+
+28
+00:01:48,690 --> 00:01:53,490
+Và có lẽ bạn đang tự hỏi, được thôi, tại sao hầu hết các nhà phát triển lại sử dụng TypeScript? 
+
+29
+00:01:53,520 --> 00:01:58,830
+Tại sao họ không sử dụng tập lệnh Dart hoặc Ekman hoặc chỉ đơn giản là JavaScript thuần túy? 
+
+30
+00:01:59,130 --> 00:02:05,230
+Chà, TypeScript là một ngôn ngữ được gõ mạnh với khả năng kiểm tra thời gian biên dịch và hỗ trợ IDE. 
+
+31
+00:02:05,250 --> 00:02:11,550
+Vì vậy, đối với các dự án rất lớn, điều này giúp tăng năng suất và hiệu quả của nhà phát triển. 
+
+32
+00:02:12,000 --> 00:02:13,800
+Vì vậy, đó là một ý tưởng thực sự tốt để học hỏi. 
+
+33
+00:02:13,800 --> 00:02:17,250
+TypeScript nếu bạn thực sự nghiêm túc trong việc phát triển React. 
+
+34
+00:02:20,840 --> 00:02:21,260
+Được rồi. 
+
+35
+00:02:21,260 --> 00:02:24,680
+Vì vậy, trong khóa học này, tôi sẽ tập trung vào kết quả thực tế. 
+
+36
+00:02:24,680 --> 00:02:28,010
+Vì vậy, đây thực sự chỉ là phần giới thiệu về phát triển TypeScript. 
+
+37
+00:02:28,250 --> 00:02:30,130
+Đây không phải là tài liệu tham khảo từ A đến Z. 
+
+38
+00:02:30,140 --> 00:02:35,360
+Nếu bạn cần một tài liệu tham khảo đầy đủ về TypeScript, tôi khuyên bạn hãy xem tài liệu TypeScript và tài liệu đó 
+
+39
+00:02:35,360 --> 00:02:37,820
+có sẵn tại TypeScript Laying dot org. 
+
+40
+00:02:37,820 --> 00:02:43,310
+Nhưng chúng tôi sẽ cung cấp đủ thông tin thực tế để giúp chúng tôi xây dựng các ứng dụng nhất định của mình. 
+
+41
+00:02:45,790 --> 00:02:46,150
+Được rồi. 
+
+42
+00:02:46,160 --> 00:02:47,920
+Vì vậy, chúng ta hãy nhìn vào quá trình phát triển.
+
+43
+00:02:47,920 --> 00:02:52,510
+Vì vậy, điều đầu tiên chúng ta sẽ làm là tạo mã bản thảo, sau đó chúng ta sẽ biên dịch mã và sau đó 
+
+44
+00:02:52,510 --> 00:02:53,800
+chúng ta sẽ thực sự chạy mã. 
+
+45
+00:02:53,800 --> 00:02:56,830
+Và đây là một quá trình từng bước nhưng ở mức độ rất cao. 
+
+46
+00:02:56,830 --> 00:03:01,720
+Đây là quy trình cơ bản mà bạn sẽ thực hiện với bất kỳ loại ngôn ngữ lập trình được biên dịch nào. 
+
+47
+00:03:04,660 --> 00:03:05,050
+Được rồi. 
+
+48
+00:03:05,050 --> 00:03:06,970
+Vì vậy, bước một, tạo mã bản thảo. 
+
+49
+00:03:06,970 --> 00:03:08,980
+Vì vậy, chúng tôi tạo một tập tin văn bản. 
+
+50
+00:03:09,070 --> 00:03:11,860
+Các tệp bản thảo của chúng tôi sẽ có phần mở rộng dấu chấm CS. 
+
+51
+00:03:11,860 --> 00:03:13,870
+Vì vậy, tôi có tập tin này ở đây được gọi là bản demo của tôi. 
+
+52
+00:03:14,920 --> 00:03:18,330
+Và ở đây tôi chỉ đơn giản nói Console.log Xin chào thế giới. 
+
+53
+00:03:18,340 --> 00:03:21,310
+Nó sẽ chỉ ghi một tin nhắn vào bảng điều khiển thực tế. 
+
+54
+00:03:21,310 --> 00:03:21,760
+Và thế là xong. 
+
+55
+00:03:21,760 --> 00:03:23,740
+Rất đơn giản, rất đơn giản. 
+
+56
+00:03:26,910 --> 00:03:29,280
+Và sau đó là bước thứ hai của quá trình biên dịch mã. 
+
+57
+00:03:29,280 --> 00:03:34,860
+Vì vậy, các trình duyệt web không hiểu TypeScript một cách tự nhiên mà chúng chỉ có thể hiểu được JavaScript. 
+
+58
+00:03:34,860 --> 00:03:41,190
+Vì vậy, bằng cách nào đó chúng ta cần chuyển đổi mã TypeScript của mình sang mã JavaScript và điều này được gọi là chuyển đổi 
+
+59
+00:03:41,190 --> 00:03:42,100
+tệp. 
+
+60
+00:03:42,540 --> 00:03:44,070
+Thuật ngữ hài hước đang diễn ra. 
+
+61
+00:03:44,070 --> 00:03:46,260
+Vì vậy, chúng tôi đang dịch việc biên dịch dấu gạch chéo. 
+
+62
+00:03:46,260 --> 00:03:51,810
+Vì vậy, chúng tôi có mã bản thảo, viết CSS demo và sau đó chúng tôi sẽ chuyển đổi nó thành 
+
+63
+00:03:51,810 --> 00:03:54,810
+mã JavaScript và chúng tôi sẽ chuyển nó sang mã JavaScript. 
+
+64
+00:03:54,810 --> 00:03:57,480
+Và vì vậy chúng ta sẽ kết thúc với tập tin này được gọi là bản demo của tôi. 
+
+65
+00:03:57,810 --> 00:04:02,070
+JS Vì vậy, chúng tôi đang dịch việc biên dịch dấu gạch chéo. 
+
+66
+00:04:04,060 --> 00:04:05,200
+Đã thấy nhiều hơn một chút ở đây. 
+
+67
+00:04:05,200 --> 00:04:08,890
+Vì vậy, việc chuyển hồ sơ được thực hiện bằng lệnh TSK. 
+
+68
+00:04:08,890 --> 00:04:15,850
+Vì vậy, tệp của chúng tôi ở đây, ngày demo của tôi sẽ sử dụng lệnh tsk để thực sự truyền mã và điều này 
+
+69
+00:04:15,850 --> 00:04:18,930
+sẽ tạo ra JS dấu chấm demo của tôi. 
+
+70
+00:04:18,940 --> 00:04:20,980
+Đó là mã JavaScript thực tế. 
+
+71
+00:04:22,480 --> 00:04:28,480
+Vì vậy, dòng lệnh của chúng tôi sẽ chỉ sử dụng dấu cách tsk, tên tệp cho nhiệm vụ demo của tôi, vì vậy chúng tôi đưa ra tham chiếu 
+
+72
+00:04:28,480 --> 00:04:33,450
+đến tệp bản thảo và sau đó sẽ thực sự tạo tệp JavaScript đã cho. 
+
+73
+00:04:33,460 --> 00:04:35,710
+Bản demo chấm JS của tôi. 
+
+74
+00:04:38,640 --> 00:04:43,260
+Và sau đó để thực sự chạy mã, chúng ta sẽ thực sự chạy mã JavaScript và sử dụng 
+
+75
+00:04:43,260 --> 00:04:44,690
+lệnh nút. 
+
+76
+00:04:44,700 --> 00:04:49,710
+Vì vậy, chúng ta sẽ chạy mã JavaScript được tạo và chúng ta sẽ chạy tệp JS dấu chấm. 
+
+77
+00:04:51,610 --> 00:04:56,010
+Vì vậy, tại dòng lệnh, chúng ta sẽ nói nút và sau đó chúng ta sẽ đưa ra một tham chiếu đến mã JavaScript. 
+
+78
+00:04:56,020 --> 00:05:04,260
+Vì vậy, ở đây tôi sẽ có Node JS demo của tôi và nó sẽ cung cấp cho chúng tôi Hello world vì bản thân tệp của chúng tôi đã có console.log 
+
+79
+00:05:04,270 --> 00:05:05,010
+Hello world. 
+
+80
+00:05:05,020 --> 00:05:10,270
+Vì vậy, điều quan trọng ở đây là chúng ta đang chạy mã JavaScript được tạo, tệp JS dấu chấm. 
+
+81
+00:05:12,580 --> 00:05:14,860
+Vì vậy, bạn có thể thắc mắc, tại sao chúng tôi lại biên dịch? 
+
+82
+00:05:14,860 --> 00:05:21,040
+Chà, trình biên dịch là bạn của bạn, vì vậy trình biên dịch hoặc IDE có thể tìm thấy lỗi trong thời gian biên dịch. 
+
+83
+00:05:21,040 --> 00:05:24,160
+Vì vậy, nếu tôi viết một số mã ở đây như công cụ console.log. 
+
+84
+00:05:24,160 --> 00:05:25,180
+Chào thế giới. 
+
+85
+00:05:26,070 --> 00:05:30,360
+Vì vậy, tôi chỉ viết mã ở đây để xem bản demo đang biên dịch mã ở đây.
+
+86
+00:05:30,510 --> 00:05:35,830
+Sau đó, nó sẽ cho tôi biết, Này, nội dung được ghi trong nhật ký thuộc tính này không tồn tại, blah, blah, blah. 
+
+87
+00:05:35,850 --> 00:05:37,230
+Vì vậy, điều này là rất tốt. 
+
+88
+00:05:37,230 --> 00:05:41,970
+Bạn muốn tìm lỗi của mình sớm hơn so với JavaScript thông thường, nơi bạn chỉ tìm thấy 
+
+89
+00:05:41,970 --> 00:05:43,350
+lỗi khi chạy. 
+
+90
+00:05:43,350 --> 00:05:50,370
+Vì vậy, một lần nữa, các trình biên dịch của bạn sẽ giúp bạn tìm ra lỗi sớm để giúp bạn tiết kiệm rất nhiều thời gian và đau đầu. 
+
+91
+00:05:51,920 --> 00:05:52,280
+Được rồi. 
+
+92
+00:05:52,280 --> 00:05:53,460
+Vì vậy, đây là những điều cơ bản ở đây. 
+
+93
+00:05:53,480 --> 00:05:54,950
+Chúng ta sẽ chuyển sang video tiếp theo. 
+
+94
+00:05:54,950 --> 00:05:59,000
+Chúng ta sẽ đi sâu vào ID và tiếp tục viết chương trình TypeScript đầu tiên của mình. 
+
+95
+00:05:59,000 --> 00:06:01,580
+Vì vậy, tôi sẽ gặp bạn trong video tiếp theo.

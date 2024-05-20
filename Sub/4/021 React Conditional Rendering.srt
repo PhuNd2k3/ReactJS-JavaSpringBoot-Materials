@@ -1,0 +1,279 @@
+1
+00:00:02,150 --> 00:00:08,119
+Được rồi, bây giờ đối với video React này, chúng ta sẽ triển khai hiển thị có điều kiện. 
+
+2
+00:00:08,780 --> 00:00:11,750
+Bây giờ, điều này có nghĩa là chúng ta truy cập vào trình duyệt của mình. 
+
+3
+00:00:11,780 --> 00:00:17,870
+Chúng tôi có những việc cần làm này ở trên cùng của việc cho chó con ăn cây nước, sạc bữa tối, pin điện thoại 
+
+4
+00:00:17,870 --> 00:00:22,820
+và chúng tôi có thể thêm những việc cần làm mới và chúng tôi có thể xóa bằng cách nhấp vào đây. 
+
+5
+00:00:22,820 --> 00:00:29,960
+Nút Thêm việc cần làm mới không thực hiện bất cứ điều gì, nhưng sẽ rất tốt nếu hiển thị những việc cần làm này mà không phải lúc nào cũng 
+
+6
+00:00:29,960 --> 00:00:31,190
+hiển thị biểu mẫu này. 
+
+7
+00:00:32,880 --> 00:00:34,810
+Vì vậy chúng ta hãy thực hiện việc bổ sung mới này để làm. 
+
+8
+00:00:34,830 --> 00:00:39,930
+Hãy thay đổi cách diễn đạt và tất cả những điều đó để khi bạn nhấp vào nó, nó sẽ đóng biểu mẫu này và 
+
+9
+00:00:39,930 --> 00:00:42,720
+khi bạn nhấp vào nó, nó sẽ mở qua lại. 
+
+10
+00:00:45,370 --> 00:00:50,050
+Vì vậy, hãy quay lại mã của chúng ta và ở trên cùng, chúng ta sẽ thêm trạng thái vì trạng thái cần được 
+
+11
+00:00:50,050 --> 00:00:52,540
+thay đổi để hiển thị lại chế độ xem máy khách. 
+
+12
+00:00:53,480 --> 00:01:01,520
+Vì vậy, hãy tiếp tục và tạo một trạng thái phối hợp mới, sau đó dưới dạng một chương trình mảng, thêm biểu mẫu và chương trình. 
+
+13
+00:01:01,520 --> 00:01:02,510
+Thêm vào biểu mẫu. 
+
+14
+00:01:06,870 --> 00:01:08,690
+Trạng thái sử dụng bằng nhau. 
+
+15
+00:01:08,700 --> 00:01:12,390
+Và chúng ta sẽ đặt ngày này ban đầu là sai. 
+
+16
+00:01:17,990 --> 00:01:22,550
+Được rồi, bây giờ chúng ta hãy phát triển dần dần cho đến khi chúng ta có thể đến lớp nút của mình. 
+
+17
+00:01:22,550 --> 00:01:26,030
+Tên của nút nút chính có nội dung thêm mới để làm. 
+
+18
+00:01:26,820 --> 00:01:29,880
+Và hãy thay đổi điều này thành việc mới để làm. 
+
+19
+00:01:35,830 --> 00:01:39,670
+Và bây giờ hãy tạo một trình nghe khi nhấp chuột vào nút của chúng ta. 
+
+20
+00:01:40,830 --> 00:01:45,270
+Điều đó sẽ xảy ra khi nhấp vào dấu ngoặc bằng và chúng ta sẽ tạo một hàm mũi tên ẩn danh. 
+
+21
+00:01:47,090 --> 00:01:49,340
+Hàm mũi tên trong ngoặc đơn. 
+
+22
+00:01:49,940 --> 00:01:57,170
+Và chúng ta sẽ thiết lập biểu mẫu hiển thị thêm để làm tương đương với biểu mẫu hiển thị, thêm vào làm. 
+
+23
+00:01:57,170 --> 00:01:59,300
+Vì vậy, nếu nó đúng, nó sẽ được đổi thành sai. 
+
+24
+00:01:59,300 --> 00:02:03,800
+Và nếu nó sai, nó sẽ được đổi thành true vì chúng ta đang gán giá trị này ngược lại với giá 
+
+25
+00:02:03,800 --> 00:02:05,720
+trị vốn có của nó dưới dạng boolean. 
+
+26
+00:02:06,750 --> 00:02:07,290
+Được rồi. 
+
+27
+00:02:07,290 --> 00:02:15,120
+Và bây giờ khi chúng ta đã có bộ này, hãy tiếp tục và đi xuống đây quanh biểu mẫu công việc mới này. 
+
+28
+00:02:17,030 --> 00:02:19,730
+Và ở đây chúng ta sẽ thực hiện kết xuất có điều kiện. 
+
+29
+00:02:20,450 --> 00:02:22,700
+Và chúng ta có thể làm điều này bằng cách thực hiện dấu ngoặc kép. 
+
+30
+00:02:24,100 --> 00:02:29,860
+Và bây giờ bên trong khung, chúng ta cần thực hiện một số loại đánh giá như câu lệnh if để xem liệu 
+
+31
+00:02:29,860 --> 00:02:31,180
+điều gì đó có đúng hay không. 
+
+32
+00:02:31,780 --> 00:02:38,860
+Và nếu nó đúng, chúng ta có thể nói sau đó kết xuất đoạn mã này để có thể nói hiển thị, thêm vào biểu mẫu. 
+
+33
+00:02:39,100 --> 00:02:45,400
+Nếu nó đúng thì chúng ta có thể nói kết thúc và nó có nghĩa và hiển thị đoạn mã tiếp theo này. 
+
+34
+00:02:45,670 --> 00:02:52,180
+Vì vậy, hãy hiển thị biểu mẫu thêm công việc và trong phần sẽ di chuyển biểu mẫu công việc mới của chúng tôi bên trong dấu ngoặc kép. 
+
+35
+00:02:53,900 --> 00:02:55,970
+Vì vậy bây giờ nếu chúng ta kết xuất ứng dụng này. 
+
+36
+00:02:57,980 --> 00:02:58,250
+TRONG. 
+
+37
+00:02:58,250 --> 00:03:01,970
+Chúng ta làm mới màn hình thì thấy biểu mẫu không hiển thị. 
+
+38
+00:03:02,000 --> 00:03:04,490
+Đó là bởi vì ban đầu chúng tôi đặt trạng thái thành sai. 
+
+39
+00:03:05,030 --> 00:03:06,410
+Và nếu chúng ta nói mới phải làm. 
+
+40
+00:03:07,720 --> 00:03:12,040
+Biểu mẫu được tạo bên dưới và bây giờ chúng ta có thể thêm nội dung vào biểu mẫu của mình.
+
+41
+00:03:16,410 --> 00:03:18,300
+Tuy nhiên chúng ta lại bấm mới để làm.
+
+42
+00:03:19,170 --> 00:03:22,680
+Biểu mẫu sẽ đóng vì chúng ta đang đặt trạng thái ngược lại. 
+
+43
+00:03:22,680 --> 00:03:24,030
+Vì vậy, sự thật và sai. 
+
+44
+00:03:24,510 --> 00:03:28,650
+Tuy nhiên, từ mới cần làm chỉ thực sự có tác dụng khi bạn muốn mở nó ra. 
+
+45
+00:03:29,160 --> 00:03:32,010
+Nó thực sự không có ý nghĩa khi bạn muốn đóng nó. 
+
+46
+00:03:32,250 --> 00:03:34,410
+Vì vậy, hãy tiếp tục nhập mã và sửa lỗi này. 
+
+47
+00:03:41,010 --> 00:03:45,570
+Vì vậy, những gì chúng tôi có thể làm ở đây là nút nội bộ nơi chúng tôi nói những việc mới cần làm. 
+
+48
+00:03:45,660 --> 00:03:53,070
+Chúng ta có thể viết mã điều kiện tương tự bằng cách sử dụng toán tử bậc ba để thay đổi cách diễn đạt của nút này. 
+
+49
+00:03:55,350 --> 00:03:57,240
+Vì vậy tôi sẽ xóa cái này mới để làm. 
+
+50
+00:03:59,000 --> 00:04:02,270
+Tôi sẽ nói dấu ngoặc hiển thị thêm vào biểu mẫu do. 
+
+51
+00:04:03,220 --> 00:04:04,390
+Dấu chấm hỏi. 
+
+52
+00:04:05,380 --> 00:04:07,660
+Báo giá duy nhất đóng mới để làm. 
+
+53
+00:04:08,520 --> 00:04:10,440
+Colon biết phải làm gì. 
+
+54
+00:04:14,170 --> 00:04:14,440
+Được rồi. 
+
+55
+00:04:14,440 --> 00:04:16,839
+Bây giờ, đây được gọi là toán tử bậc ba. 
+
+56
+00:04:17,050 --> 00:04:21,940
+Vì vậy, chúng ta đang nói nếu điều này đúng thì hãy thực hiện câu đầu tiên sau dấu chấm hỏi. 
+
+57
+00:04:21,940 --> 00:04:23,470
+Gần gũi quá, mới làm được. 
+
+58
+00:04:24,130 --> 00:04:25,750
+Và nếu điều này là sai. 
+
+59
+00:04:26,600 --> 00:04:28,010
+Làm mới phải làm. 
+
+60
+00:04:28,010 --> 00:04:31,670
+Và chúng ta đang gán đoạn văn này cho nút mà chúng ta đang ở trong đó. 
+
+61
+00:04:34,080 --> 00:04:35,940
+Vì vậy, nếu chúng ta quay lại ứng dụng của mình. 
+
+62
+00:04:38,020 --> 00:04:40,870
+Và làm mới chỉ để đảm bảo chúng tôi được cập nhật. 
+
+63
+00:04:41,080 --> 00:04:43,660
+Chúng ta có thể nói mới để làm bấm vào nó. 
+
+64
+00:04:44,730 --> 00:04:51,330
+Biểu mẫu mở ra và sau đó chúng ta có thể nói đóng mới để làm để đóng nó và chúng ta có thể nhấp vào những hình xăm này để 
+
+65
+00:04:51,330 --> 00:04:55,290
+xóa chúng hoặc chúng ta có thể nói mới để thêm một số loại việc cần làm. 
+
+66
+00:04:57,060 --> 00:05:00,600
+Đã phải làm như thế thì mới có thể nói là gần làm được. 
+
+67
+00:05:00,810 --> 00:05:02,160
+Và chúng tôi đã có nó. 
+
+68
+00:05:02,160 --> 00:05:09,930
+Chúng tôi có ứng dụng React to do bao gồm rất nhiều kiến ​​thức cơ bản về React và điều này sẽ giúp ích rất nhiều 
+
+69
+00:05:09,930 --> 00:05:15,540
+cho việc tiến tới ứng dụng Stack React đầy đủ mà chúng tôi sẽ xây dựng trong khóa học này. 
+
+70
+00:05:16,530 --> 00:05:23,130
+Phần này kết thúc bài giảng về cách hiển thị có điều kiện và tôi sẽ gặp bạn trong video tiếp theo.

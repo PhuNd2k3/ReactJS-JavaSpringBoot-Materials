@@ -1,0 +1,179 @@
+1
+00:00:02,350 --> 00:00:03,010
+Mọi người. 
+
+2
+00:00:03,010 --> 00:00:10,450
+Và bây giờ khi chúng tôi đang tạo bảng việc cần làm trong các mục từ hai hàng đến nhau, chúng tôi gặp phải một lỗi nhỏ có thể 
+
+3
+00:00:10,450 --> 00:00:13,240
+là vấn đề khi danh sách việc cần làm của chúng tôi ngày càng lớn hơn. 
+
+4
+00:00:13,270 --> 00:00:19,540
+Và vấn đề đó là chúng tôi đặc biệt yêu cầu chỉ in ba để làm các mục hàng. 
+
+5
+00:00:20,380 --> 00:00:27,190
+Ví dụ: nếu chúng tôi quay lại apks của mình và tạo một mục việc cần làm hoàn toàn mới. 
+
+6
+00:00:28,870 --> 00:00:34,720
+Và giả sử điều cần làm là hàng số bốn với dòng mô tả về sạc pin điện thoại. 
+
+7
+00:00:34,750 --> 00:00:36,910
+Và hàng được chỉ định là một người dùng. 
+
+8
+00:00:43,540 --> 00:00:45,880
+Nếu chúng ta lưu cái này và sau đó bắt đầu LPM. 
+
+9
+00:00:50,460 --> 00:00:56,070
+Và sau khi tải xong, chúng tôi mở trình duyệt và làm mới trang. 
+
+10
+00:00:56,070 --> 00:00:59,490
+Chúng ta có thể thấy rằng chúng ta vẫn chỉ in ba mục. 
+
+11
+00:01:00,630 --> 00:01:06,780
+Đó là bởi vì chúng tôi đặc biệt yêu cầu trong bảng việc cần làm của mình là chỉ in ba mục. 
+
+12
+00:01:07,410 --> 00:01:13,650
+Nhưng điều chúng ta thực sự muốn làm là tạo một mục hai hàng mới cho mỗi phần tử trong mảng hai 
+
+13
+00:01:13,650 --> 00:01:14,280
+dos của chúng ta. 
+
+14
+00:01:16,840 --> 00:01:20,800
+Chà, hiện tại chúng tôi đang nói cụ thể là chỉ tạo ba. 
+
+15
+00:01:21,820 --> 00:01:27,700
+Chà, để làm điều này, chúng ta cần sử dụng hàm JavaScript của bản đồ chấm, nó sẽ tạo ra một mảng mới 
+
+16
+00:01:27,700 --> 00:01:30,940
+sẽ hiển thị một mục hai hàng mỗi lần. 
+
+17
+00:01:33,210 --> 00:01:35,820
+Vì vậy, ví dụ, hãy xóa tất cả những thứ này cho đến nay. 
+
+18
+00:01:37,690 --> 00:01:41,350
+Và bên trong đây, tôi sẽ nói hai dấu ngoặc. 
+
+19
+00:01:43,540 --> 00:01:46,360
+Và bây giờ tôi sẽ nói những điều cần làm. 
+
+20
+00:01:50,390 --> 00:01:57,560
+Dấu ngoặc đơn bản đồ dấu chấm để thực hiện chức năng mũi tên cho dấu ngoặc đơn khác. 
+
+21
+00:01:58,990 --> 00:02:01,810
+Và bên trong đây tôi sẽ nói với hai hàng. 
+
+22
+00:02:05,020 --> 00:02:08,889
+Với số đường bằng dấu ngoặc từ hai đến số hàng. 
+
+23
+00:02:20,390 --> 00:02:23,990
+Mô tả hàng, tương đương với mô tả hai hàng. 
+
+24
+00:02:32,560 --> 00:02:36,670
+Và được gán lại, tương đương với hai hàng được gán. 
+
+25
+00:02:43,110 --> 00:02:50,250
+Và điều chúng tôi đang nói ở đây là tuyến tiền liệt của chúng tôi sẽ làm như vậy đối với mọi bộ phận trong phạm vi việc cần làm của chúng tôi. 
+
+26
+00:02:50,610 --> 00:02:57,540
+Chúng tôi muốn nói bản đồ chấm cho việc cần làm mới này và việc cần làm này trước khi hàm mũi tên đại diện cho 
+
+27
+00:02:57,540 --> 00:03:01,050
+từng thành phần trong danh sách việc cần làm của chúng tôi. 
+
+28
+00:03:02,580 --> 00:03:09,150
+Vì vậy, thay vì nói cụ thể việc cần làm ở chỉ số 0, lần đầu tiên thao tác này thực hiện sẽ 
+
+29
+00:03:09,150 --> 00:03:10,590
+là chỉ số 0. 
+
+30
+00:03:11,160 --> 00:03:12,570
+Lần thứ hai điều này chạy. 
+
+31
+00:03:13,520 --> 00:03:17,960
+Việc cần làm sẽ là chỉ mục đầu tiên, v.v. 
+
+32
+00:03:17,960 --> 00:03:26,600
+Vì vậy, những gì chúng ta có thể nói ở đây là thực hiện mục hàng, số hàng bằng thực hiện hàng số hàng, mô tả bằng 
+
+33
+00:03:26,600 --> 00:03:31,640
+thực hiện mô tả hàng và hàng được gán bằng với hàng được chỉ định. 
+
+34
+00:03:32,240 --> 00:03:39,320
+Và bởi vì chúng ta có bốn phần tử trong or to dos hoặc to do row item sẽ hiển thị bốn lần riêng biệt. 
+
+35
+00:03:40,010 --> 00:03:46,130
+Vì vậy, bây giờ nếu chúng ta quay lại ứng dụng của mình, chúng ta có thể thấy rằng chúng ta có một, hai, ba, bốn. 
+
+36
+00:03:46,250 --> 00:03:51,290
+Thức ăn cho chó con, cây nước của chúng tôi đang nấu bữa tối và sạc pin điện thoại. 
+
+37
+00:03:53,210 --> 00:03:59,000
+Và điều này là do, một lần nữa, chúng tôi đang hiển thị thành phần này mỗi lần. 
+
+38
+00:03:59,950 --> 00:04:08,350
+Đối với mỗi mục trong mảng to dos mà chúng ta chuyển vào bảng to dos dưới dạng một thuộc tính.
+
+39
+00:04:11,110 --> 00:04:15,040
+Không, chức năng này chúng tôi luôn sử dụng và phản hồi mọi lúc. 
+
+40
+00:04:15,040 --> 00:04:19,070
+Chúng ta cần kết xuất các thành phần dựa trên một số mục trong danh sách. 
+
+41
+00:04:19,089 --> 00:04:21,279
+Chúng tôi sẽ luôn sử dụng chức năng này. 
+
+42
+00:04:21,279 --> 00:04:23,710
+Vì vậy, đây là điều rất, rất quan trọng cần biết. 
+
+43
+00:04:24,620 --> 00:04:29,870
+Nhưng điều này kết thúc bài giảng về cách tạo động các thành phần dựa trên số lượng mục 
+
+44
+00:04:29,870 --> 00:04:30,840
+trong một mảng. 
+
+45
+00:04:30,860 --> 00:04:33,740
+Và tôi sẽ gặp bạn trong video tiếp theo.

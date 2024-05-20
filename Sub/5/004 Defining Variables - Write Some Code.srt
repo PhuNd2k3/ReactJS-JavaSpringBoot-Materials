@@ -1,0 +1,355 @@
+1
+00:00:01,260 --> 00:00:01,580
+Được rồi. 
+
+2
+00:00:01,589 --> 00:00:03,870
+Vì vậy hãy tiếp tục và chuyển sang ID của chúng ta. 
+
+3
+00:00:05,250 --> 00:00:08,460
+Và đây là phần về cách sử dụng các biến. 
+
+4
+00:00:10,710 --> 00:00:14,940
+Vì vậy, tôi sẽ tạo một thư mục mới ở đây và phần đào tạo về bản thảo của tôi. 
+
+5
+00:00:17,550 --> 00:00:19,440
+Và tôi sẽ gọi nó là, ồ, hai biến. 
+
+6
+00:00:25,970 --> 00:00:28,580
+Và tôi cũng sẽ tạo một tập tin mới trong thư mục này ở đây. 
+
+7
+00:00:33,470 --> 00:00:35,940
+Tôi sẽ gọi đó là người đánh máy mẫu. 
+
+8
+00:00:46,720 --> 00:00:50,080
+Vì vậy, tôi sẽ chỉ vào đây và định nghĩa một số biến ở đây. 
+
+9
+00:00:54,540 --> 00:00:56,910
+Vì vậy, tìm thấy boolean bằng đúng. 
+
+10
+00:00:59,390 --> 00:01:01,520
+Điểm bằng 88,6. 
+
+11
+00:01:09,420 --> 00:01:10,740
+Họ tên Anoop. 
+
+12
+00:01:17,430 --> 00:01:18,600
+Họ? 
+
+13
+00:01:18,600 --> 00:01:19,620
+Kumar. 
+
+14
+00:01:28,580 --> 00:01:33,470
+Và vì vậy hãy lưu ý ở đây về chuỗi, bạn có thể sử dụng dấu ngoặc kép hoặc dấu ngoặc đơn hoàn toàn tùy thuộc vào bạn. 
+
+15
+00:01:34,040 --> 00:01:38,360
+Và hãy tiếp tục và hiển thị một số kết quả bằng console.log. 
+
+16
+00:01:41,550 --> 00:01:46,620
+Và vì vậy tôi sẽ chỉ cần truy cập bảng điều khiển đó, đăng nhập vào từng biến mà chúng ta đã xác định. 
+
+17
+00:02:03,430 --> 00:02:07,020
+Và đối với các tên ở đây, tôi sẽ chỉ sử dụng cách nối chuỗi ở đây. 
+
+18
+00:02:07,030 --> 00:02:07,330
+CHÀO. 
+
+19
+00:02:07,360 --> 00:02:09,580
+Tên, cộng với họ. 
+
+20
+00:02:13,060 --> 00:02:15,290
+Vì vậy hãy tiếp tục và mở một cửa sổ terminal ở đây. 
+
+21
+00:02:20,350 --> 00:02:22,120
+Chỉ cần thay đổi kích thước của nó một chút. 
+
+22
+00:02:26,660 --> 00:02:28,460
+Và hãy để tôi thu nhỏ lại. 
+
+23
+00:02:28,970 --> 00:02:30,560
+Hãy cho chúng tôi một chút không gian ở đây. 
+
+24
+00:02:31,340 --> 00:02:33,390
+Vì vậy, hãy chuyển sang thư mục mới mà chúng ta có. 
+
+25
+00:02:33,410 --> 00:02:34,610
+Ồ, hai biến. 
+
+26
+00:02:36,340 --> 00:02:40,450
+Và bây giờ tôi sẽ biên dịch tệp bằng cách sử dụng số liệu thống kê loại mẫu TSC. 
+
+27
+00:02:44,480 --> 00:02:47,330
+Và bây giờ hãy sử dụng lệnh nút để chạy ứng dụng. 
+
+28
+00:02:47,330 --> 00:02:50,690
+Vì vậy, ở đây tôi có các kiểu mẫu nút JS. 
+
+29
+00:02:52,800 --> 00:02:54,300
+Và sau đó ở đây chúng ta thấy đầu ra thông qua. 
+
+30
+00:02:54,300 --> 00:02:56,050
+Mức tuyệt vời là 88,6 và cao. 
+
+31
+00:02:56,070 --> 00:02:57,240
+Anoop Kumar. 
+
+32
+00:02:58,140 --> 00:02:58,910
+Điều đó có vẻ khá tốt. 
+
+33
+00:02:58,910 --> 00:02:59,510
+Tôi thích nó. 
+
+34
+00:03:03,260 --> 00:03:08,210
+Bây giờ chúng ta hãy phóng to ở đây và thử phá vỡ nó. 
+
+35
+00:03:09,200 --> 00:03:11,480
+Hãy xem trình biên dịch này hoạt động như thế nào. 
+
+36
+00:03:13,630 --> 00:03:15,820
+Vì vậy, ở đây tôi sẽ đặt số không tìm thấy. 
+
+37
+00:03:15,820 --> 00:03:16,030
+Phải. 
+
+38
+00:03:16,030 --> 00:03:20,300
+Vì vậy, điều đó sẽ gây ra lỗi vì bạn biết đấy, một boolean không thể được gán bằng 0. 
+
+39
+00:03:20,320 --> 00:03:20,900
+Tốt. 
+
+40
+00:03:20,920 --> 00:03:23,230
+Vì vậy, ngay cả ID cũng cho chúng ta biết điều này. 
+
+41
+00:03:30,990 --> 00:03:33,060
+Và đặt điểm bằng a. 
+
+42
+00:03:33,220 --> 00:03:35,230
+Và một lần nữa một chút. 
+
+43
+00:03:36,020 --> 00:03:37,790
+Thông báo lỗi ở đó, thật tuyệt. 
+
+44
+00:03:37,820 --> 00:03:38,510
+Làm tốt lắm. 
+
+45
+00:03:45,950 --> 00:03:48,690
+Tôi sẽ thử thực hiện một số phép gán kỳ lạ cho tên. 
+
+46
+00:03:55,300 --> 00:03:55,780
+Rất tốt. 
+
+47
+00:03:55,780 --> 00:03:57,760
+Vì vậy, tôi có cái này và tôi lưu nó. 
+
+48
+00:03:57,790 --> 00:04:00,310
+Bây giờ chúng ta hãy tiếp tục và biên dịch cái này. 
+
+49
+00:04:01,600 --> 00:04:03,700
+Cổ phiếu loại mẫu TSE. 
+
+50
+00:04:04,720 --> 00:04:06,640
+Và trong trình biên dịch. 
+
+51
+00:04:06,670 --> 00:04:07,390
+Tốt. 
+
+52
+00:04:07,390 --> 00:04:10,750
+Vì vậy, nó cho biết đã tìm thấy ba lỗi và chúng tôi sẽ liệt kê ra những lỗi đó. 
+
+53
+00:04:10,750 --> 00:04:13,360
+Và đây là những thứ tương tự mà chúng ta đã thấy trong IDE. 
+
+54
+00:04:13,360 --> 00:04:14,110
+Thật tuyệt. 
+
+55
+00:04:14,110 --> 00:04:15,250
+Tôi hạnh phúc về điều đó. 
+
+56
+00:04:18,769 --> 00:04:22,460
+Ngoài ra, nếu bạn nhấp vào tab vấn đề nhỏ này ở đây, bạn sẽ thấy những thông báo tương tự. 
+
+57
+00:04:22,460 --> 00:04:23,660
+Vì vậy, một lần nữa, những thứ tốt. 
+
+58
+00:04:23,660 --> 00:04:26,900
+Họ thậm chí còn cho bạn biết số dòng, v.v., để bạn biết chính xác nơi mình phải đến.
+
+59
+00:04:27,800 --> 00:04:36,170
+Tuy nhiên, có một điều cần lưu ý và điều này khá đáng sợ theo mặc định, TSC vẫn sẽ tạo 
+
+60
+00:04:36,170 --> 00:04:36,860
+tệp JavaScript. 
+
+61
+00:04:37,100 --> 00:04:38,120
+Cái gì? 
+
+62
+00:04:39,770 --> 00:04:47,690
+Vì vậy, để ngăn chặn điều này, bạn cần thêm một cờ trình biên dịch đặc biệt để không có giới hạn về lỗi. 
+
+63
+00:04:52,930 --> 00:04:53,470
+Rất tốt. 
+
+64
+00:04:53,470 --> 00:04:55,060
+Vì vậy, hãy để tôi tiếp tục và bình luận những thứ đó. 
+
+65
+00:04:55,060 --> 00:04:56,380
+Tôi không muốn phá vỡ bất cứ điều gì ngay bây giờ. 
+
+66
+00:04:56,380 --> 00:04:58,660
+Chỉ cần làm cho trình biên dịch vượt qua. 
+
+67
+00:05:14,160 --> 00:05:16,080
+Và sau đó chúng tôi thực hiện một loại nhiệm vụ mẫu. 
+
+68
+00:05:16,110 --> 00:05:16,910
+Được rồi, tốt. 
+
+69
+00:05:16,920 --> 00:05:18,630
+Vì vậy, mọi thứ đều tốt để đến đó. 
+
+70
+00:05:18,630 --> 00:05:20,490
+Và nếu chúng tôi chạy nó, thì chúng tôi sẽ nhận được kết quả. 
+
+71
+00:05:20,520 --> 00:05:20,910
+Được rồi. 
+
+72
+00:05:20,940 --> 00:05:21,660
+Điều đó thật tuyệt vời. 
+
+73
+00:05:21,660 --> 00:05:22,710
+Tôi thích phần đó của nó. 
+
+74
+00:05:25,620 --> 00:05:32,490
+Bây giờ, điều tôi muốn làm là quay lại ví dụ này và tôi muốn sử dụng các 
+
+75
+00:05:32,490 --> 00:05:33,360
+chuỗi mẫu ở đây. 
+
+76
+00:05:50,120 --> 00:05:53,090
+Và vì vậy hãy nhớ các chuỗi mẫu sử dụng dấu tích ngược đó. 
+
+77
+00:05:58,610 --> 00:06:03,110
+Và vì vậy, thay vì phải thực hiện tất cả các phép nối bằng ký hiệu dấu cộng, tôi có thể chỉ cần tham chiếu 
+
+78
+00:06:03,110 --> 00:06:09,050
+các biến bằng cách sử dụng dấu ngoặc nhọn ký hiệu đô la để tôi có thể nói xin chào, khoảng cách tên và sau đó là 
+
+79
+00:06:09,050 --> 00:06:10,640
+ký hiệu đô la, dấu ngoặc nhọn, họ. 
+
+80
+00:06:10,640 --> 00:06:13,100
+Vì vậy, nó thực sự sẽ tham chiếu các biến đó. 
+
+81
+00:06:15,220 --> 00:06:16,630
+Được rồi, vậy tôi lưu nó lại. 
+
+82
+00:06:18,880 --> 00:06:19,900
+Biên dịch nó. 
+
+83
+00:06:24,620 --> 00:06:25,740
+Và sau đó chạy nó. 
+
+84
+00:06:25,800 --> 00:06:28,430
+Chúng tôi có hai tin nhắn ở đây dành cho Xin chào, Anoop Kumar. 
+
+85
+00:06:28,440 --> 00:06:33,710
+Vì vậy, phiên bản đầu tiên là nối chuỗi và phiên bản thứ hai là sử dụng chuỗi mẫu. 
+
+86
+00:06:37,500 --> 00:06:37,770
+Được rồi. 
+
+87
+00:06:37,860 --> 00:06:38,760
+Vì vậy, đây là một ví dụ tốt. 
+
+88
+00:06:38,760 --> 00:06:42,810
+Vì vậy, chúng tôi đã trải qua và thử nghiệm việc tạo các biến cũng như hiển thị đầu ra. 
+
+89
+00:06:42,810 --> 00:06:44,040
+Làm tốt lắm.

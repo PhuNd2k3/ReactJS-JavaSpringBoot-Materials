@@ -1,0 +1,207 @@
+1
+00:00:01,420 --> 00:00:01,900
+Được rồi. 
+
+2
+00:00:01,900 --> 00:00:08,770
+Vì vậy, chúng tôi vừa hoàn thành thành phần đầu tiên của mình trong React và chúng tôi đã thêm thành phần này vào mục hàng, có chức 
+
+3
+00:00:08,770 --> 00:00:12,130
+năng thực hiện mục hàng trả về một hàng trong bảng. 
+
+4
+00:00:12,800 --> 00:00:16,700
+Với tiêu đề bảng và hai phần dữ liệu bảng. 
+
+5
+00:00:18,820 --> 00:00:20,410
+Bên trong nhạc jazz. 
+
+6
+00:00:20,440 --> 00:00:28,000
+Chúng tôi đang gọi thành phần này bằng cách sử dụng thẻ của hai mục hai hàng, thẻ này sẽ gán lại cho mục hai hàng 
+
+7
+00:00:28,000 --> 00:00:28,600
+. 
+
+8
+00:00:28,750 --> 00:00:33,520
+Và một lần nữa ở dưới đây trong cấu trúc tập tin có hai mục, hai hàng là. 
+
+9
+00:00:36,970 --> 00:00:44,140
+Bây giờ, những gì chúng tôi đã làm là chúng tôi có tất cả dữ liệu này hoàn toàn tĩnh và được nhập vào chính thành phần 
+
+10
+00:00:44,140 --> 00:00:44,920
+đó. 
+
+11
+00:00:45,920 --> 00:00:52,820
+Chúng ta có thể tạo các biến trong một thành phần và sau đó chuyển các biến đó vào JSON để hiển thị 
+
+12
+00:00:52,820 --> 00:00:53,540
+DOM. 
+
+13
+00:00:54,690 --> 00:00:58,740
+Để thực hiện việc này ngay bên dưới chức năng thực hiện mục hàng. 
+
+14
+00:00:58,890 --> 00:01:01,260
+Tôi sẽ tạo ba biến. 
+
+15
+00:01:03,460 --> 00:01:07,150
+Tôi sẽ nói số hàng liên hệ, bằng một. 
+
+16
+00:01:09,240 --> 00:01:12,540
+Buổi hòa nhạc mô tả con đường tương đương với thức ăn cho chó. 
+
+17
+00:01:19,920 --> 00:01:23,670
+Và tiến hành hàng được giao, tương đương với Eric. 
+
+18
+00:01:30,380 --> 00:01:31,070
+Vâng, đúng vậy. 
+
+19
+00:01:31,070 --> 00:01:35,360
+Khi lưu lại, chúng ta có thể thấy ngay rằng, Này, ở dòng ba, bốn và năm. 
+
+20
+00:01:35,360 --> 00:01:39,230
+Hàng, số, hàng, mô tả và hàng được chỉ định sẽ được chỉ định. 
+
+21
+00:01:39,230 --> 00:01:42,830
+Vì vậy, nó có giá trị nhưng không bao giờ được sử dụng. 
+
+22
+00:01:43,550 --> 00:01:47,600
+Những gì chúng ta có thể làm là có thể đặt dấu ngoặc kép khi ở bên trong JSF. 
+
+23
+00:01:48,050 --> 00:01:53,240
+Vì vậy, một lần nữa, hãy nhớ rằng JSF là HTML sẽ được hiển thị trong kết quả trả về. 
+
+24
+00:01:54,560 --> 00:01:57,470
+Sau khi thực hiện dấu ngoặc, chúng ta có thể chuyển vào biến. 
+
+25
+00:01:57,470 --> 00:01:59,240
+Vậy ở đây tôi có thể nói số đường. 
+
+26
+00:02:03,280 --> 00:02:04,420
+Chó nuôi ở đâu. 
+
+27
+00:02:04,420 --> 00:02:07,450
+Tôi sẽ thay thế điều này bằng mô tả đường có thể thay đổi. 
+
+28
+00:02:10,310 --> 00:02:15,890
+Và cuối cùng, trong đĩa CD cuối cùng có ghi Eric, tôi sẽ gán Eric cho biến 
+
+29
+00:02:15,890 --> 00:02:17,420
+của hàng được chỉ định. 
+
+30
+00:02:23,850 --> 00:02:27,840
+Nếu tôi lưu ứng dụng ngay bây giờ và quay lại trình duyệt của mình. 
+
+31
+00:02:29,530 --> 00:02:32,020
+Tôi có thể thấy rằng không có gì thay đổi ở đây. 
+
+32
+00:02:32,020 --> 00:02:35,020
+Nhưng chúng tôi có một con chó chăn nuôi, Eric. 
+
+33
+00:02:35,020 --> 00:02:37,500
+Và sau đó là đi cắt tóc. 
+
+34
+00:02:37,510 --> 00:02:38,170
+Eric. 
+
+35
+00:02:40,150 --> 00:02:41,680
+Nhưng bây giờ chúng ta hãy quay lại đoạn mã. 
+
+36
+00:02:42,100 --> 00:02:47,710
+Bây giờ, điều tuyệt vời về các thành phần là khả năng sử dụng lại các thành phần. 
+
+37
+00:02:48,070 --> 00:02:53,410
+Vì vậy, chúng ta có mục hai hàng này, trên thực tế là một thành phần trả về một hàng của bảng có ba phần 
+
+38
+00:02:53,410 --> 00:02:54,010
+dữ liệu. 
+
+39
+00:02:56,990 --> 00:03:00,530
+Chúng ta quay trở lại cơ sở của mình, nơi gọi mục hai hàng. 
+
+40
+00:03:02,150 --> 00:03:03,530
+Ngay dưới để làm mục hàng. 
+
+41
+00:03:03,530 --> 00:03:05,990
+Tôi có thể gọi người khác để làm mục hàng. 
+
+42
+00:03:10,600 --> 00:03:17,320
+Bây giờ bên trong chúng ta có bảng và sau đó hai phần dữ liệu đầu tiên trong phần thân T của chúng ta là hai 
+
+43
+00:03:17,320 --> 00:03:18,400
+mục hàng đến hạn. 
+
+44
+00:03:18,700 --> 00:03:25,170
+Vì vậy, bây giờ nếu chúng ta quay lại trình duyệt, chúng ta có thể thấy đó là một con chó cho ăn, Eric và một con chó cho ăn Eric 
+
+45
+00:03:25,180 --> 00:03:27,550
+Và sau đó là cắt tóc cho Eric. 
+
+46
+00:03:28,350 --> 00:03:33,810
+Sức mạnh của việc có thể sử dụng các thành phần chính là khả năng tái sử dụng của việc có thể sử dụng các thành phần. 
+
+47
+00:03:34,380 --> 00:03:37,920
+Nhưng khi bạn nhìn vào điều này, vẫn còn một vấn đề lớn trước mắt.
+
+48
+00:03:38,310 --> 00:03:44,820
+Vấn đề là hàng, số, hàng, mô tả và hàng được chỉ định đều là những phần 
+
+49
+00:03:44,820 --> 00:03:45,540
+dữ liệu rất tĩnh. 
+
+50
+00:03:45,960 --> 00:03:52,260
+Nó không tự động thay đổi thành mục hàng vì chúng tôi không chuyển động bất kỳ dữ liệu nào 
+
+51
+00:03:52,260 --> 00:03:56,520
+sẽ ảnh hưởng đến hàng của bảng được hiển thị trên abg. 
+
+52
+00:03:57,740 --> 00:04:03,080
+Chà, nếu bạn tò mò về cách truyền dữ liệu động, tôi sẽ gặp bạn trong video tiếp theo.

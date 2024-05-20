@@ -1,0 +1,355 @@
+1
+00:00:02,050 --> 00:00:02,530
+Được rồi. 
+
+2
+00:00:02,530 --> 00:00:09,730
+Bây giờ, chuyển sang video trước, chúng ta đã tạo mục hai hàng, chứa hai 
+
+3
+00:00:09,730 --> 00:00:10,990
+thành phần giống nhau. 
+
+4
+00:00:11,170 --> 00:00:17,800
+Và bên trong để làm row item, chúng ta có row, number, row, description và row được gán tất cả không động 
+
+5
+00:00:17,800 --> 00:00:19,330
+và được chuyển vào thành phần. 
+
+6
+00:00:21,230 --> 00:00:28,400
+Điều chúng tôi muốn làm là truyền dữ liệu động để có thể tạo danh sách việc cần làm với mỗi hàng có 
+
+7
+00:00:28,400 --> 00:00:30,080
+dữ liệu cụ thể của riêng nó. 
+
+8
+00:00:31,040 --> 00:00:32,180
+Vì vậy, hãy đi vào ứng dụng. 
+
+9
+00:00:32,180 --> 00:00:33,290
+JJ nhanh thật đấy. 
+
+10
+00:00:34,180 --> 00:00:36,790
+Ngay dưới hàm và trả về phía trên. 
+
+11
+00:00:37,330 --> 00:00:42,700
+Chúng ta cần tạo một mảng gồm hai dos, thứ mà chúng ta muốn hiển thị trong bảng việc cần làm của mình. 
+
+12
+00:00:43,760 --> 00:00:46,190
+Vì vậy tôi muốn nói sự đồng ý với dos. 
+
+13
+00:00:47,040 --> 00:00:47,910
+Bằng. 
+
+14
+00:00:49,390 --> 00:00:50,560
+Dấu ngoặc kép. 
+
+15
+00:00:58,020 --> 00:01:00,540
+Số đường, là một. 
+
+16
+00:01:02,320 --> 00:01:05,080
+Mô tả hàng là thức ăn cho chó con. 
+
+17
+00:01:13,240 --> 00:01:15,400
+Hàng được ký, đó là một người dùng. 
+
+18
+00:01:23,240 --> 00:01:26,900
+Và sau đó tôi sẽ làm điều tương tự và nói số đường là hai. 
+
+19
+00:01:29,210 --> 00:01:31,790
+Rowe mô tả là cây nước. 
+
+20
+00:01:37,140 --> 00:01:39,720
+Và rho được chỉ định là người dùng. 
+
+21
+00:01:44,290 --> 00:01:44,470
+TRONG. 
+
+22
+00:01:44,470 --> 00:01:49,330
+Cuối cùng, trong ví dụ này, chúng ta sẽ nói số đường là ba hàng mô tả là nấu bữa tối 
+
+23
+00:01:49,330 --> 00:01:52,220
+và sau đó hàng được chỉ định lại là Người dùng một. 
+
+24
+00:01:52,240 --> 00:01:54,790
+Vì vậy chúng ta sẽ có hai người dùng một và một. 
+
+25
+00:01:54,790 --> 00:01:55,690
+Người dùng hai. 
+
+26
+00:02:03,620 --> 00:02:04,010
+Được rồi. 
+
+27
+00:02:04,010 --> 00:02:09,740
+Vì vậy, bây giờ chúng ta có một việc cần làm, đó là một mảng chứa ba đối tượng hoặc đối tượng JavaScript của 
+
+28
+00:02:09,740 --> 00:02:11,870
+hai việc cần làm này mà chúng ta muốn hiển thị trong danh sách. 
+
+29
+00:02:14,140 --> 00:02:17,410
+Vì vậy bây giờ chúng ta hãy đi xuống hai mục hàng của chúng ta. 
+
+30
+00:02:19,090 --> 00:02:21,730
+Tôi sẽ xóa cái thứ hai ngay bây giờ. 
+
+31
+00:02:22,540 --> 00:02:32,290
+Nhưng những gì chúng ta cần làm bây giờ là chuyển dữ liệu này của một trong những đối tượng này vào mục việc cần làm của chúng ta. 
+
+32
+00:02:32,860 --> 00:02:36,460
+Vì vậy, điều tôi sắp làm ở đây là tôi sẽ nói số hàng. 
+
+33
+00:02:39,330 --> 00:02:43,680
+Dấu ngoặc bằng của việc cần làm ở chỉ số 0. 
+
+34
+00:02:44,010 --> 00:02:44,850
+Số lượng hàng. 
+
+35
+00:02:54,440 --> 00:02:57,410
+Mô tả hàng bằng hai dos ở chỉ số 0. 
+
+36
+00:02:57,680 --> 00:02:58,940
+Mô tả hàng. 
+
+37
+00:03:08,750 --> 00:03:14,120
+Và sau đó rho được gán bằng dos ở chỉ số 0 ở hàng được chỉ định. 
+
+38
+00:03:21,630 --> 00:03:22,110
+Tuyệt vời. 
+
+39
+00:03:22,110 --> 00:03:30,360
+Và sau đó tôi sẽ tạo khoảng cách để chúng ta có thể nhìn thấy tất cả một cách dễ dàng khi viết mã. 
+
+40
+00:03:30,360 --> 00:03:37,080
+Vì vậy, chúng ta có một mục hai hàng với ba phần tử bên trong một số hàng, một mô tả hàng và hàng 
+
+41
+00:03:37,080 --> 00:03:38,040
+được chỉ định. 
+
+42
+00:03:38,820 --> 00:03:44,250
+Chà, điều này thực sự không có ý nghĩa nhiều vì chúng ta không sử dụng nó trong chính thành phần đó. 
+
+43
+00:03:44,850 --> 00:03:51,810
+Chúng ta cần quay lại mục hai hàng và trong các tham số của hàm này để thực hiện các mục hàng. 
+
+44
+00:03:52,170 --> 00:03:57,390
+Trong hầu hết các trường hợp, bạn sẽ chuyển theo hàng, số, hàng, mô tả và gán hàng. 
+
+45
+00:03:57,900 --> 00:03:59,280
+Tuy nhiên, hãy phản ứng. 
+
+46
+00:03:59,280 --> 00:04:04,530
+Hãy đảm bảo rằng bạn chỉ truyền vào một phần tử và bạn có thể đặt tên cho phần tử này bất cứ điều gì bạn muốn. 
+
+47
+00:04:04,770 --> 00:04:09,690
+Nhưng chắc chắn cách tiêu chuẩn nhất để làm điều này là truyền một thứ gọi là đạo cụ.
+
+48
+00:04:13,700 --> 00:04:21,980
+Bây giờ PROP là viết tắt của thuộc tính và props sẽ có một cặp giá trị khóa của mỗi mục bạn vừa chuyển 
+
+49
+00:04:21,980 --> 00:04:22,430
+vào. 
+
+50
+00:04:23,240 --> 00:04:31,070
+Vì vậy, props sẽ có khóa số hàng, giá trị này sẽ được thực hiện ở số hàng được lập chỉ mục bằng 0. 
+
+51
+00:04:31,640 --> 00:04:38,000
+Nó sẽ có một khóa mô tả hàng sẽ có giá trị là việc cần làm ở mô 
+
+52
+00:04:38,000 --> 00:04:38,990
+tả hàng được lập chỉ mục bằng 0. 
+
+53
+00:04:39,920 --> 00:04:45,890
+Và nó sẽ được gán một khóa rho, bằng với giá trị của hai khoản phí ở chỉ số 0. 
+
+54
+00:04:46,400 --> 00:04:47,090
+Giao. 
+
+55
+00:04:50,100 --> 00:04:54,360
+Sau đó, thay vì sử dụng thông tin này, chúng ta có thể xóa mọi thứ chúng ta có ở đây. 
+
+56
+00:04:55,280 --> 00:04:58,910
+Sau đó chúng ta có thể trao đổi cái này với số hàng đạo cụ. 
+
+57
+00:05:02,120 --> 00:05:02,630
+Đạo cụ. 
+
+58
+00:05:02,990 --> 00:05:04,130
+Mô tả đường. 
+
+59
+00:05:05,900 --> 00:05:08,810
+Và đạo cụ chấm ro được giao. 
+
+60
+00:05:11,150 --> 00:05:14,390
+Vì vậy, bây giờ nếu chúng ta lưu ứng dụng của mình và mở lại ứng dụng của mình. 
+
+61
+00:05:16,090 --> 00:05:19,030
+Chúng ta sẽ có Feed Puppy vì nó đến từ hai liều lượng của chúng ta. 
+
+62
+00:05:19,030 --> 00:05:23,890
+Và sau đó chúng ta có một getcut, đó là một hàng trong bảng mà chúng ta không sử dụng thành phần 
+
+63
+00:05:23,890 --> 00:05:24,190
+này. 
+
+64
+00:05:24,190 --> 00:05:29,720
+Vì vậy, hãy hoán đổi điều đó và quay lại ứng dụng của chúng ta, chuyển sang ứng dụng JS. 
+
+65
+00:05:29,980 --> 00:05:33,520
+Tôi sẽ xóa hàng của bảng này ngay dưới thành phần có thể tái sử dụng này. 
+
+66
+00:05:35,260 --> 00:05:38,740
+Và sau đó tôi sẽ chuyển sang thực hiện một mục hàng hai lần nữa. 
+
+67
+00:05:45,780 --> 00:05:46,880
+Sửa khoảng cách. 
+
+68
+00:05:46,890 --> 00:05:51,180
+Và bây giờ điều chúng ta sắp làm là thay vì chuyển số 0 cho mỗi số, chúng ta sẽ chuyển 
+
+69
+00:05:51,180 --> 00:05:52,320
+chỉ số tiếp theo của hai khoản phí. 
+
+70
+00:05:52,320 --> 00:05:53,880
+Vậy là có ba món. 
+
+71
+00:05:53,880 --> 00:05:55,380
+Chỉ số đầu tiên bằng 0. 
+
+72
+00:05:55,410 --> 00:05:57,480
+Chỉ số thứ hai là một. 
+
+73
+00:05:57,810 --> 00:06:00,330
+Trong chỉ số thứ ba là hai. 
+
+74
+00:06:01,170 --> 00:06:02,670
+Chúng tôi đã vượt qua số không. 
+
+75
+00:06:02,910 --> 00:06:04,290
+Chúng ta hãy vượt qua một. 
+
+76
+00:06:08,520 --> 00:06:10,080
+Chúng ta hãy vượt qua trong twos. 
+
+77
+00:06:14,020 --> 00:06:19,090
+Và bây giờ, khi bạn nhận được ứng dụng và mở trình duyệt, bạn sẽ thấy rằng 
+
+78
+00:06:19,090 --> 00:06:24,180
+hiện tại bạn có ba mục một cho chó con ăn, một cho người dùng hai cây nước. 
+
+79
+00:06:24,190 --> 00:06:28,030
+Người dùng hai và ba nấu bữa tối từ người dùng một. 
+
+80
+00:06:28,510 --> 00:06:30,370
+Và nếu chúng ta nhớ. 
+
+81
+00:06:31,440 --> 00:06:37,320
+Thực hiện các hình xăm chính xác mà chúng ta có ở đầu danh sách trong biến được gọi là DOS, nơi chứa 
+
+82
+00:06:37,320 --> 00:06:39,180
+cả ba đối tượng đó. 
+
+83
+00:06:41,710 --> 00:06:50,440
+Bây giờ, điều quan trọng là các thành phần không thể đọc dữ liệu từ các thành phần khác trừ khi bạn chuyển các đạo cụ vào. 
+
+84
+00:06:51,070 --> 00:06:55,630
+Vì vậy, điều thực sự quan trọng là phải hiểu rằng nếu chúng ta không chuyển cái này vào, mặc dù chúng ta gọi 
+
+85
+00:06:55,630 --> 00:07:02,860
+đây là mục hai hàng sẽ không thể thu thập bất kỳ dữ liệu nào trừ khi thành phần gốc được 
+
+86
+00:07:02,860 --> 00:07:04,210
+truyền vật lý vào các đạo cụ. 
+
+87
+00:07:10,170 --> 00:07:16,050
+Chà, phần này tóm tắt cách sử dụng đạo cụ và cách chuyển đạo cụ từ DJ của chúng ta sang thành phần con của chúng ta trong số hai 
+
+88
+00:07:16,050 --> 00:07:16,950
+mục hàng. 
+
+89
+00:07:17,160 --> 00:07:19,980
+Và tôi sẽ gặp bạn trong video tiếp theo.

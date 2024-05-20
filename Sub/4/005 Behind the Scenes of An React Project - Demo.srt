@@ -1,0 +1,327 @@
+1
+00:00:01,810 --> 00:00:02,480
+Được rồi. 
+
+2
+00:00:02,500 --> 00:00:06,700
+Bây giờ, hãy thực hiện một số điều tra hậu trường cho ứng dụng React này. 
+
+3
+00:00:07,270 --> 00:00:11,620
+Bây giờ, chúng tôi hiện đang trong giai đoạn của mình vì đó là nơi chúng tôi thực hiện thay đổi cuối cùng này khi chúng tôi tạo 
+
+4
+00:00:11,620 --> 00:00:13,390
+ứng dụng React đầu tiên và woohoo! 
+
+5
+00:00:13,510 --> 00:00:19,210
+Nhưng trước tiên, chúng ta hãy nhìn vào hậu trường và xem tại sao điều này được hiển thị và React 
+
+6
+00:00:19,210 --> 00:00:19,810
+hoạt động như thế nào. 
+
+7
+00:00:21,800 --> 00:00:25,460
+Vì vậy, để bắt đầu, hãy mở tệp HTML chỉ mục của chúng tôi. 
+
+8
+00:00:26,770 --> 00:00:31,610
+Bây giờ chúng tôi đang lập chỉ mục tệp HTML mà chúng tôi có thể coi giống như DOM toàn cầu. 
+
+9
+00:00:31,630 --> 00:00:35,080
+Đây giống như tệp chính nằm trên chính trình duyệt web. 
+
+10
+00:00:35,410 --> 00:00:37,480
+Chúng tôi có loại HTML của dock. 
+
+11
+00:00:37,510 --> 00:00:39,800
+Chúng tôi đang nói thẻ là HTML. 
+
+12
+00:00:39,820 --> 00:00:43,150
+Chúng tôi có tiêu đề ở đây trong một vài điều khác đang diễn ra. 
+
+13
+00:00:44,750 --> 00:00:48,230
+Nhưng nếu cuộn xuống, chúng ta có thể thấy tiêu đề ứng dụng React của chúng ta ở ngay đây. 
+
+14
+00:00:48,230 --> 00:00:50,690
+Vì vậy, tiêu đề ứng dụng của bạn ở ngay đây. 
+
+15
+00:00:51,750 --> 00:00:52,980
+Và sau đó chúng ta có cơ thể của mình. 
+
+16
+00:00:52,980 --> 00:00:53,910
+Vì vậy, đó là kết thúc của đầu của chúng tôi. 
+
+17
+00:00:53,910 --> 00:01:00,780
+Và sau đó phần thân của chúng ta bắt đầu trong phần thân của DOM, nơi tất cả logic và thực sự là tất cả những điều kỳ diệu xảy ra 
+
+18
+00:01:00,780 --> 00:01:01,890
+cho ứng dụng. 
+
+19
+00:01:01,890 --> 00:01:04,940
+Nhưng những gì chúng ta có thể thấy là nó hoàn toàn trống rỗng. 
+
+20
+00:01:04,950 --> 00:01:10,260
+Điều duy nhất chúng tôi có là không có tập lệnh nào yêu cầu bạn cần bật JavaScript để chạy ứng dụng này. 
+
+21
+00:01:11,070 --> 00:01:14,580
+Và chúng ta có div này có ID gốc. 
+
+22
+00:01:15,970 --> 00:01:20,860
+Chà, ngay cả chúng tôi cũng có nhận xét nói rằng đây chỉ là một trang HTML và nếu bạn chạy nó trên trình duyệt, 
+
+23
+00:01:20,860 --> 00:01:22,390
+bạn sẽ thấy một trang trống. 
+
+24
+00:01:22,660 --> 00:01:25,960
+Chà, ID root này đang làm được nhiều việc hơn những gì bạn nghĩ. 
+
+25
+00:01:27,870 --> 00:01:33,990
+Nếu chúng ta chuyển sang tệp JS chỉ mục, tệp này nằm trong thư mục nguồn thay vì thư mục chung. 
+
+26
+00:01:35,740 --> 00:01:38,720
+Chúng ta có thể thấy rằng chúng ta có một số nội dung nhập từ React. 
+
+27
+00:01:38,740 --> 00:01:44,200
+Chúng tôi có trường hợp hoặc ứng dụng DOM hoặc chỉ mục phản ứng trong báo cáo Quan trọng về web. 
+
+28
+00:01:45,780 --> 00:01:53,310
+Nhưng điều tiếp theo chúng ta có thể thấy là chúng ta có một to root tương đương với tuyến đường tạo dom phản ứng và sau đó 
+
+29
+00:01:53,310 --> 00:01:55,500
+chúng ta chuyển nó dưới dạng tài liệu tham số. 
+
+30
+00:01:56,160 --> 00:01:58,710
+Phần tử theo ID của gốc. 
+
+31
+00:01:59,070 --> 00:02:06,360
+Vì vậy, điều chúng tôi thực sự muốn nói ở đây là chúng tôi muốn tạo một biến root mới bằng cách sử dụng phản ứng này Dom tạo 
+
+32
+00:02:06,360 --> 00:02:06,960
+root. 
+
+33
+00:02:07,200 --> 00:02:11,370
+Và chúng tôi muốn chuyển vào div đó có ID gốc. 
+
+34
+00:02:11,370 --> 00:02:17,220
+Vì vậy, gốc này sẽ khớp chính xác với div mà chúng ta vừa xem xét. 
+
+35
+00:02:20,620 --> 00:02:25,870
+Sau khi tạo biến gốc kết xuất React này, chúng ta sẽ nói kết xuất gốc. 
+
+36
+00:02:25,900 --> 00:02:30,130
+Chúng tôi có chế độ phản ứng nghiêm ngặt này và sau đó chúng tôi có ứng dụng của mình bên trong. 
+
+37
+00:02:31,300 --> 00:02:36,820
+Chà, đây là nơi chúng tôi hiển thị tất cả các thành phần cho ứng dụng React. 
+
+38
+00:02:37,330 --> 00:02:40,030
+Chúng tôi đang lấy div đó bằng ID của root. 
+
+39
+00:02:41,390 --> 00:02:49,040
+Chúng tôi ít nhiều đang gắn kết với nó và tạo ra các thành phần bên trong div ID gốc đó. 
+
+40
+00:02:50,600 --> 00:02:52,340
+Sau đó chúng tôi đang nói app. 
+
+41
+00:02:53,300 --> 00:02:54,400
+Phần mềm gì vậy? 
+
+42
+00:02:54,680 --> 00:02:59,120
+Ứng dụng là một thành phần và đây chính xác là cách bạn gọi các thành phần và phản ứng. 
+
+43
+00:02:59,750 --> 00:03:01,840
+Chúng ta thậm chí có thể thấy ứng dụng đó ngay tại đây.
+
+44
+00:03:01,850 --> 00:03:08,780
+Nhập ứng dụng từ ứng dụng sẽ được tạo để hiển thị một thành phần nào đó. 
+
+45
+00:03:11,620 --> 00:03:13,010
+Vì vậy, hãy điều tra thêm một chút. 
+
+46
+00:03:13,030 --> 00:03:16,000
+Ứng dụng Will là ứng dụng JS. 
+
+47
+00:03:17,340 --> 00:03:21,030
+Vì vậy, bây giờ chúng ta đang sử dụng một ứng dụng, chúng ta có thể thấy rằng chúng ta đang nhập logo của mình. 
+
+48
+00:03:21,060 --> 00:03:23,490
+Chúng tôi đang nhập apks của mình. 
+
+49
+00:03:24,390 --> 00:03:28,380
+Sau đó, chúng tôi sẽ tạo chức năng này của ứng dụng và đây là cách bạn tạo các thành phần. 
+
+50
+00:03:29,320 --> 00:03:30,910
+Và sau đó chúng tôi sẽ quay trở lại. 
+
+51
+00:03:31,660 --> 00:03:33,040
+Div này. 
+
+52
+00:03:36,070 --> 00:03:41,710
+Có thể hơi lạ khi thấy rằng chúng ta đang trả về một div trong một hàm JavaScript, nhưng React đang sử dụng 
+
+53
+00:03:41,710 --> 00:03:48,340
+một thứ gọi là JS X và Gsx ít nhiều là một trình bao bọc trong JavaScript có thể tạo DOMS. 
+
+54
+00:03:48,880 --> 00:03:53,800
+Vì vậy, trong phần này, chúng tôi đang nói: Này, chúng tôi muốn tạo một div bên trong div đó của gốc ID trên 
+
+55
+00:03:53,800 --> 00:03:54,400
+trang chỉ mục. 
+
+56
+00:03:55,150 --> 00:04:02,020
+Tạo bản đồ tên lớp với tên lớp tiêu đề của tiêu đề ứng dụng có hình ảnh, đây là hình ảnh phản ứng 
+
+57
+00:04:02,020 --> 00:04:02,790
+mà chúng ta đã thấy. 
+
+58
+00:04:04,460 --> 00:04:09,740
+Với ứng dụng chỉnh sửa nước sốt có văn bản mới, chúng tôi đã tạo ứng dụng đầu tiên của mình. 
+
+59
+00:04:11,290 --> 00:04:15,400
+Vì vậy, nếu chúng ta xóa mọi thứ ở đây ngoại trừ nhận xét của chúng ta trong div đó. 
+
+60
+00:04:18,600 --> 00:04:20,339
+Và chúng tôi đã nhận được đơn đăng ký. 
+
+61
+00:04:21,420 --> 00:04:23,040
+Và chúng tôi mở trình duyệt của mình. 
+
+62
+00:04:23,400 --> 00:04:27,480
+Bây giờ chúng ta có thể thấy rằng nó chỉ cho biết chúng ta đã tạo ứng dụng React đầu tiên. 
+
+63
+00:04:29,060 --> 00:04:30,920
+Nếu chúng ta nhấp chuột phải và nói kiểm tra. 
+
+64
+00:04:32,640 --> 00:04:34,380
+Và chúng ta sẽ mở cái này ra. 
+
+65
+00:04:37,860 --> 00:04:42,600
+Chúng ta có thể thấy rằng tiêu đề của chúng ta sẽ khớp chính xác với tệp HTML được lập chỉ mục. 
+
+66
+00:04:44,620 --> 00:04:49,210
+Và nếu chúng ta mở cơ thể ra, chúng ta có thể thấy đây không phải là chữ viết. 
+
+67
+00:04:49,210 --> 00:04:53,110
+Bạn cần kích hoạt JavaScript để chạy ứng dụng này và ID thiết bị gốc của chúng tôi. 
+
+68
+00:04:53,740 --> 00:05:00,280
+Chà, điều đó cực kỳ giống với những gì chúng ta đang xem xét ở đây khi chúng ta xem 
+
+69
+00:05:00,820 --> 00:05:01,750
+tệp HTML chỉ mục của mình. 
+
+70
+00:05:05,240 --> 00:05:13,490
+Và sau đó, từ đây, chúng tôi sẽ nói bên trong ID div của mình rằng chúng tôi muốn hiển thị các thành phần đó mà ngay 
+
+71
+00:05:13,490 --> 00:05:19,130
+tại đây sẽ là thành phần của ứng dụng lớp div khi chúng tôi tạo ứng dụng React đầu tiên. 
+
+72
+00:05:20,470 --> 00:05:25,510
+Vì vậy, đây chỉ là ví dụ về cách HTML được lập chỉ mục của chúng tôi đang chạy toàn bộ ứng dụng. 
+
+73
+00:05:25,750 --> 00:05:32,950
+Chúng tôi có JS được lập chỉ mục, đang tìm kiếm phần tử tài liệu đó theo ID của root và sau đó hiển thị thành 
+
+74
+00:05:32,950 --> 00:05:39,910
+phần đầu tiên bên trong JS được lập chỉ mục, là ứng dụng chức năng của chúng tôi, đang chạy ứng dụng. 
+
+75
+00:05:39,910 --> 00:05:41,830
+Chúng tôi đã tạo ra ứng dụng React đầu tiên của mình. 
+
+76
+00:05:43,720 --> 00:05:48,910
+Bây giờ, để dọn dẹp một chút, tôi sẽ xóa logo nhập này, nhưng đó là hậu 
+
+77
+00:05:48,910 --> 00:05:49,900
+trường của React. 
+
+78
+00:05:49,900 --> 00:05:53,680
+Và trong video tiếp theo, chúng ta sẽ bắt đầu thực sự tạo các thành phần của riêng mình và bắt đầu xây dựng 
+
+79
+00:05:53,680 --> 00:05:55,660
+bản demo để thực hiện ứng dụng. 
+
+80
+00:05:56,020 --> 00:06:01,480
+Nhưng tôi thực sự muốn cho bạn thấy hậu trường về cách hiển thị các thành phần React trên 
+
+81
+00:06:01,480 --> 00:06:02,260
+trình duyệt web. 
+
+82
+00:06:03,830 --> 00:06:06,500
+Điều này kết thúc video này và tôi sẽ gặp bạn trong video tiếp theo.

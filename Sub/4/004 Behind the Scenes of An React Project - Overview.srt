@@ -1,0 +1,159 @@
+1
+00:00:02,360 --> 00:00:02,870
+Được rồi. 
+
+2
+00:00:02,900 --> 00:00:03,710
+Này mọi người. 
+
+3
+00:00:03,710 --> 00:00:05,180
+Và chào mừng bạn quay trở lại với một video khác. 
+
+4
+00:00:05,180 --> 00:00:09,620
+Và trong video này, chúng ta sẽ tìm hiểu hậu trường của React. 
+
+5
+00:00:15,320 --> 00:00:17,540
+Vì vậy, bạn có thể thắc mắc, chúng tôi đang sử dụng React. 
+
+6
+00:00:17,540 --> 00:00:19,430
+Chúng tôi đang sử dụng một ứng dụng nhỏ. 
+
+7
+00:00:20,680 --> 00:00:24,970
+Nhưng khi chúng ta chạy ứng dụng React thì nó được tải như thế nào? 
+
+8
+00:00:30,060 --> 00:00:35,550
+Chà, có rất nhiều bộ phận chuyển động, nhưng thực sự khá dễ dàng để có thể hiểu cách 
+
+9
+00:00:35,550 --> 00:00:36,780
+ứng dụng React đang chạy. 
+
+10
+00:00:39,330 --> 00:00:43,020
+Chà, chúng tôi có một tệp HTML chỉ mục của chúng tôi. 
+
+11
+00:00:43,350 --> 00:00:47,460
+Bây giờ, đây là tệp gốc cho toàn bộ trang HTML. 
+
+12
+00:00:47,790 --> 00:00:54,090
+Nó có loại dock của chúng tôi ở trên cùng với HTML, với ngôn ngữ, thẻ body của chúng tôi và sau đó nó có 
+
+13
+00:00:54,090 --> 00:00:57,000
+ID div này bằng root. 
+
+14
+00:00:59,750 --> 00:01:06,500
+Bây giờ tuyến đường này thực sự quan trọng trong index.html này và đó là vì chúng tôi có một tệp khác 
+
+15
+00:01:06,500 --> 00:01:10,790
+đang tìm kiếm div đầu tiên có ID gốc. 
+
+16
+00:01:16,150 --> 00:01:19,420
+Chúng tôi có tệp js chấm chỉ mục này. 
+
+17
+00:01:21,510 --> 00:01:28,350
+Tệp JS được lập chỉ mục liên nhập nhập ứng dụng từ ứng dụng và sau đó chúng tôi có chi phí thay đổi để root bằng với phản ứng 
+
+18
+00:01:28,470 --> 00:01:30,330
+dom tạo root. 
+
+19
+00:01:30,870 --> 00:01:36,480
+Và sau đó chúng ta có chức năng JavaScript này của tài liệu lấy phần tử theo ID của root. 
+
+20
+00:01:39,300 --> 00:01:45,390
+Vì vậy, những gì chúng tôi đang làm ở đây là chúng tôi đang nói, này, hãy phản ứng, hãy xem trong tài liệu, đó là tệp HTML của chúng tôi. 
+
+21
+00:01:45,780 --> 00:01:49,260
+Tìm phần tử đầu tiên có ID gốc. 
+
+22
+00:01:51,130 --> 00:01:55,720
+Và sau đó chúng ta sẽ thay thế nó bằng ứng dụng React của mình. 
+
+23
+00:01:58,360 --> 00:02:04,990
+Và sau đó, khi chúng ta tìm thấy lộ trình, hãy triển khai thành phần ứng dụng và thành phần ứng dụng của chúng ta, chúng ta có thể thấy nó 
+
+24
+00:02:04,990 --> 00:02:06,670
+nằm trong chế độ phản ứng nghiêm ngặt đó. 
+
+25
+00:02:06,670 --> 00:02:09,910
+Nó cho biết thẻ ứng dụng, thẻ này sẽ gọi thành phần ứng dụng của chúng ta. 
+
+26
+00:02:10,270 --> 00:02:14,040
+Và tệp của ứng dụng nội bộ JJ, chúng tôi đã trả về thẻ P. 
+
+27
+00:02:14,050 --> 00:02:16,450
+Chúng tôi đã tạo ra ứng dụng React đầu tiên của mình. 
+
+28
+00:02:18,060 --> 00:02:21,180
+Vì vậy, những gì chúng tôi đã làm là chúng tôi có một div với ý tưởng về root. 
+
+29
+00:02:21,950 --> 00:02:26,900
+JS được lập chỉ mục của chúng tôi đang kết nối với HTML được lập chỉ mục để tìm ID đầu tiên của tuyến đường. 
+
+30
+00:02:27,950 --> 00:02:30,980
+Chúng tôi đang thay thế div bằng thành phần ứng dụng sẽ trả về. 
+
+31
+00:02:30,980 --> 00:02:33,080
+Chúng tôi đã tạo ra ứng dụng React đầu tiên của mình. 
+
+32
+00:02:34,690 --> 00:02:38,680
+Và tất nhiên, điều này sẽ hiển thị trên màn hình dưới dạng ứng dụng React của chúng ta. 
+
+33
+00:02:38,980 --> 00:02:44,380
+Và bây giờ chúng tôi có nhiều thứ hơn đang diễn ra như logo React này với Apk nguồn chỉnh sửa để lưu và tải lại. 
+
+34
+00:02:44,380 --> 00:02:47,170
+Và cuối cùng nó nói rằng Chúng tôi đã tạo ra ứng dụng React đầu tiên của mình. 
+
+35
+00:02:47,380 --> 00:02:51,130
+Và đó là vì có nhiều mã hơn phía trên kết quả trả về đơn giản mà tôi đang hiển thị này. 
+
+36
+00:02:51,250 --> 00:02:53,440
+Nhưng nhìn chung, đó chính xác là những gì đang xảy ra. 
+
+37
+00:02:53,440 --> 00:02:57,340
+Chúng tôi đang hiển thị JS ứng dụng của mình trên trang. 
+
+38
+00:02:58,860 --> 00:02:59,100
+Được rồi. 
+
+39
+00:02:59,100 --> 00:03:03,510
+Chà, bây giờ chúng ta đã biết thêm một chút về cách ứng dụng React tải hậu trường, 
+
+40
+00:03:03,630 --> 00:03:05,550
+hãy đi sâu vào mã.

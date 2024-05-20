@@ -1,0 +1,367 @@
+1
+00:00:02,320 --> 00:00:02,830
+Được rồi. 
+
+2
+00:00:02,830 --> 00:00:05,290
+Vì vậy, bây giờ hãy tiếp tục xây dựng ứng dụng của chúng ta. 
+
+3
+00:00:06,120 --> 00:00:07,230
+Trong hình xăm hiện tại của chúng tôi. 
+
+4
+00:00:07,230 --> 00:00:13,500
+Chúng tôi đã gán mô tả số hình xăm của bạn với bốn thuộc tính danh sách về thức ăn cho chó con, cây thủy sinh, 
+
+5
+00:00:13,500 --> 00:00:20,690
+bữa tối sạc pin điện thoại và nếu chúng tôi nhấp vào thêm mới để làm, chúng tôi sẽ nhận được một yếu tố mới được thêm vào 
+
+6
+00:00:20,710 --> 00:00:28,710
+hình xăm có dòng chữ Người dùng thứ ba Mới để làm 5 Nhưng mỗi lần chúng ta nhấp vào nó, không có gì thực sự xảy ra 
+
+7
+00:00:28,710 --> 00:00:32,090
+ngoài việc phải làm điều đó chỉ được thêm vào cuối. 
+
+8
+00:00:32,100 --> 00:00:35,610
+Nhưng điều chúng tôi muốn xảy ra là bảng này được hiển thị lại. 
+
+9
+00:00:36,380 --> 00:00:40,310
+Và chúng ta có thể thực hiện điều này bằng cách sử dụng thứ gọi là trạng thái. 
+
+10
+00:00:40,520 --> 00:00:48,020
+Bây giờ, trạng thái không phải là một thứ cụ thể của React, mà phản ứng phụ thuộc vào việc mỗi thành phần có thể xử lý 
+
+11
+00:00:48,020 --> 00:00:49,310
+trạng thái riêng của nó hay không. 
+
+12
+00:00:50,690 --> 00:00:53,210
+Bây giờ để nhập trạng thái vào dự án của chúng tôi. 
+
+13
+00:00:53,210 --> 00:00:57,050
+Điều đầu tiên chúng ta cần nói là import React. 
+
+14
+00:00:57,800 --> 00:00:59,120
+Từ Phản ứng. 
+
+15
+00:01:04,709 --> 00:01:05,129
+Được rồi. 
+
+16
+00:01:05,129 --> 00:01:11,640
+Và bây giờ khi chúng ta đã nhập phản ứng, chúng ta cần nói dấu phẩy, dấu ngoặc nhọn, trạng thái sử dụng. 
+
+17
+00:01:13,490 --> 00:01:20,990
+Bây giờ bạn nêu trạng thái là thứ trả về giá trị trạng thái và hàm để cập nhật giá trị trạng thái đó. 
+
+18
+00:01:21,380 --> 00:01:27,980
+Và lý do nó nói trạng thái của bạn là phản ứng khi nó nói sử dụng trước thứ gì đó mà chúng tôi đang nhập, 
+
+19
+00:01:27,980 --> 00:01:32,490
+đó là một cái móc phản ứng và trạng thái của bạn là một cái móc phản ứng rất quan trọng. 
+
+20
+00:01:32,510 --> 00:01:35,930
+Và tôi sẽ xem qua tất cả các nội dung quan trọng khác trong khóa học này. 
+
+21
+00:01:35,930 --> 00:01:40,130
+Nhưng hiện tại, chúng ta sẽ sử dụng hook đầu tiên, đó là trạng thái use. 
+
+22
+00:01:40,130 --> 00:01:45,920
+Trạng thái là một cái gì đó về cách chúng ta có thể kết xuất lại các thành phần phản ứng của mình một cách nhanh chóng cho người dùng. 
+
+23
+00:01:47,560 --> 00:01:54,820
+Bây giờ để sử dụng trạng thái, chúng ta cần hoán đổi ô tô thành dos chỉ bằng một biến trạng thái đã sử dụng có dấu ngoặc đơn. 
+
+24
+00:02:04,400 --> 00:02:09,050
+Vì vậy, ngay bây giờ, chúng tôi đã sử dụng trạng thái của bạn và rap trên tất cả các hình xăm. 
+
+25
+00:02:11,610 --> 00:02:15,300
+Và trạng thái của bạn trả về hai mục trong một mảng. 
+
+26
+00:02:15,450 --> 00:02:23,070
+Phần tử đầu tiên là biến sử dụng trạng thái của bạn để chúng ta có thể thực hiện những việc cần làm trong Biến thứ hai 
+
+27
+00:02:23,310 --> 00:02:26,070
+là một hàm thiết lập trạng thái đó. 
+
+28
+00:02:29,210 --> 00:02:35,360
+Vì vậy, bây giờ cách dễ nhất để sử dụng ngày sử dụng để rút dữ liệu này là tạo một biến chi phí ngay trước 
+
+29
+00:02:35,360 --> 00:02:39,410
+mặt bạn khi thực hiện một việc gọi là cấu trúc một mảng. 
+
+30
+00:02:39,560 --> 00:02:44,900
+Và để có thể cấu trúc một mảng, bạn phải tạo hai biến mà bạn muốn cấu trúc để 
+
+31
+00:02:44,900 --> 00:02:46,670
+có thể sử dụng trong ứng dụng của mình. 
+
+32
+00:02:47,240 --> 00:02:49,520
+Vì vậy, để bắt đầu tôi sẽ nói const. 
+
+33
+00:02:50,450 --> 00:02:53,390
+Và sau đó trong một mảng, tôi sẽ nói to dos. 
+
+34
+00:02:54,300 --> 00:02:55,890
+Và sau đó đặt thành dos. 
+
+35
+00:03:00,190 --> 00:03:05,560
+Bây giờ trong buổi hòa nhạc này, tôi có hai dos và đặt thành dos tương đương với trạng thái sử dụng. 
+
+36
+00:03:08,720 --> 00:03:10,220
+Bây giờ, điều này thực sự quan trọng. 
+
+37
+00:03:10,220 --> 00:03:16,670
+Điều này sẽ tham chiếu tất cả thông tin bên trong ngày sử dụng và được đặt thành DOS sẽ được sử dụng 
+
+38
+00:03:16,670 --> 00:03:19,220
+để cập nhật thông tin này thành biến DOS. 
+
+39
+00:03:20,180 --> 00:03:24,500
+Bây giờ bạn có thể đặt tên cho chúng theo bất kỳ tên nào bạn muốn vì chúng tôi đang cấu trúc nó kể từ ngày sử dụng này, vì vậy
+
+40
+00:03:24,500 --> 00:03:28,130
+nó sẽ tự động biết những biến nào cần đính kèm tham chiếu của nó. 
+
+41
+00:03:29,260 --> 00:03:36,820
+Nhưng tiêu chuẩn và phản ứng là cái tên này sẽ làm những gì các giá trị sẽ có trong giá trị tiếp theo 
+
+42
+00:03:36,820 --> 00:03:42,280
+bởi vì chúng ta chỉ đặt việc cần làm là chúng ta sẽ được đặt với tên biến mà bạn đã tạo cho tên biến 
+
+43
+00:03:42,280 --> 00:03:44,740
+đầu tiên với chỉ là chữ T viết hoa cho trường hợp Campbell. 
+
+44
+00:03:44,980 --> 00:03:47,140
+Vì vậy, để làm và thiết lập để làm. 
+
+45
+00:03:49,280 --> 00:03:55,130
+Vì vậy, bây giờ nếu chúng ta tiếp tục và tiếp tục với ứng dụng, chúng ta lưu ứng dụng và 
+
+46
+00:03:55,130 --> 00:04:00,320
+mở trình duyệt và làm mới ứng dụng, chúng ta sẽ thấy rằng chúng ta sẽ nhận được 
+
+47
+00:04:00,320 --> 00:04:01,730
+cùng một dữ liệu. 
+
+48
+00:04:03,000 --> 00:04:08,790
+Và đó là bởi vì chúng ta vẫn đang sử dụng to dos để được chuyển vào dưới dạng tất cả các tham chiếu trong ứng dụng của mình. 
+
+49
+00:04:09,030 --> 00:04:13,890
+Vì vậy, bảng việc cần làm của chúng ta sẽ sử dụng DOS, bảng này vẫn sẽ tham chiếu trở lại 
+
+50
+00:04:13,890 --> 00:04:16,050
+biến trạng thái của những việc cần làm mà chúng ta vừa tạo. 
+
+51
+00:04:18,600 --> 00:04:22,650
+Bây giờ hãy xem điều gì xảy ra khi chúng ta nhấp chuột để thêm vào việc cần làm của mình. 
+
+52
+00:04:25,270 --> 00:04:29,410
+Nó vẫn hoạt động nhưng chúng tôi không thấy bất kỳ trạng thái nào thay đổi. 
+
+53
+00:04:29,770 --> 00:04:30,280
+Ừm. 
+
+54
+00:04:30,280 --> 00:04:31,600
+Điều đó thực sự thú vị. 
+
+55
+00:04:32,330 --> 00:04:34,190
+Vì vậy, chúng tôi có các biểu tượng của mình để làm. 
+
+56
+00:04:34,220 --> 00:04:38,780
+Chúng tôi đang thêm những việc cần làm của mình như thể đó là một biến số nhưng chúng tôi không thấy bất kỳ thay đổi nào. 
+
+57
+00:04:40,630 --> 00:04:47,800
+Đó là vì chúng ta không sử dụng hàm set to DOS để thay đổi trạng thái thành dos, sau 
+
+58
+00:04:47,800 --> 00:04:50,100
+đó sẽ hiển thị lại trang. 
+
+59
+00:04:50,110 --> 00:04:55,030
+Nếu bạn không sử dụng cài đặt dos, sẽ không có kết xuất lại ứng dụng. 
+
+60
+00:04:58,540 --> 00:05:05,950
+Vì vậy, điều chúng ta sắp làm ở đây, thay vì nói thúc đẩy việc mới phải làm, chúng ta sẽ nói đặt ra để làm. 
+
+61
+00:05:10,200 --> 00:05:15,150
+Và bây giờ bên trong thiết lập thành dos, chúng ta cần đặt dòng điện thành dos mà chúng ta muốn hiển thị lại. 
+
+62
+00:05:15,510 --> 00:05:19,770
+Chà, để bắt đầu, chúng tôi muốn chuyển tất cả các phần tử hiện có vào DOS. 
+
+63
+00:05:21,330 --> 00:05:23,550
+Vì vậy chúng ta cần phải nói tới hàm dos aero. 
+
+64
+00:05:24,730 --> 00:05:26,650
+Bằng một mảng mới. 
+
+65
+00:05:26,680 --> 00:05:31,840
+Chúng tôi muốn hủy cấu trúc hai dos hiện đã tồn tại để chuyển chúng vào mảng mới mà 
+
+66
+00:05:31,840 --> 00:05:32,680
+chúng tôi đang tạo. 
+
+67
+00:05:33,570 --> 00:05:36,090
+Và sau đó chúng tôi cũng muốn thêm những việc mới của mình để làm. 
+
+68
+00:05:39,950 --> 00:05:48,410
+Chúng ta có thể nói điều này bằng cách thực hiện mảng mũi tên dot dot dot dos bốn d cấu trúc dấu phẩy mới của Tutu. 
+
+69
+00:05:50,450 --> 00:05:53,660
+Và sau đó tôi sẽ xóa console.log này thành dos. 
+
+70
+00:05:54,560 --> 00:06:00,650
+Nếu chúng tôi lưu ứng dụng ngay bây giờ và quay lại trình duyệt của mình và làm mới trang, chúng tôi có thể thấy rằng 
+
+71
+00:06:00,650 --> 00:06:07,630
+chúng tôi có một người dùng cho chó con ăn, một người dùng hai cây nước để sạc bữa tối, pin điện thoại. 
+
+72
+00:06:07,640 --> 00:06:09,770
+Nhưng bây giờ khi chúng ta nhấn thêm mới để làm. 
+
+73
+00:06:11,160 --> 00:06:16,530
+Chúng tôi nhận được nó tự động hiển thị năm mới cho người dùng thứ ba. 
+
+74
+00:06:17,160 --> 00:06:22,860
+Và hiện tại, chức năng của chúng tôi chỉ là tiếp tục tạo ra những thứ tương tự để làm đi làm lại nhiều lần khi thêm 
+
+75
+00:06:22,860 --> 00:06:24,090
+nó vào ứng dụng của chúng tôi. 
+
+76
+00:06:25,720 --> 00:06:31,750
+Bây giờ để tóm tắt lại những gì chúng ta vừa làm, chúng ta đã thêm phản ứng từ phản ứng bằng móc ngày sử dụng để 
+
+77
+00:06:31,750 --> 00:06:34,630
+thêm chức năng trạng thái trong thành phần của chúng ta.
+
+78
+00:06:35,510 --> 00:06:41,660
+Và điều thực sự quan trọng là chúng tôi đang thêm trạng thái trong thành phần cụ thể này, nghĩa là 
+
+79
+00:06:41,660 --> 00:06:45,500
+càng chuyển biến trạng thái vào từng thành phần bên dưới. 
+
+80
+00:06:46,820 --> 00:06:52,010
+Chúng ta đang tạo chi phí cho dos của set to dos, cấu trúc này ngày sử dụng mà chúng ta đã chuyển vào. 
+
+81
+00:06:52,950 --> 00:06:58,260
+Nó sẽ trả về một mảng gồm từng phần tử bên trong biến to dos. 
+
+82
+00:06:58,970 --> 00:07:05,360
+Trong set to dos, tức là đặt và thay đổi những việc cần làm mà chúng ta cần được hiển thị theo trạng thái. 
+
+83
+00:07:08,780 --> 00:07:11,480
+Sau đó, chúng tôi có trình nghe khi nhấp chuột vào biến nút của mình. 
+
+84
+00:07:12,730 --> 00:07:16,120
+Đó sẽ là kêu gọi quảng cáo của chúng tôi thực hiện chức năng. 
+
+85
+00:07:17,090 --> 00:07:18,740
+Điều này tạo ra một việc mới để làm. 
+
+86
+00:07:18,740 --> 00:07:25,640
+Và sau đó, chúng tôi cấu trúc thành những việc cần làm mà chúng tôi hiện đã tạo bằng tập hợp việc cần làm mới bên trong, 
+
+87
+00:07:25,640 --> 00:07:32,120
+điều này làm cho biến trạng thái việc cần làm của chúng tôi. Bây giờ có mục thứ năm là mục mới cần làm mà chúng tôi đã thêm vào ngay 
+
+88
+00:07:32,120 --> 00:07:32,570
+tại đây. 
+
+89
+00:07:33,510 --> 00:07:36,810
+Khi kết xuất lại thành phần, bây giờ hiển thị hàng dữ liệu mới đó. 
+
+90
+00:07:37,380 --> 00:07:42,540
+Đây thực sự là một công cụ tuyệt vời và đây là một khái niệm rất, rất quan trọng cần hiểu với React về 
+
+91
+00:07:42,540 --> 00:07:48,060
+cách chúng tôi có thể tự động hiển thị lại trang cho người dùng và/hoặc khách hàng đang sử dụng nó. 
+
+92
+00:07:49,920 --> 00:07:55,710
+Bây giờ phần này tóm tắt cách sử dụng trạng thái trong một ứng dụng React đơn giản và tôi sẽ gặp bạn trong video tiếp theo.

@@ -1,0 +1,347 @@
+1
+00:00:02,250 --> 00:00:02,670
+Được rồi. 
+
+2
+00:00:02,670 --> 00:00:09,450
+Vì vậy, cho đến nay, chúng tôi đã tạo biểu mẫu trong JS biểu mẫu việc cần làm mới, nơi chúng tôi đang nắm bắt động các thao tác 
+
+3
+00:00:09,450 --> 00:00:11,010
+được chỉ định của người dùng. 
+
+4
+00:00:11,930 --> 00:00:14,990
+Và mô tả của người dùng trong biểu mẫu. 
+
+5
+00:00:15,260 --> 00:00:20,390
+Tuy nhiên, khi chúng tôi nhấp vào nút, nút này không làm gì cả vì chúng tôi chưa thêm 
+
+6
+00:00:20,390 --> 00:00:22,700
+trình nghe khi nhấp chuột vào nút này. 
+
+7
+00:00:23,790 --> 00:00:30,240
+Vì vậy, hãy tiếp tục thực hiện điều đó và tạo một hàm mới có tên là Gửi để làm. 
+
+8
+00:00:31,390 --> 00:00:37,150
+Và ngay bên dưới phần được gán và tập hợp được gán là nơi tôi sẽ tạo hàm mới này, nơi tôi sẽ 
+
+9
+00:00:37,150 --> 00:00:41,140
+nói liên tục gửi để thực hiện các dấu ngoặc đơn bằng nhau. 
+
+10
+00:00:43,010 --> 00:00:45,170
+Dấu ngoặc chức năng hàng không. 
+
+11
+00:00:46,620 --> 00:00:51,690
+Và ở đây khi tôi kiểm tra để đảm bảo trạng thái mô tả ở trạng thái được chỉ định không trống. 
+
+12
+00:00:51,690 --> 00:00:55,140
+Bởi vì nếu một trong số này trống, chúng tôi không muốn gửi việc cần làm. 
+
+13
+00:00:55,170 --> 00:00:57,720
+Chúng ta cần đảm bảo cả hai đều được điền đầy đủ. 
+
+14
+00:00:58,910 --> 00:01:04,790
+Vì vậy, giả sử nếu mô tả không phải là một chuỗi trống và được gán không phải là một chuỗi trống. 
+
+15
+00:01:04,790 --> 00:01:07,400
+Vì vậy, chúng tôi đang kiểm tra trạng thái của cả mô tả và chỉ định. 
+
+16
+00:01:09,330 --> 00:01:12,780
+Bây giờ chúng ta sẽ để trống câu lệnh if. 
+
+17
+00:01:14,710 --> 00:01:20,290
+Vì vậy, cho đến nay chúng ta nói rằng nếu mô tả không trống và được gán không trống thì chúng ta cần phải làm gì đó. 
+
+18
+00:01:20,290 --> 00:01:27,220
+Nhưng điều chúng ta cần làm là bên trong tệp DOJ của mình, chúng ta cần gọi quảng cáo này để thực hiện chức năng. 
+
+19
+00:01:28,100 --> 00:01:35,480
+Bây giờ, một điều chúng tôi có thể làm, điều mà chúng tôi chưa làm là bạn có thể vượt qua và hoạt động như một chỗ dựa. 
+
+20
+00:01:37,400 --> 00:01:44,420
+Vì vậy, chúng ta có thể cuộn xuống nơi chúng ta gọi biểu mẫu công việc mới này và chuyển vào hàm thêm công việc của mình. 
+
+21
+00:01:51,030 --> 00:01:55,750
+Và bạn làm điều đó giống hệt như cách bạn truyền vào một biến của prop. 
+
+22
+00:01:55,770 --> 00:02:01,020
+Chúng ta sẽ nói add to do so, prop add to do sẽ là khóa và sau đó giá trị sẽ 
+
+23
+00:02:01,020 --> 00:02:04,590
+là con trỏ tới hàm add to do của chúng ta. 
+
+24
+00:02:06,700 --> 00:02:09,160
+Bây giờ chúng tôi cần thực hiện một số thay đổi đối với quảng cáo của mình. 
+
+25
+00:02:09,190 --> 00:02:12,340
+Bây giờ chúng tôi muốn chuyển vào một mô tả và chỉ định. 
+
+26
+00:02:16,940 --> 00:02:21,830
+Vì vậy, việc thêm vào làm tương đương với một mô tả và thiết kế được chuyển vào. 
+
+27
+00:02:23,490 --> 00:02:27,360
+Và sau đó chúng tôi muốn nói nếu DOS lớn hơn 0, điều này đúng, chúng tôi muốn tạo một 
+
+28
+00:02:27,360 --> 00:02:31,410
+việc làm mới với một hình xăm số hàng, độ dài cộng với một, mà Ổn. 
+
+29
+00:02:31,650 --> 00:02:37,530
+Và sau đó chúng tôi muốn nói rằng mô tả hàng sẽ bằng mô tả và hàng được chỉ định sẽ bằng 
+
+30
+00:02:37,530 --> 00:02:39,270
+được chỉ định. 
+
+31
+00:02:42,520 --> 00:02:48,370
+Và sau đó, chúng tôi vẫn muốn thực hiện các công việc cần làm theo cấu trúc chức năng aero, R thành dos cộng với 
+
+32
+00:02:48,370 --> 00:02:49,630
+việc cần làm mới của chúng tôi. 
+
+33
+00:02:51,620 --> 00:02:57,410
+Vì vậy, bây giờ chúng ta đang chuyển quảng cáo to do vào biểu mẫu việc cần làm mới làm chỗ dựa, chúng ta có thể quay lại và thực hiện 
+
+34
+00:02:57,410 --> 00:02:58,550
+biểu mẫu việc cần làm mới của mình. 
+
+35
+00:02:58,820 --> 00:03:00,530
+Thêm vào một đạo cụ. 
+
+36
+00:03:01,300 --> 00:03:02,770
+Điều đó đang được chuyển vào. 
+
+37
+00:03:07,030 --> 00:03:12,130
+Vì vậy, bây giờ chúng ta có thể nói nếu mô tả không phải là một chuỗi trống và được gán không phải là một chuỗi trống, thì 
+
+38
+00:03:12,130 --> 00:03:16,420
+bây giờ chúng ta có thể nói props add to do để chuyển một mô tả khác và được chỉ định.
+
+39
+00:03:25,380 --> 00:03:31,620
+Vì vậy, ở đây chúng ta sẽ gọi JS add to do trong phần mô tả và chỉ định những gì cần làm để 
+
+40
+00:03:31,620 --> 00:03:32,910
+hàm này hoạt động. 
+
+41
+00:03:32,940 --> 00:03:38,550
+Chúng tôi đang chuyển thiết kế mô tả từ trạng thái việc cần làm mới, được chỉ định bởi thông 
+
+42
+00:03:38,550 --> 00:03:41,160
+tin đầu vào mà người dùng nhập vào biểu mẫu. 
+
+43
+00:03:43,080 --> 00:03:47,940
+Và bây giờ tôi muốn nói hãy nhấp vào gửi để làm và tôi sẽ giãn cách nút này để chúng ta có thể nhìn rõ 
+
+44
+00:03:47,940 --> 00:03:48,840
+hơn một chút. 
+
+45
+00:04:11,750 --> 00:04:13,930
+Và bây giờ hãy chạy lại ứng dụng của chúng ta. 
+
+46
+00:04:13,940 --> 00:04:16,640
+Tôi muốn mở trình duyệt của chúng tôi và muốn làm mới màn hình của chúng tôi. 
+
+47
+00:04:16,670 --> 00:04:19,579
+Và đối với việc được giao, tôi sẽ nói là giao cho Eric. 
+
+48
+00:04:20,640 --> 00:04:23,670
+Và đối với phần mô tả, tôi sẽ nói là hãy đổ rác. 
+
+49
+00:04:26,700 --> 00:04:28,380
+Và sau đó tôi sẽ nói quảng cáo để làm. 
+
+50
+00:04:29,780 --> 00:04:31,380
+Và chúng tôi đã có nó. 
+
+51
+00:04:31,400 --> 00:04:33,170
+Chúng ta có việc mới phải làm. 
+
+52
+00:04:34,020 --> 00:04:37,500
+Đó là đổ rác và giao cho Eric. 
+
+53
+00:04:38,430 --> 00:04:43,710
+Bây giờ, một lỗi mà chúng ta có thể thấy ngay là chúng ta vẫn có Eric và đi đổ rác. 
+
+54
+00:04:43,740 --> 00:04:44,970
+Thêm nó vào mẫu của chúng tôi. 
+
+55
+00:04:45,790 --> 00:04:47,470
+Nào, hãy tiếp tục và khắc phục điều đó. 
+
+56
+00:04:48,500 --> 00:04:50,210
+Hãy quay trở lại mã của chúng tôi. 
+
+57
+00:04:50,420 --> 00:04:56,210
+Và khi chúng ta cuộn lên trên cùng, chúng ta sẽ chuyển sang chức năng thêm để làm, mô tả 
+
+58
+00:04:56,210 --> 00:04:57,350
+và chỉ định của chúng ta. 
+
+59
+00:04:58,330 --> 00:05:04,090
+Và có một điều là mô tả và chỉ định của chúng tôi sẽ luôn có trạng thái của những gì người dùng 
+
+60
+00:05:04,090 --> 00:05:04,930
+nhập vào. 
+
+61
+00:05:06,340 --> 00:05:09,820
+Và điều chúng tôi cần làm sau khi thêm vào việc cần làm là đảm bảo. 
+
+62
+00:05:09,850 --> 00:05:16,270
+Mô tả và gán được gán lại thành một chuỗi trống nên chúng ta có thể thực hiện điều đó bằng cách nói mô tả tập 
+
+63
+00:05:16,270 --> 00:05:19,600
+hợp bằng chuỗi rỗng và tập hợp được gán bằng một chuỗi trống. 
+
+64
+00:05:25,080 --> 00:05:30,570
+Và bây giờ hãy lưu ứng dụng đó và quay lại trình duyệt của chúng ta, làm mới trang. 
+
+65
+00:05:30,600 --> 00:05:32,310
+Và bây giờ chúng ta hãy thử lại lần nữa. 
+
+66
+00:05:32,310 --> 00:05:33,530
+Vì vậy hãy giao cho Eric. 
+
+67
+00:05:33,540 --> 00:05:35,370
+Và mô tả là đổ rác. 
+
+68
+00:05:39,680 --> 00:05:40,700
+Thêm vào để làm. 
+
+69
+00:05:42,060 --> 00:05:42,350
+Ian. 
+
+70
+00:05:42,360 --> 00:05:47,340
+Bây giờ chúng ta có thể thấy rằng chúng ta lấy rác và Eric ở trên cùng và được chỉ định và phần mô tả 
+
+71
+00:05:47,340 --> 00:05:48,120
+trống. 
+
+72
+00:05:48,540 --> 00:05:50,370
+Ngoài ra nếu chúng ta bấm thêm vào để làm. 
+
+73
+00:05:51,400 --> 00:05:52,600
+Chẳng có gì xảy ra. 
+
+74
+00:05:52,600 --> 00:05:54,400
+Và đó là bởi vì chúng ta có câu lệnh if. 
+
+75
+00:05:54,400 --> 00:06:00,520
+Việc nắm bắt và đảm bảo mô tả và gán không bằng một chuỗi trống trước khi chúng ta chuyển nó vào 
+
+76
+00:06:00,520 --> 00:06:04,900
+hàm của mình, từ đạo cụ của chúng ta, đó là JS. 
+
+77
+00:06:06,270 --> 00:06:08,670
+Trong đó có mô tả và phân công. 
+
+78
+00:06:09,180 --> 00:06:14,310
+Và ở đây chúng ta chỉ tạo việc cần làm mới dựa trên các tham số mà chúng ta chuyển vào hàm thêm việc cần làm. 
+
+79
+00:06:15,060 --> 00:06:20,700
+Và sau đó chúng ta thiết lập việc cần làm dựa trên cấu trúc ban đầu thành dos de, to dos và sau đó chuyển to 
+
+80
+00:06:20,700 --> 00:06:23,280
+do mới vào cuối mảng. 
+
+81
+00:06:24,330 --> 00:06:31,020
+Và vì việc cần làm là một trạng thái nên nó sẽ tự động hiển thị lại thành phần trong các phần sử dụng việc cần 
+
+82
+00:06:31,020 --> 00:06:31,680
+làm. 
+
+83
+00:06:31,680 --> 00:06:34,920
+Vì vậy, hãy quay lại bảng việc cần làm của chúng tôi để cập nhật dos. 
+
+84
+00:06:34,920 --> 00:06:38,810
+Do đó, nó cập nhật thành phần mà các đạo cụ này đang được truyền vào.
+
+85
+00:06:38,820 --> 00:06:45,090
+Vì vậy, nội dung siêu siêu tuyệt vời trong đó thành phần sinh sản là ứng dụng phản ứng của chúng tôi sẽ được 
+
+86
+00:06:45,090 --> 00:06:48,750
+hiển thị lại mỗi khi người dùng thêm vào một biểu mẫu mới. 
+
+87
+00:06:48,840 --> 00:06:54,390
+Chà, đây thật là một điều tuyệt vời và nó sẽ kết thúc bài giảng này và tôi sẽ gặp bạn trong video tiếp theo.

@@ -1,0 +1,191 @@
+1
+00:00:02,740 --> 00:00:03,250
+Được rồi. 
+
+2
+00:00:03,250 --> 00:00:10,780
+Bây giờ, hãy tiếp tục để làm cho ứng dụng của chúng tôi năng động hơn một chút, chúng tôi muốn thêm vào DOS dựa 
+
+3
+00:00:10,780 --> 00:00:17,740
+trên thông tin đầu vào của người dùng, không nhất thiết chỉ thêm một Việc cần làm mới cho biết việc cần làm mới từ người dùng thứ ba. 
+
+4
+00:00:18,160 --> 00:00:21,550
+Chúng tôi muốn người dùng thêm phần này thông qua một biểu mẫu. 
+
+5
+00:00:23,940 --> 00:00:29,850
+Bây giờ để thêm chức năng biểu mẫu này, chúng tôi không muốn chỉ thêm nó vào ứng dụng của mình chỉ vì nó có 
+
+6
+00:00:29,850 --> 00:00:32,460
+chức năng hoàn toàn khác với phần còn lại của ứng dụng. 
+
+7
+00:00:33,270 --> 00:00:39,780
+Vì vậy, những gì chúng ta sắp làm là tạo một thành phần mới có tên là Mới để thực hiện mẫu JS. 
+
+8
+00:00:41,840 --> 00:00:45,410
+Vì vậy, nhấp chuột phải vào thành phần, nhấp vào tập tin mới. 
+
+9
+00:00:46,540 --> 00:00:49,120
+Và nói mới phải làm mẫu DOJ. 
+
+10
+00:00:51,580 --> 00:00:58,150
+Được rồi, bây giờ bên trong biểu mẫu việc cần làm mới của chúng ta, chúng ta cần tạo một hàm của biểu mẫu việc cần làm mới trong dấu ngoặc đơn 
+
+11
+00:00:58,150 --> 00:01:02,380
+và hai dấu ngoặc đơn với biểu mẫu việc cần làm mới mặc định xuất của chúng ta. 
+
+12
+00:01:07,780 --> 00:01:08,110
+Được rồi. 
+
+13
+00:01:08,110 --> 00:01:13,630
+Và bây giờ ở trên cùng, để tạo thành thói quen, tôi sẽ nói nhập, phản ứng từ phản ứng. 
+
+14
+00:01:20,090 --> 00:01:24,500
+Và bây giờ tôi sẽ tạo chức năng trả về cho biểu mẫu của mình. 
+
+15
+00:01:25,500 --> 00:01:29,460
+Và chức năng trả về của chúng tôi sẽ là dấu ngoặc đơn trả về. 
+
+16
+00:01:31,490 --> 00:01:32,720
+Sẽ là div. 
+
+17
+00:01:34,500 --> 00:01:37,620
+Tên lớp bằng MT gạch nối năm. 
+
+18
+00:01:37,620 --> 00:01:39,270
+Vì vậy, lề top năm. 
+
+19
+00:01:44,240 --> 00:01:45,110
+Hình thức. 
+
+20
+00:01:47,620 --> 00:01:54,220
+Và bên trong biểu mẫu tôi sẽ nói tên lớp div bằng NB gạch nối ba cho phần lề dưới. 
+
+21
+00:01:57,130 --> 00:01:58,780
+Sau đó tôi sẽ nói nhãn. 
+
+22
+00:02:01,100 --> 00:02:03,230
+Tên lớp bằng nhãn mẫu. 
+
+23
+00:02:09,050 --> 00:02:13,730
+Và tôi sẽ gọi cái này là được giao, và sau đó đầu vào của chúng ta sẽ có dạng văn bản. 
+
+24
+00:02:18,350 --> 00:02:21,650
+Kiểm soát biểu mẫu tên lớp và chúng tôi muốn điều này là bắt buộc. 
+
+25
+00:02:21,650 --> 00:02:24,530
+Vì vậy, chúng tôi có nhãn và sau đó là thông tin đầu vào từ người dùng. 
+
+26
+00:02:34,030 --> 00:02:37,870
+Sau đó tôi sẽ tạo một div khác với tên lớp là NB gạch nối ba. 
+
+27
+00:02:48,750 --> 00:02:52,530
+Một nhãn của mẫu tên lớp kèm theo mô tả. 
+
+28
+00:03:04,010 --> 00:03:07,310
+Và sau đó vùng văn bản của tên lớp tương đương với điều khiển biểu mẫu. 
+
+29
+00:03:18,920 --> 00:03:26,090
+Rose bằng dấu ngoặc ba, có nghĩa là nó sẽ chiếm ba hàng khoảng trống cần thiết. 
+
+30
+00:03:44,590 --> 00:03:47,950
+Và sau đó tôi sẽ tạo một nút bên dưới nút loại div đó. 
+
+31
+00:03:48,690 --> 00:03:54,300
+Với tên lớp bằng nút nút Chính lề trên cùng ba Thêm để làm. 
+
+32
+00:04:08,230 --> 00:04:08,770
+Được rồi. 
+
+33
+00:04:08,770 --> 00:04:16,959
+Và bây giờ bạn muốn chuyển sang game nhập vai và chúng tôi cần nhập cái này để có thể nói là nhập biểu mẫu mới để làm 
+
+34
+00:04:16,959 --> 00:04:22,600
+từ các thành phần dấu gạch chéo dấu ngoặc đơn gạch chéo mới để làm biểu mẫu. 
+
+35
+00:04:23,730 --> 00:04:26,990
+Và khi tôi nhấp vào, nó sẽ tự động định dạng tất cả phần còn lại. 
+
+36
+00:04:27,000 --> 00:04:32,670
+Nếu nó không phù hợp với bạn, chỉ cần đảm bảo rằng bạn nói biểu mẫu nhập mới để làm từ các thành phần dấu gạch chéo. 
+
+37
+00:04:32,670 --> 00:04:34,260
+Chém mới để làm mẫu. 
+
+38
+00:04:36,720 --> 00:04:42,150
+Và bây giờ dưới nút này, tôi sẽ nói khoảng trống trong biểu mẫu việc cần làm mới. 
+
+39
+00:04:47,100 --> 00:04:52,980
+Sau đó lưu ứng dụng và bây giờ tôi sẽ mở trình duyệt của mình và chúng ta có thể thấy rằng chúng ta có tất cả 
+
+40
+00:04:52,980 --> 00:04:54,720
+những việc ban đầu cần làm. 
+
+41
+00:04:54,720 --> 00:04:57,240
+Nếu chúng ta làm mới trang, trang cuối cùng đó sẽ biến mất.
+
+42
+00:04:57,810 --> 00:05:04,290
+Và nếu chúng ta chấm điểm ở cuối, giờ đây chúng ta có một biểu mẫu cho biết mô tả được giao và thêm để thực hiện phần 
+
+43
+00:05:04,290 --> 00:05:04,770
+được giao. 
+
+44
+00:05:04,770 --> 00:05:07,800
+Có thể nói Eric Mô tả mới phải làm. 
+
+45
+00:05:11,020 --> 00:05:16,150
+Nhưng khi chúng tôi nhấp vào thêm việc cần làm, không có chức năng nào vì chúng tôi chưa thêm bất kỳ loại chức năng nào 
+
+46
+00:05:16,150 --> 00:05:18,850
+vào nút trong biểu mẫu việc cần làm mới của chúng tôi. 
+
+47
+00:05:22,190 --> 00:05:25,840
+Và chúng tôi sẽ đề cập đến việc thêm một việc mới để làm trong video tiếp theo. 
+
+48
+00:05:25,850 --> 00:05:30,410
+Vì vậy, điều này sẽ kết thúc bài giảng này và tôi sẽ gặp bạn trong video tiếp theo.

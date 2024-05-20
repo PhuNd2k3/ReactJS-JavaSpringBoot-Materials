@@ -1,0 +1,255 @@
+1
+00:00:01,150 --> 00:00:01,510
+Được rồi. 
+
+2
+00:00:01,510 --> 00:00:07,150
+Vì vậy, hãy tiếp tục và chuyển sang ID của chúng ta và chúng ta sẽ tiếp tục viết một số mã ở đây cho vòng lặp for cơ bản. 
+
+3
+00:00:08,560 --> 00:00:10,240
+Vì vậy, hãy tiếp tục và tạo một thư mục mới ở đây. 
+
+4
+00:00:10,240 --> 00:00:12,910
+Tôi sẽ gọi nó là ba vòng lặp và mảng. 
+
+5
+00:00:23,090 --> 00:00:26,390
+Và sau đó tôi sẽ tạo một tập tin mới trong thư mục này. 
+
+6
+00:00:29,200 --> 00:00:31,270
+Tôi sẽ gọi nó là gậy vòng. 
+
+7
+00:00:40,610 --> 00:00:42,250
+Tôi sẽ thiết lập một vòng lặp for rất cơ bản ở đây. 
+
+8
+00:00:42,260 --> 00:00:47,720
+Tôi sẽ nói hãy để tôi bằng 0 như tôi đã nói trong năm I cộng cộng console.log I. 
+
+9
+00:00:55,920 --> 00:00:57,090
+Mở một thiết bị đầu cuối. 
+
+10
+00:01:02,200 --> 00:01:05,050
+Sau đó hãy chắc chắn rằng tôi chuyển vào thư mục thích hợp đó. 
+
+11
+00:01:14,020 --> 00:01:16,750
+Chỉ cần xem qua và biên dịch mã ở đây bằng TSC. 
+
+12
+00:01:22,040 --> 00:01:24,010
+Và sau đó tôi sẽ chạy nó bằng nút. 
+
+13
+00:01:24,020 --> 00:01:26,150
+Vì vậy, vòng chấm JZ. 
+
+14
+00:01:29,670 --> 00:01:30,960
+Và sau đó là đầu ra của chúng tôi. 
+
+15
+00:01:31,230 --> 00:01:33,930
+Không một, hai, ba và bốn. 
+
+16
+00:01:33,960 --> 00:01:34,140
+Được rồi. 
+
+17
+00:01:34,140 --> 00:01:36,130
+Vì vậy, đây chỉ là một vòng lặp rất cơ bản. 
+
+18
+00:01:36,150 --> 00:01:40,440
+Bạn có thể đã thấy điều này trong các ngôn ngữ lập trình khác trước đây, nhưng bạn chỉ muốn thực hiện nhanh 
+
+19
+00:01:40,440 --> 00:01:43,290
+nó bằng cách sử dụng TypeScript, vì vậy có vẻ ổn. 
+
+20
+00:01:47,770 --> 00:01:48,190
+Được rồi. 
+
+21
+00:01:48,190 --> 00:01:51,040
+Vì vậy, hãy tiếp tục và xem xét một ví dụ khác về vòng lặp for. 
+
+22
+00:01:55,230 --> 00:01:57,090
+Vì vậy, hãy tạo một tập tin mới ở đây. 
+
+23
+00:02:00,570 --> 00:02:02,520
+Và tôi sẽ đưa ra những đánh giá về tên. 
+
+24
+00:02:02,780 --> 00:02:03,600
+Của nó. 
+
+25
+00:02:11,590 --> 00:02:14,650
+Và vì vậy tôi sẽ thiết lập một mảng cho những đánh giá này. 
+
+26
+00:02:18,770 --> 00:02:21,170
+Và tôi sẽ đưa ra những giá trị ban đầu ở đây. 
+
+27
+00:02:21,170 --> 00:02:22,430
+Dấu ngoặc vuông. 
+
+28
+00:02:31,740 --> 00:02:35,490
+Và sau đó tôi sẽ thiết lập một vòng lặp nhỏ ở đây để lặp lại những đánh giá đó. 
+
+29
+00:02:36,350 --> 00:02:38,300
+Vì vậy, tôi không để mắt đến đánh giá. 
+
+30
+00:02:38,540 --> 00:02:41,150
+Chiều dài cộng cộng. 
+
+31
+00:02:45,130 --> 00:02:47,620
+Và sau đó tôi thực hiện console.log. 
+
+32
+00:02:53,210 --> 00:03:02,060
+Và sau đó chúng ta có thể thấy rằng ID đã tìm thấy lỗi đánh máy trong mã hóa của tôi ở đây, điều này là tốt. 
+
+33
+00:03:02,090 --> 00:03:03,170
+Tôi hạnh phúc về điều đó. 
+
+34
+00:03:03,170 --> 00:03:05,090
+Đó là lý do tại sao tôi thích sử dụng TypeScript. 
+
+35
+00:03:07,430 --> 00:03:07,760
+Được rồi. 
+
+36
+00:03:07,760 --> 00:03:11,600
+Vì vậy, đang cố gắng biên dịch, nhưng thực sự hãy để tôi sửa những lỗi này trước. 
+
+37
+00:03:11,600 --> 00:03:14,900
+Vì vậy, đánh giá, chiều dài. 
+
+38
+00:03:18,870 --> 00:03:26,760
+Và sau đó đánh giá phụ I để tôi thậm chí có thể sử dụng tùy chọn sửa nhanh nhỏ ở đây trên ID. 
+
+39
+00:03:33,860 --> 00:03:34,490
+Mát mẻ. 
+
+40
+00:03:34,520 --> 00:03:35,180
+Tôi thích nó. 
+
+41
+00:03:36,710 --> 00:03:39,920
+Được rồi, vậy là tôi đã lưu tập tin cập nhật này. 
+
+42
+00:03:40,460 --> 00:03:41,720
+Bây giờ tôi có thể biên dịch nó. 
+
+43
+00:03:43,240 --> 00:03:44,140
+Được rồi, điều đó có hiệu quả. 
+
+44
+00:03:44,140 --> 00:03:45,250
+Và bây giờ tôi có thể chạy nó. 
+
+45
+00:03:47,820 --> 00:03:51,710
+Và đây là kết quả của chúng tôi cho ví dụ bốn vòng lặp nhỏ này. 
+
+46
+00:03:51,720 --> 00:03:52,440
+Khá tốt. 
+
+47
+00:03:58,150 --> 00:04:00,140
+Và sau đó tôi cũng có thể tính giá trị trung bình. 
+
+48
+00:04:00,160 --> 00:04:03,400
+Vì vậy tôi sẽ thiết lập tổng ở đây và khởi tạo nó bằng 0. 
+
+49
+00:04:05,200 --> 00:04:09,790
+Và bên trong vòng lặp for này, tôi chỉ cập nhật giá trị của tổng. 
+
+50
+00:04:10,960 --> 00:04:13,180
+Vậy tổng cộng bằng. 
+
+51
+00:04:14,440 --> 00:04:14,990
+Nhận xét. 
+
+52
+00:04:15,010 --> 00:04:15,790
+Vậy tôi. 
+
+53
+00:04:20,670 --> 00:04:23,460
+Và sau đó tôi có thể tính giá trị trung bình. 
+
+54
+00:04:28,010 --> 00:04:32,360
+Vì vậy, đây sẽ là tổng chia cho chiều dài sửa đổi. 
+
+55
+00:04:34,650 --> 00:04:38,640
+Và sau đó tôi sẽ chỉ cần tư vấn một chút về giá trị đó. 
+
+56
+00:05:01,920 --> 00:05:05,400
+Và sau đó tôi sẽ chuyển xuống thiết bị đầu cuối của mình và tôi sẽ biên dịch nó một lần nữa. 
+
+57
+00:05:06,990 --> 00:05:08,070
+Và sau đó tôi sẽ chạy nó. 
+
+58
+00:05:11,470 --> 00:05:13,880
+Sau đó là đầu ra và đánh giá của chúng tôi. 
+
+59
+00:05:13,900 --> 00:05:16,450
+Trung bình bằng 3,7.
+
+60
+00:05:16,450 --> 00:05:19,960
+Vì vậy, đó là mức trung bình của các đánh giá ở đó. 
+
+61
+00:05:20,350 --> 00:05:20,860
+Rất tốt. 
+
+62
+00:05:20,860 --> 00:05:21,430
+Vì vậy, điều này là tốt. 
+
+63
+00:05:21,430 --> 00:05:28,660
+Vì vậy, đây là một ví dụ nhỏ thú vị về việc sử dụng vòng lặp và sử dụng một số phép toán để tính giá trị trung bình. 
+
+64
+00:05:28,690 --> 00:05:29,350
+Làm tốt lắm.
