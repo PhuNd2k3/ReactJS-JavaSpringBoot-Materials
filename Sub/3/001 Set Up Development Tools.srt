@@ -1,0 +1,127 @@
+1
+00:00:01,110 --> 00:00:04,440
+Trong video này, chúng tôi sẽ trình bày các bước thiết lập môi trường nhà phát triển của mình. 
+
+2
+00:00:07,480 --> 00:00:10,840
+Về mặt công cụ phát triển React để viết mã React. 
+
+3
+00:00:10,840 --> 00:00:13,540
+Bạn có thể sử dụng bất kỳ trình soạn thảo văn bản hoặc IDE nào. 
+
+4
+00:00:14,590 --> 00:00:17,860
+Hầu hết các nhà phát triển đều sử dụng ngôn ngữ TypeScript để viết mã. 
+
+5
+00:00:17,890 --> 00:00:20,180
+Nó chỉ là một siêu bộ JavaScript. 
+
+6
+00:00:20,200 --> 00:00:24,550
+Đó là một ngôn ngữ được định kiểu mạnh mẽ với khả năng kiểm tra thời gian biên dịch và hỗ trợ IDE. 
+
+7
+00:00:24,580 --> 00:00:27,610
+Tôi sẽ nói nhiều hơn về TypeScript trong các video sắp tới. 
+
+8
+00:00:28,560 --> 00:00:33,900
+Chúng ta cũng sẽ sử dụng các công cụ dòng lệnh để biên dịch mã cũng như tạo các ứng dụng và thành phần React. 
+
+9
+00:00:37,440 --> 00:00:42,580
+Được rồi, Visual Studio Code, đây là một IDE miễn phí hỗ trợ nhiều ngôn ngữ lập trình. 
+
+10
+00:00:42,600 --> 00:00:48,270
+Nó được tích hợp sẵn tính năng hỗ trợ cho TypeScript và IDE cũng có các tính năng thực sự thú vị như IntelliSense, 
+
+11
+00:00:48,270 --> 00:00:49,920
+gỡ lỗi, v.v. 
+
+12
+00:00:50,680 --> 00:00:54,490
+Bạn có thể biết thêm chi tiết về mã Visual Studio tại Code Visual Studio. 
+
+13
+00:00:58,570 --> 00:00:59,080
+Được rồi. 
+
+14
+00:00:59,080 --> 00:01:04,060
+Vì vậy, về mặt công cụ dòng lệnh, bạn có thể sử dụng công cụ nút để chạy mã JavaScript từ 
+
+15
+00:01:04,060 --> 00:01:05,170
+dòng lệnh. 
+
+16
+00:01:05,500 --> 00:01:11,480
+Bạn cũng có thể sử dụng công cụ MPM, trình quản lý gói nút để tải xuống các tính năng và gói nút mới. 
+
+17
+00:01:11,500 --> 00:01:13,510
+Nó gần giống với MAVEN. 
+
+18
+00:01:14,350 --> 00:01:16,290
+Và còn có công cụ TSE. 
+
+19
+00:01:16,300 --> 00:01:18,880
+Điều này được sử dụng để biên dịch mã TypeScript. 
+
+20
+00:01:22,320 --> 00:01:28,680
+Bây giờ, khi cài đặt các công cụ này như Visual Studio Code, Node in PM, TSC, v.v., tôi có một số 
+
+21
+00:01:28,680 --> 00:01:31,470
+hướng dẫn từng bước cho từng hệ điều hành. 
+
+22
+00:01:31,470 --> 00:01:34,950
+Vì vậy, tôi có những hướng dẫn này cho Windows, Mac và cả Linux. 
+
+23
+00:01:34,950 --> 00:01:40,200
+Bạn có thể xem hướng dẫn tại liên kết sau bằng cách yêu thích mã 
+
+24
+00:01:40,200 --> 00:01:40,950
+hướng dẫn cài đặt dot com gạch chéo phản ứng. 
+
+25
+00:01:42,360 --> 00:01:42,810
+Được rồi. 
+
+26
+00:01:42,810 --> 00:01:44,640
+Vì vậy, hãy tiếp tục và làm điều này ngay bây giờ. 
+
+27
+00:01:44,670 --> 00:01:49,020
+Truy cập liên kết trên trang trình bày và thực hiện quá trình cài đặt cũng như thiết lập và hoạt động mọi thứ 
+
+28
+00:01:49,020 --> 00:01:50,040
+trên máy tính của bạn. 
+
+29
+00:01:50,430 --> 00:01:54,720
+Trong các video sau, tôi sẽ cho rằng bạn đã hoàn thành công việc đó và bạn đã cài đặt các công cụ 
+
+30
+00:01:54,720 --> 00:01:56,310
+và sẵn sàng hoạt động. 
+
+31
+00:01:56,310 --> 00:02:00,540
+Vì vậy, hãy tiếp tục, làm theo hướng dẫn để thiết lập và chạy mọi thứ trên máy tính của bạn, sau đó bạn có thể tiếp tục 
+
+32
+00:02:00,540 --> 00:02:01,560
+khóa học.
